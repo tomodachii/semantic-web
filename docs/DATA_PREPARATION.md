@@ -9,7 +9,7 @@ Nguồn do nhóm chọn: [TMDB 5000 Movie Dataset — Kaggle](https://www.kaggle
 
 Script: `../scripts/tmdb.py`. Ngày hiện thực: 06/10/2026. Script dùng thư viện chuẩn Python (`csv`, `json`, `argparse`, `decimal`, ...); không gọi TMDB API, không tải dataset tự động, không cần API key. Tên `tmdb.py` giữ gần project tham chiếu, nhưng đầu vào là snapshot CSV đã tải từ Kaggle.
 
-**Trạng thái:** đã kiểm tra bằng fixture nhỏ do test tạo; chưa đọc hoặc chạy trên hai CSV Kaggle thật vì chúng chưa có trong project tại thời điểm viết. Chưa có số liệu thực nghiệm của dataset mới. Những CSV đang có sẵn trong `data/` không phải kết quả của script mới trong lần làm việc này.
+**Trạng thái:** đã kiểm tra bằng fixture nhỏ; sau đó người dùng đã chạy trên CSV Kaggle thật. Theo `data/preparation_summary.json`, mỗi file nguồn có 4.803 dòng; đầu ra chọn 100 phim, 1.085 người, 1.000 cast credit và 604 crew credit. Có một phim thiếu revenue sau làm sạch. Đây là snapshot của lần chạy hiện tại, không phải số lượng cố định của pipeline.
 
 Khi tải dataset, ghi thêm version/ngày tải và thông tin license hiển thị trên Kaggle. Thời điểm xử lý trong summary không phải thời điểm TMDB thu thập metadata. Không tự gán giấy phép mới cho dữ liệu nguồn.
 
