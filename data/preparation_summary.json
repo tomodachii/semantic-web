@@ -1,0 +1,58 @@
+{
+  "source_movie_rows": 4803,
+  "source_credit_rows": 4803,
+  "unique_source_movies": 4803,
+  "selected_movies": 100,
+  "limit": 100,
+  "cast_limit": 10,
+  "crew_jobs": [
+    "Director",
+    "Producer",
+    "Screenplay",
+    "Writer"
+  ],
+  "cleaning_counts": {
+    "duplicate_cast_rows": 0,
+    "duplicate_crew_rows": 0
+  },
+  "output_rows": {
+    "movies.csv": 100,
+    "people.csv": 1085,
+    "cast.csv": 1000,
+    "crew.csv": 604,
+    "genres.csv": 14,
+    "companies.csv": 183,
+    "countries.csv": 19,
+    "languages.csv": 23,
+    "movie_genres.csv": 330,
+    "movie_companies.csv": 381,
+    "movie_countries.csv": 150,
+    "movie_languages.csv": 170
+  },
+  "missing_movie_fields": {
+    "id": 0,
+    "title": 0,
+    "original_title": 0,
+    "overview": 0,
+    "original_language": 0,
+    "release_date": 0,
+    "runtime": 0,
+    "vote_average": 0,
+    "vote_count": 0,
+    "budget": 0,
+    "revenue": 1,
+    "status": 0
+  },
+  "processed_at_utc": "2026-10-05T18:11:04.753576+00:00",
+  "source_url": "https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata",
+  "input_files": [
+    {
+      "path": "C:\\Users\\admin\\Programming\\semanticweb\\semantic-web\\data\\raw\\tmdb_5000_movies.csv",
+      "sha256": "1e0584a8dd374120e4ed4f2b81f0d2bd0eb95a554708e4a350d00ed5c46d2825"
+    },
+    {
+      "path": "C:\\Users\\admin\\Programming\\semanticweb\\semantic-web\\data\\raw\\tmdb_5000_credits.csv",
+      "sha256": "9d0050599ff88d40366c4841204b1489862bca346bfa46c20b05a65d14508435"
+    }
+  ]
+}
