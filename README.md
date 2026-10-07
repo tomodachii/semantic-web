@@ -1,6 +1,29 @@
 # Movie Knowledge Graph
 
-A Semantic Web project using the TMDB 5000 movie dataset.
+A Semantic Web learning project following the architecture of the sibling
+`Movie-Knowledge-Graph` reference project.
+
+## Start here
+
+1. Read [the scope and competency questions](docs/PROJECT_SCOPE.md).
+2. Read the comments in [the numbered SPARQL queries](queries/README.md).
+3. Open [01_eda_ref.ipynb](notebooks/01_eda_ref.ipynb) to understand the reference's prepared tables.
+4. Open [02_eda_raw.ipynb](notebooks/02_eda_raw.ipynb) to explore our raw TMDB data and plan its model.
+
+Notebook 01 reads the reference's **11 CSV tables** from `data/ref/`.
+It explains every field, follows one movie
+through the tables, plots relevant distributions, introduces classes and
+instances, and shows how nested TMDB responses become the table layout.
+It ends with an observation-to-modeling-decision table.
+
+Notebook 02 reads at most 100 rows from each of `tmdb_5000_movies.csv` and
+`tmdb_5000_credits.csv` in `data/raw/`. It explains nested JSON, identity joins,
+classes and instances, credit roles, constraints, missing source fields, and
+optional extensions such as keywords. It demonstrates table splitting in memory.
+Its findings describe the bounded sample; it does not scan the full files.
+
+The query files are contracts for the planned RDF model; they will be run
+against the graph in a later stage. CSV preparation is now implemented below.
 
 ## Setup
 
@@ -9,26 +32,34 @@ Run from this directory (Python 3.10+):
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-eda.txt
 ```
 
-Download `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv` from
-[Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata/data) into `data/raw/`.
+In your IDE, select the Python environment containing the EDA dependencies as
+the notebook kernel. Both notebooks locate this project's data from the workspace
+root, project root, or notebooks directory and require no API key or network calls.
 
-## Run
+The older prepared files directly under `data/` are not used by these lessons.
+Notebook 01 uses `data/ref/`; notebook 02 uses the two raw TMDB files in `data/raw/`.
+
+## Prepare our CSV tables
+
+Run from this directory:
 
 ```powershell
-python scripts/tmdb.py --limit 100 --cast-limit 10
-python scripts/transform.py
+python scripts/tmdb.py
 ```
 
-Prepared CSVs go to `data/`; RDF goes to `output/movies.ttl`.
-Use `--limit 0 --cast-limit 0` to prepare the full dataset.
-To change the development URI prefix:
+This creates the reference's 11 core tables plus `keywords.csv` and
+`movie_keywords.csv` in `data/prepared/`, using 100 movies, up to ten actors
+per movie, and directors only. The script uses the Python standard library.
+Use `--limit 0` to process every movie, or `--cast-limit 0` to keep all cast.
+IMDb IDs and company origin countries remain empty because the raw files
+do not supply them. See [data preparation](docs/DATA_PREPARATION.md) for the
+table contract, cleaning decisions, and test command.
 
-```powershell
-python scripts/transform.py --base-uri https://your-domain.example/
-```
+## Later steps
 
-Details: [data preparation](docs/DATA_PREPARATION.md),
-[RDF mapping](docs/RDF_TRANSFORMATION.md), [project guide](docs/HUONG_DAN_5_SAO.md).
+Write the ontology, transform `data/prepared/` CSVs into RDF,
+test reasoning, establish external links, and provide SPARQL access. The scope
+document and notebook explain the decisions these steps will implement.

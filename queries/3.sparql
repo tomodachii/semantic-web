@@ -1,0 +1,13 @@
+# Q3: Who are a selected film's first ten credited actors, and their characters?
+# Replace movie/969681 with an ID displayed in the notebook. It need not be in every sample.
+# Cast position is zero-based in TMDB: position 0 is the first actor.
+PREFIX schema: <https://schema.org/>
+SELECT ?person ?name ?character ?position WHERE {
+  VALUES ?movie { <https://example.org/movie/969681> }
+  ?movie schema:actor ?role .
+  ?role a schema:Role ; schema:actor ?person ; schema:position ?position .
+  ?person a schema:Person ; schema:name ?name .
+  OPTIONAL { ?role schema:characterName ?character }
+}
+ORDER BY ?position ?name
+LIMIT 10

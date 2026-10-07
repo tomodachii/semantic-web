@@ -1,0 +1,10 @@
+# Q8: Which countries are associated with each film's production companies?
+# This is company origin/location, NOT a filming location or movie origin claim.
+# Later the company path can imply kg:productionCountry; retain this path to show evidence.
+PREFIX schema: <https://schema.org/>
+SELECT DISTINCT ?movie ?title ?company ?companyName ?country ?countryName WHERE {
+  ?movie a schema:Movie ; schema:name ?title ; schema:productionCompany ?company .
+  ?company schema:name ?companyName ; schema:location ?country .
+  OPTIONAL { ?country schema:name ?countryName }
+}
+ORDER BY ?title ?companyName

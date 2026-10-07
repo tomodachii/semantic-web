@@ -1,0 +1,42 @@
+{
+  "selected_movies": 100,
+  "limit": 100,
+  "cast_limit": 10,
+  "crew_jobs": [
+    "Director"
+  ],
+  "extension": "keywords",
+  "movies_without_credits": [],
+  "output_rows": {
+    "movies.csv": 100,
+    "genres.csv": 14,
+    "movie_genres.csv": 330,
+    "companies.csv": 183,
+    "movie_companies.csv": 381,
+    "countries.csv": 19,
+    "movie_countries.csv": 150,
+    "languages.csv": 23,
+    "movie_languages.csv": 170,
+    "cast.csv": 1000,
+    "crew.csv": 111,
+    "keywords.csv": 667,
+    "movie_keywords.csv": 1049
+  },
+  "missing_movie_fields": {
+    "id": 0,
+    "title": 0,
+    "overview": 0,
+    "original_language": 0,
+    "release_date": 0,
+    "runtime": 0,
+    "vote_average": 0,
+    "vote_count": 0
+  },
+  "zero_runtime_movies": 0,
+  "zero_vote_movies": 0,
+  "processed_at_utc": "2026-10-07T07:56:10.188548+00:00",
+  "input_files": [
+    "C:\\Users\\admin\\Programming\\semanticweb\\semantic-web\\data\\raw\\tmdb_5000_movies.csv",
+    "C:\\Users\\admin\\Programming\\semanticweb\\semantic-web\\data\\raw\\tmdb_5000_credits.csv"
+  ]
+}

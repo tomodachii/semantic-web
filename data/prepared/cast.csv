@@ -1,0 +1,1001 @@
+movie_id,person_id,person_name,character,order
+19995,65731,Sam Worthington,Jake Sully,0
+19995,8691,Zoe Saldana,Neytiri,1
+19995,10205,Sigourney Weaver,Dr. Grace Augustine,2
+19995,32747,Stephen Lang,Col. Quaritch,3
+19995,17647,Michelle Rodriguez,Trudy Chacon,4
+19995,1771,Giovanni Ribisi,Selfridge,5
+19995,59231,Joel David Moore,Norm Spellman,6
+19995,30485,CCH Pounder,Moat,7
+19995,15853,Wes Studi,Eytukan,8
+19995,10964,Laz Alonso,Tsu'Tey,9
+285,85,Johnny Depp,Captain Jack Sparrow,0
+285,114,Orlando Bloom,Will Turner,1
+285,116,Keira Knightley,Elizabeth Swann,2
+285,1640,Stellan Skarsgård,"William ""Bootstrap Bill"" Turner",3
+285,1619,Chow Yun-fat,Captain Sao Feng,4
+285,2440,Bill Nighy,Captain Davy Jones,5
+285,118,Geoffrey Rush,Captain Hector Barbossa,6
+285,1709,Jack Davenport,Admiral James Norrington,7
+285,2449,Kevin McNally,Joshamee Gibbs,8
+285,2441,Tom Hollander,Lord Cutler Beckett,9
+206647,8784,Daniel Craig,James Bond,0
+206647,27319,Christoph Waltz,Blofeld,1
+206647,121529,Léa Seydoux,Madeleine,2
+206647,5469,Ralph Fiennes,M,3
+206647,28782,Monica Bellucci,Lucia,4
+206647,17064,Ben Whishaw,Q,5
+206647,2038,Naomie Harris,Moneypenny,6
+206647,543530,Dave Bautista,Hinx,7
+206647,125660,Andrew Scott,C,8
+206647,139549,Rory Kinnear,Tanner,9
+49026,3894,Christian Bale,Bruce Wayne / Batman,0
+49026,3895,Michael Caine,Alfred Pennyworth,1
+49026,64,Gary Oldman,James Gordon,2
+49026,1813,Anne Hathaway,Selina Kyle / Catwoman,3
+49026,2524,Tom Hardy,Bane,4
+49026,8293,Marion Cotillard,Miranda Tate,5
+49026,24045,Joseph Gordon-Levitt,Blake,6
+49026,192,Morgan Freeman,Lucius Fox,7
+49026,2037,Cillian Murphy,Dr. Jonathan Crane / Scarecrow,8
+49026,36594,Juno Temple,Jen,9
+49529,60900,Taylor Kitsch,John Carter,0
+49529,21044,Lynn Collins,Dejah Thoris,1
+49529,2206,Samantha Morton,Sola,2
+49529,5293,Willem Dafoe,Tars Tarkas,3
+49529,19159,Thomas Haden Church,Tal Hajus,4
+49529,2983,Mark Strong,Matai Shang,5
+49529,8785,Ciarán Hinds,Tardos Mors,6
+49529,17287,Dominic West,Sab Than,7
+49529,17648,James Purefoy,Kantos Kan,8
+49529,17419,Bryan Cranston,Powell,9
+559,2219,Tobey Maguire,Peter Parker / Spider-Man,0
+559,205,Kirsten Dunst,Mary Jane Watson,1
+559,17051,James Franco,Harry Osborn / New Goblin,2
+559,19159,Thomas Haden Church,Flint Marko / Sandman,3
+559,17052,Topher Grace,Eddie Brock / Venom,4
+559,18997,Bryce Dallas Howard,Gwen Stacey,5
+559,18998,Rosemary Harris,May Parker,6
+559,2505,James Cromwell,Captain Stacey,7
+559,18999,J.K. Simmons,J. Jonah Jameson,8
+559,9207,Theresa Russell,Mrs. Marko,9
+38757,69899,Zachary Levi,Flynn Rider (voice),0
+38757,16855,Mandy Moore,Rapunzel (voice),1
+38757,2517,Donna Murphy,Mother Gothel (voice),2
+38757,2372,Ron Perlman,Stabbington Brother (voice),3
+38757,22132,M.C. Gainey,Captain of the Guard (voice),4
+38757,4175,Jeffrey Tambor,Big Nose Thug (voice),5
+38757,18,Brad Garrett,Hook Hand Thug (voice),6
+38757,1219029,Paul F. Tompkins,Short Thug (voice),7
+38757,10460,Richard Kiel,Vlad (voice),8
+38757,1273208,Delaney Rose Stein,Young Rapunzel / Little Girl (voice),9
+99861,3223,Robert Downey Jr.,Tony Stark / Iron Man,0
+99861,74568,Chris Hemsworth,Thor Odinson,1
+99861,103,Mark Ruffalo,Bruce Banner / Hulk,2
+99861,16828,Chris Evans,Steve Rogers / Captain America,3
+99861,1245,Scarlett Johansson,Natasha Romanoff / Black Widow,4
+99861,17604,Jeremy Renner,Clint Barton / Hawkeye,5
+99861,13548,James Spader,Ultron (voice),6
+99861,2231,Samuel L. Jackson,Nick Fury,7
+99861,1896,Don Cheadle,James Rhodes / War Machine,8
+99861,27428,Aaron Taylor-Johnson,Pietro Maximoff / Quicksilver,9
+767,10980,Daniel Radcliffe,Harry Potter,0
+767,10989,Rupert Grint,Ron Weasley,1
+767,10990,Emma Watson,Hermione Granger,2
+767,10993,Tom Felton,Draco Malfoy,3
+767,5658,Michael Gambon,Albus Dumbledore,4
+767,388,Jim Broadbent,Horace Slughorn,5
+767,1283,Helena Bonham Carter,Bellatrix Lestrange,6
+767,1923,Robbie Coltrane,Rubeus Hagrid,7
+767,10978,Maggie Smith,Minerva McGonagall,8
+767,4566,Alan Rickman,Severus Snape,9
+209112,880,Ben Affleck,Bruce Wayne / Batman,0
+209112,73968,Henry Cavill,Clark Kent / Superman,1
+209112,90633,Gal Gadot,Diana Prince / Wonder Woman,2
+209112,9273,Amy Adams,Lois Lane,3
+209112,44735,Jesse Eisenberg,Lex Luthor,4
+209112,2882,Diane Lane,Martha Kent,5
+209112,16940,Jeremy Irons,Alfred Pennyworth,6
+209112,2975,Laurence Fishburne,Perry White,7
+209112,18686,Holly Hunter,Senator Finch,8
+209112,59233,Scoot McNairy,Wallace Keefe,9
+1452,17271,Brandon Routh,Superman / Clark Kent,0
+1452,1979,Kevin Spacey,Lex Luthor,1
+1452,7517,Kate Bosworth,Lois Lane,2
+1452,11006,James Marsden,Richard White,3
+1452,7489,Parker Posey,Kitty Kowalski,4
+1452,8924,Frank Langella,Perry White,5
+1452,53492,Sam Huntington,Jimmy Olsen,6
+1452,2639,Eva Marie Saint,Martha Kent,7
+1452,3084,Marlon Brando,Jor-El,8
+1452,53493,Kal Penn,Stanford,9
+10764,8784,Daniel Craig,James Bond,0
+10764,18182,Olga Kurylenko,Camille Montes,1
+10764,8789,Mathieu Amalric,Dominic Greene,2
+10764,5309,Judi Dench,M,3
+10764,3753,Giancarlo Giannini,René Mathis,4
+10764,59620,Gemma Arterton,Strawberry Fields,5
+10764,2954,Jeffrey Wright,Felix Leiter,6
+10764,35029,David Harbour,Gregg Beam,7
+10764,2244,Jesper Christensen,Mr. White,8
+10764,62892,Anatole Taubman,Elvis,9
+58,85,Johnny Depp,Captain Jack Sparrow,0
+58,114,Orlando Bloom,Will Turner,1
+58,116,Keira Knightley,Elizabeth Swann,2
+58,1640,Stellan Skarsgård,"William ""Bootstrap Bill"" Turner",3
+58,2440,Bill Nighy,Captain Davy Jones,4
+58,1709,Jack Davenport,James Norrington,5
+58,2449,Kevin McNally,Joshamee Gibbs,6
+58,378,Jonathan Pryce,Governor Weatherby Swann,7
+58,1710,Lee Arenberg,Pintel,8
+58,1711,Mackenzie Crook,Ragetti,9
+57201,85,Johnny Depp,Tonto,0
+57201,53807,Armie Hammer,John Reid / The Lone Ranger,1
+57201,886,William Fichtner,Butch Cavendish,2
+57201,1283,Helena Bonham Carter,Red Harrington,3
+57201,18473,James Badge Dale,Dan Reid,4
+57201,207,Tom Wilkinson,Latham Cole,5
+57201,47720,Ruth Wilson,Rebecca Reid,6
+57201,12834,Barry Pepper,Captain Jay Fuller,7
+57201,22063,James Frain,Barret,8
+57201,583040,Mason Cook,Will,9
+49521,73968,Henry Cavill,Clark Kent / Kal-El,0
+49521,9273,Amy Adams,Lois Lane,1
+49521,335,Michael Shannon,General Zod,2
+49521,1269,Kevin Costner,Jonathan Kent,3
+49521,2882,Diane Lane,Martha Kent,4
+49521,934,Russell Crowe,Jor-El,5
+49521,2975,Laurence Fishburne,Perry White,6
+49521,43202,Antje Traue,Faora-Ul,7
+49521,22227,Christopher Meloni,Colonel Hardy,8
+49521,213049,Jadin Gould,Lana Lang,9
+2454,25130,Ben Barnes,Prince Caspian,0
+2454,5528,William Moseley,Peter Pevensie,1
+2454,5529,Anna Popplewell,Susan Pevensie,2
+2454,5527,Skandar Keynes,Edmund Pevensie,3
+2454,5526,Georgie Henley,Lucy Pevensie,4
+2454,2166,Sergio Castellitto,King Miraz,5
+2454,25132,Alicia Borrachero,Queen Prunaprismia,6
+2454,22970,Peter Dinklage,Trumpkin,7
+2454,11184,Warwick Davis,Nikabrik,8
+2454,25133,Vincent Grass,Doktor Cornelius,9
+24428,3223,Robert Downey Jr.,Tony Stark / Iron Man,0
+24428,16828,Chris Evans,Steve Rogers / Captain America,1
+24428,103,Mark Ruffalo,Bruce Banner / The Hulk,2
+24428,74568,Chris Hemsworth,Thor Odinson,3
+24428,1245,Scarlett Johansson,Natasha Romanoff / Black Widow,4
+24428,17604,Jeremy Renner,Clint Barton / Hawkeye,5
+24428,91606,Tom Hiddleston,Loki,6
+24428,9048,Clark Gregg,Agent Phil Coulson,7
+24428,71189,Cobie Smulders,Agent Maria Hill,8
+24428,1640,Stellan Skarsgård,Erik Selvig,9
+1865,85,Johnny Depp,Captain Jack Sparrow,0
+1865,955,Penélope Cruz,Angelica Teach,1
+1865,6972,Ian McShane,"Captain Edward ""Blackbeard"" Teach",2
+1865,2449,Kevin McNally,Joshamee Gibbs,3
+1865,118,Geoffrey Rush,Captain Hector Barbossa,4
+1865,237455,Sam Claflin,Philip Swift,5
+1865,469759,Astrid Bergès-Frisbey,Syrena,6
+1865,1115,Stephen Graham,Scrum,7
+1865,4031,Greg Ellis,Lieutenant Theodore Groves,8
+1865,1712,Damian O'Hare,Lieutenant Gillette,9
+41154,2888,Will Smith,Agent J,0
+41154,2176,Tommy Lee Jones,Agent K,1
+41154,16851,Josh Brolin,Young Agent K,2
+41154,72873,Michael Stuhlbarg,Griffin,3
+41154,7056,Emma Thompson,Agent O,4
+41154,55936,Jemaine Clement,Boris The Animal,5
+41154,151246,Nicole Scherzinger,Boris's Girlfriend,6
+41154,59860,Alice Eve,Young Agent O,7
+41154,19278,Bill Hader,Andy Warhol,8
+41154,87070,Michael Chernus,Jeffrey Price,9
+122917,7060,Martin Freeman,Bilbo Baggins,0
+122917,1327,Ian McKellen,Gandalf,1
+122917,30315,Richard Armitage,Thorin Oakenshield,2
+122917,25136,Ken Stott,Balin,3
+122917,95047,Graham McTavish,Dwalin,4
+122917,67123,William Kircher,Bifur,5
+122917,34715,James Nesbitt,Bofur,6
+122917,1193834,Stephen Hunter,Bombur,7
+122917,152566,Dean O'Gorman,Fili,8
+122917,207558,Aidan Turner,Kili,9
+1930,37625,Andrew Garfield,Peter Parker / Spider-Man,0
+1930,54693,Emma Stone,Gwen Stacy,1
+1930,7026,Rhys Ifans,Dr. Curt Connors / The Lizard,2
+1930,5724,Denis Leary,Captain Stacy,3
+1930,55152,Campbell Scott,Richard Parker,4
+1930,76793,Irrfan Khan,Rajit Ratha,5
+1930,8349,Martin Sheen,Uncle Ben,6
+1930,35,Sally Field,Aunt May,7
+1930,558928,Max Charles,Peter Parker (Age 4),8
+1930,231547,Chris Zylka,Flash Thompson,9
+20662,934,Russell Crowe,Robin Longstride,0
+20662,112,Cate Blanchett,Marion Loxley,1
+20662,2201,Max von Sydow,Sir Walter Loxley,2
+20662,227,William Hurt,William Marshal,3
+20662,2983,Mark Strong,Godfrey,4
+20662,25072,Oscar Isaac,Prince John,5
+20662,6413,Danny Huston,King Richard the Lionheart,6
+20662,20300,Eileen Atkins,Eleanor of Aquitaine,7
+20662,13633,Mark Addy,Friar Tuck,8
+20662,15576,Matthew Macfadyen,Sheriff of Nottingham,9
+57158,7060,Martin Freeman,Bilbo Baggins,0
+57158,1327,Ian McKellen,Gandalf,1
+57158,30315,Richard Armitage,Thorin Oakenshield,2
+57158,25136,Ken Stott,Balin,3
+57158,95047,Graham McTavish,Dwalin,4
+57158,67123,William Kircher,Bifur,5
+57158,34715,James Nesbitt,Bofur,6
+57158,1193834,Stephen Hunter,Bombur,7
+57158,152566,Dean O'Gorman,Fili,8
+57158,207558,Aidan Turner,Kili,9
+2268,45589,Dakota Blue Richards,Lyra Belacqua,0
+2268,2227,Nicole Kidman,Marisa Coulter,1
+2268,8784,Daniel Craig,Lord Asriel,2
+2268,16431,Sam Elliott,Lee Scoresby,3
+2268,10912,Eva Green,Serafina Pekkala,4
+2268,1281,Freddie Highmore,Pantalaimon (voice),5
+2268,1327,Ian McKellen,Iorek Byrnison (voice),6
+2268,45585,Ben Walker,Roger Parslow,7
+2268,6972,Ian McShane,Ragnar Sturlusson (voice),8
+2268,5470,Kristin Scott Thomas,Stelmania (voice),9
+254,3489,Naomi Watts,Ann Darrow,0
+254,70851,Jack Black,Carl Denham,1
+254,3490,Adrien Brody,Jack Driscoll,2
+254,3491,Thomas Kretschmann,Captain Englehorn,3
+254,3492,Colin Hanks,Preston,4
+254,1333,Andy Serkis,Kong / Lumpy,5
+254,3493,Evan Parke,Hayes,6
+254,478,Jamie Bell,Jimmy,7
+254,3494,Lobo Chan,Choy,8
+254,3495,John Sumner,Herb,9
+597,204,Kate Winslet,Rose DeWitt Bukater,0
+597,6193,Leonardo DiCaprio,Jack Dawson,1
+597,3713,Frances Fisher,Ruth Dewitt Bukater,2
+597,1954,Billy Zane,Caledon 'Cal' Hockley,3
+597,8534,Kathy Bates,Molly Brown,4
+597,8535,Gloria Stuart,Old Rose,5
+597,2053,Bill Paxton,Brock Lovett,6
+597,1369,Bernard Hill,Captain Edward James Smith,7
+597,2076,David Warner,Spicer Lovejoy,8
+597,8536,Victor Garber,Thomas Andrews,9
+271110,16828,Chris Evans,Steve Rogers / Captain America,0
+271110,3223,Robert Downey Jr.,Tony Stark / Iron Man,1
+271110,1245,Scarlett Johansson,Natasha Romanoff / Black Widow,2
+271110,60898,Sebastian Stan,Bucky Barnes / Winter Soldier,3
+271110,53650,Anthony Mackie,Sam Wilson / Falcon,4
+271110,1896,Don Cheadle,Lieutenant James Rhodes / War Machine,5
+271110,17604,Jeremy Renner,Clint Barton / Hawkeye,6
+271110,172069,Chadwick Boseman,T'Challa / Black Panther,7
+271110,6162,Paul Bettany,Vision,8
+271110,550843,Elizabeth Olsen,Wanda Maximoff / Scarlet Witch,9
+44833,60900,Taylor Kitsch,Lieutenant Alex Hopper,0
+44833,28846,Alexander Skarsgård,Commander Stone Hopper,1
+44833,131519,Rihanna,Petty Officer Cora 'Weps' Raikes,2
+44833,131520,Brooklyn Decker,Sam,3
+44833,13275,Tadanobu Asano,Captain Yugi Nagata,4
+44833,3896,Liam Neeson,Admiral Shane,5
+44833,1052162,Gregory D. Gadson,Lieutenant Colonel Mick Canales,6
+44833,184581,Hamish Linklater,Cal Zapata,7
+44833,88124,Jesse Plemons,"Boatswain Mate Seaman Jimmy ""Ordy"" Ord",8
+44833,205406,John Tui,"Chief Petty Officer Walter ""The Beast"" Lynch",9
+135397,73457,Chris Pratt,Owen Grady,0
+135397,18997,Bryce Dallas Howard,Claire Dearing,1
+135397,76793,Irrfan Khan,Simon Masrani,2
+135397,7132,Vincent D'Onofrio,Vic Hoskins,3
+135397,1108907,Nick Robinson,Zach Mitchell,4
+135397,17181,Ty Simpkins,Gray Mitchell,5
+135397,543505,Jake Johnson,Lowery Cruthers,6
+135397,78423,Omar Sy,Barry,7
+135397,14592,BD Wong,Henry Wu,8
+135397,20750,Judy Greer,Karen Mitchell,9
+37724,8784,Daniel Craig,James Bond,0
+37724,5309,Judi Dench,M,1
+37724,3810,Javier Bardem,Silva,2
+37724,5469,Ralph Fiennes,Gareth Mallory / M,3
+37724,2038,Naomie Harris,Eve,4
+37724,1030261,Bérénice Marlohe,Sévérine,5
+37724,3926,Albert Finney,Kincade,6
+37724,17064,Ben Whishaw,Q,7
+37724,139549,Rory Kinnear,Bill Tanner,8
+37724,11045,Ola Rapace,Patrice,9
+558,2219,Tobey Maguire,Peter Parker / Spider-Man,0
+558,205,Kirsten Dunst,Mary Jane Watson,1
+558,17051,James Franco,Harry Osborn,2
+558,658,Alfred Molina,Dr. Otto Octavius / Doctor Octopus,3
+558,18998,Rosemary Harris,May Parker,4
+558,2517,Donna Murphy,Rosalie Octavius,5
+558,18999,J.K. Simmons,J. Jonah Jameson,6
+558,19154,Daniel Gillies,John Jameson,7
+558,19152,Dylan Baker,Dr. Curt Connors,8
+558,5293,Willem Dafoe,Norman Osborn / Green Goblin,9
+68721,3223,Robert Downey Jr.,Tony Stark / Iron Man,0
+68721,12052,Gwyneth Paltrow,"Virginia ""Pepper"" Potts",1
+68721,1896,Don Cheadle,"Colonel James "" Rhodey"" Rhodes",2
+68721,529,Guy Pearce,Aldrich Killian / The Mandarin,3
+68721,15556,Rebecca Hall,Maya Hansen,4
+68721,15277,Jon Favreau,Happy Hogan,5
+68721,2282,Ben Kingsley,Trevor Slattery,6
+68721,18473,James Badge Dale,Savin,7
+68721,121953,Stephanie Szostak,Brandt,8
+68721,6162,Paul Bettany,Jarvis (voice),9
+12155,76070,Mia Wasikowska,Alice Kingsleigh,0
+12155,85,Johnny Depp,The Mad Hatter,1
+12155,1813,Anne Hathaway,The White Queen,2
+12155,1283,Helena Bonham Carter,The Red Queen,3
+12155,1064,Crispin Glover,The Knave of Hearts,4
+12155,20982,Marton Csokas,Charles Kingsleigh,5
+12155,30083,Lindsay Duncan,Helen Kingsleigh,6
+12155,26209,Matt Lucas,Tweedledee / Tweedledum,7
+12155,11855,Geraldine James,Lady Ascot,8
+12155,11276,Tim Pigott-Smith,Lord Ascot,9
+36668,6968,Hugh Jackman,Logan / Wolverine,0
+36668,4587,Halle Berry,Ororo Munroe / Storm,1
+36668,1327,Ian McKellen,Eric Lehnsherr / Magneto,2
+36668,2387,Patrick Stewart,Charles Xavier / Professor X,3
+36668,10696,Famke Janssen,Jean Grey / Phoenix,4
+36668,10690,Anna Paquin,Marie D'Ancanto / Rogue,5
+36668,7090,Kelsey Grammer,Dr. Henry 'Hank' McCoy / Beast,6
+36668,11023,Shawn Ashmore,Bobby Drake / Iceman,7
+36668,11022,Aaron Stanford,John Allerdyce / Pyro,8
+36668,27578,Ellen Page,"Katherine ""Kitty"" Pryde / Shadowcat",9
+62211,7904,Billy Crystal,"Michael ""Mike"" Wazowski (voice)",0
+62211,1230,John Goodman,"James P. ""Sulley"" Sullivan (voice)",1
+62211,884,Steve Buscemi,Randall Boggs (voice),2
+62211,15735,Helen Mirren,Dean Hardscrabble (voice),3
+62211,1271300,Noah Johnston,Young Mike (voice),4
+62211,21198,Peter Sohn,Scott “Squishy” Squibbles (voice),5
+62211,155649,Joel Murray,Don Carlton (voice),6
+62211,52601,Sean Hayes,Terri Perry (voice),7
+62211,21290,Dave Foley,Terry Perry (voice),8
+62211,95101,Charlie Day,Art (voice),9
+8373,10959,Shia LaBeouf,Sam Witwicky,0
+8373,19537,Megan Fox,Mikaela Banes,1
+8373,19536,Josh Duhamel,Captain Lennox,2
+8373,11678,Rainn Wilson,College Professor,3
+8373,8169,Tyrese Gibson,USAF Tech Sergeant Epps,4
+8373,1241,John Turturro,Agent Simmons,5
+8373,14721,Kevin Dunn,Ron Witwicky,6
+8373,24305,Julie White,Judy Witwicky,7
+8373,72985,Ramón Rodríguez,Leo Spitz,8
+8373,103554,Isabel Lucas,Alice,9
+91314,13240,Mark Wahlberg,Cade Yeager,0
+91314,2283,Stanley Tucci,Joshua,1
+91314,7090,Kelsey Grammer,Harold Attinger,2
+91314,61186,Nicola Peltz,Tessa Yeager,3
+91314,1007683,Jack Reynor,Shane,4
+91314,39389,Titus Welliver,Savoy,5
+91314,3971,Sophia Myles,Darcy,6
+91314,109432,Li Bingbing,Su Yueming,7
+91314,51990,T.J. Miller,Lucas Flannery,8
+91314,204100,James Bachman,Gill Wembley,9
+68728,17051,James Franco,Oz,0
+68728,18973,Mila Kunis,Theodora,1
+68728,3293,Rachel Weisz,Evanora,2
+68728,1812,Michelle Williams,Annie / Glinda,3
+68728,5367,Zach Braff,Frank / Finley,4
+68728,8854,Bill Cobbs,Master Tinker,5
+68728,125025,Joey King,Girl in Wheelchair / China Girl,6
+68728,19754,Tony Cox,Knuck,7
+68728,224723,Stephen R. Hart,Winkie General,8
+68728,123725,Abigail Spencer,May,9
+102382,37625,Andrew Garfield,Peter Parker / Spider-Man,0
+102382,54693,Emma Stone,Gwen Stacy,1
+102382,134,Jamie Foxx,Max Dillon / Electro,2
+102382,122889,Dane DeHaan,Harry Osborn / Green Goblin,3
+102382,55152,Campbell Scott,Richard Parker,4
+102382,6368,Embeth Davidtz,Mary Parker,5
+102382,10132,Colm Feore,Donald Menken,6
+102382,13242,Paul Giamatti,Aleksei Sytsevich / The Rhino (Uncredited),7
+102382,35,Sally Field,Aunt May,8
+102382,558928,Max Charles,Young Peter Parker,9
+20526,9828,Garrett Hedlund,Sam Flynn,0
+20526,1229,Jeff Bridges,Kevin Flynn / Clu,1
+20526,59315,Olivia Wilde,Quorra,2
+20526,2547,Bruce Boxleitner,Alan Bradley / Tron,3
+20526,60033,Yaya DaCosta,Siren,4
+20526,86268,Serinda Swan,Siren,5
+20526,20403,Beau Garrett,Gem,6
+20526,130108,Elizabeth Mathis,Siren,7
+20526,22063,James Frain,Jarvis,8
+20526,86269,Amy Esterle,Young Mrs. Flynn,9
+49013,887,Owen Wilson,Lightning McQueen (voice),0
+49013,15897,Larry the Cable Guy,Mater (voice),1
+49013,3895,Michael Caine,Finn McMissile (voice),2
+49013,1246,Emily Mortimer,Holley Shiftwell (voice),3
+49013,1241,John Turturro,Francesco Bernoulli (voice),4
+49013,1926,Eddie Izzard,Sir Miles Axlerod (voice),5
+49013,3491,Thomas Kretschmann,Professor Z (voice),6
+49013,3266,Joe Mantegna,Grem (voice),7
+49013,31514,Peter Jacobson,Acer (voice),8
+49013,11357,Bruce Campbell,"Rod ""Torque"" Redline (voice)",9
+44912,10859,Ryan Reynolds,Hal Jordan / Green Lantern,0
+44912,59175,Blake Lively,Carol Ferris,1
+44912,133,Peter Sarsgaard,Hector Hammond,2
+44912,504,Tim Robbins,Senator Hammond,3
+44912,2983,Mark Strong,Sinestro,4
+44912,7242,Temuera Morrison,Abin Sur,5
+44912,109942,Jenna Craig,Carol Ferris at 11,6
+44912,4602,Jon Tenney,Martin Jordan,7
+44912,27107,Mike Doyle,Jack Jordan,8
+44912,147719,NicK Jandl,Jim Jordan,9
+10193,31,Tom Hanks,Woody (voice),0
+10193,12898,Tim Allen,Buzz Lightyear (voice),1
+10193,13726,Ned Beatty,Lotso (voice),2
+10193,3234,Joan Cusack,Jessie the Yodeling Cowgirl (voice),3
+10193,2232,Michael Keaton,Ken (voice),4
+10193,2395,Whoopi Goldberg,Stretch the Octopus (voice),5
+10193,5149,Bonnie Hunt,Purple-haired doll (voice),6
+10193,12900,Wallace Shawn,Rex (voice),7
+10193,7907,John Ratzenberger,Hamm (voice),8
+10193,7167,Don Rickles,Mr. Potato Head (voice),9
+534,3894,Christian Bale,John Connor,0
+534,65731,Sam Worthington,Marcus Wright,1
+534,21028,Anton Yelchin,Kyle Reese,2
+534,56455,Moon Bloodgood,Blair Williams,3
+534,18997,Bryce Dallas Howard,Kate Connor,4
+534,1283,Helena Bonham Carter,Serena,5
+534,4238,Common,Barnes,6
+534,76542,Roland Kickinger,Prototype T-800,7
+534,11086,Michael Ironside,General Ashdown,8
+534,13724,Jane Alexander,Virginia,9
+168259,12835,Vin Diesel,Dominic Toretto,0
+168259,8167,Paul Walker,Brian O'Conner,1
+168259,18918,Dwayne Johnson,Hobbs,2
+168259,17647,Michelle Rodriguez,Letty,3
+168259,8169,Tyrese Gibson,Roman,4
+168259,8171,Ludacris,Tej (as Chris 'Ludacris' Bridges),5
+168259,22123,Jordana Brewster,Mia,6
+168259,938,Djimon Hounsou,Jakande,7
+168259,57207,Tony Jaa,Kiet,8
+168259,997887,Ronda Rousey,Kara,9
+72190,287,Brad Pitt,Gerry Lane,0
+72190,175826,Mireille Enos,Karen Lane,1
+72190,1027850,Abigail Hargrove,Rachel Lane,2
+72190,1186840,Sterling Jerins,Constance Lane,3
+72190,18473,James Badge Dale,Captain Speke,4
+72190,78050,Elyes Gabel,Andrew Fassbach,5
+72190,7219,David Andrews,Navy Captain Mullenaro,6
+72190,1180907,Daniella Kertesz,Segen,7
+72190,119297,Ludi Boeken,Jurgen Warmbrunn,8
+72190,2607,Fana Mokoena,Thierry Umutoni,9
+127585,6968,Hugh Jackman,Logan / Wolverine,0
+127585,5530,James McAvoy,Charles Xavier / Professor X (Young),1
+127585,17288,Michael Fassbender,Erik Lehnsherr / Magneto (Young),2
+127585,72129,Jennifer Lawrence,Raven Darkholme / Mystique,3
+127585,4587,Halle Berry,Ororo Munroe / Storm,4
+127585,10690,Anna Paquin,Marie D'Ancanto / Rogue,5
+127585,27578,Ellen Page,"Katherine ""Kitty"" Pryde / Shadowcat",6
+127585,22970,Peter Dinklage,Bolivar Trask,7
+127585,1327,Ian McKellen,Erik Lehnsherr / Magneto (Old),8
+127585,2387,Patrick Stewart,Charles Xavier / Professor X (Old),9
+54138,62064,Chris Pine,James T. Kirk,0
+54138,17306,Zachary Quinto,Spock,1
+54138,8691,Zoe Saldana,Nyota Uhura,2
+54138,1372,Karl Urban,Dr. Leonard 'Bones' McCoy,3
+54138,11108,Simon Pegg,Montgomery 'Scotty' Scott,4
+54138,68842,John Cho,Hikaru Sulu,5
+54138,71580,Benedict Cumberbatch,Khan Noonien Singh,6
+54138,21028,Anton Yelchin,Pavel Chekov,7
+54138,21089,Bruce Greenwood,Christopher Pike,8
+54138,27811,Peter Weller,Alexander Marcus,9
+81005,3292,Nicholas Hoult,Jack,0
+81005,73357,Eleanor Tomlinson,Princess Isabelle,1
+81005,3061,Ewan McGregor,Elmont,2
+81005,2283,Stanley Tucci,Roderick,3
+81005,6972,Ian McShane,King Brahmwell,4
+81005,1665,Eddie Marsan,Crawe,5
+81005,1125,Ewen Bremner,Wicke,6
+81005,11184,Warwick Davis,Old Hamm,7
+81005,2440,Bill Nighy,General Fallon,8
+81005,53916,Ralph Brown,General Entin,9
+64682,6193,Leonardo DiCaprio,Jay Gatsby,0
+64682,2219,Tobey Maguire,Nick Carraway,1
+64682,36662,Carey Mulligan,Daisy Buchanan,2
+64682,33192,Joel Edgerton,Tom Buchanan,3
+64682,1133349,Elizabeth Debicki,Jordan Baker,4
+64682,52848,Isla Fisher,Myrtle Wilson,5
+64682,76512,Jason Clarke,George Wilson,6
+64682,35780,Amitabh Bachchan,Meyer Wolfsheim,7
+64682,236851,Callan McAuliffe,Teen Jay Gatsby,8
+64682,205474,Adelaide Clemens,Catherine,9
+9543,131,Jake Gyllenhaal,Prince Dastan,0
+9543,59620,Gemma Arterton,Tamina,1
+9543,2282,Ben Kingsley,Nizam,1
+9543,658,Alfred Molina,Sheik Amar,2
+9543,55412,Steve Toussaint,Seso,3
+9543,20286,Toby Kebbell,Garsiv,4
+9543,52890,Richard Coyle,Tus,5
+9543,32556,Ronald Pickup,King Sharaman,6
+9543,54810,Reece Ritchie,Bis,7
+9543,587354,Gísli Örn Garðarsson,Hassansin Leader,8
+68726,17605,Idris Elba,Stacker Pentecost,0
+68726,56365,Charlie Hunnam,Raleigh Becket,1
+68726,95101,Charlie Day,Dr. Newton Geiszler,2
+68726,2372,Ron Perlman,Hannibal Chau,3
+68726,39659,Burn Gorman,Gottlieb,4
+68726,18054,Rinko Kikuchi,Mako Mori,5
+68726,94864,Max Martini,Herc Hansen,6
+68726,112692,Robert Maillet,Aleksis Kaidanovsky,7
+68726,1038379,Robert Kazinsky,Chuck Hansen,8
+68726,118590,Larry Joe Campbell,Tommy T,9
+38356,10959,Shia LaBeouf,Sam Witwicky,0
+38356,6949,John Malkovich,Bruce Brazos,1
+38356,83586,Ken Jeong,Jerry Wang,2
+38356,3910,Frances McDormand,National Intelligence Director,3
+38356,19536,Josh Duhamel,Lt. Colonel William Lennox,4
+38356,8169,Tyrese Gibson,Robert Epps,5
+38356,1331,Hugo Weaving,Megatron (voice),6
+38356,1749,Leonard Nimoy,Sentinel Prime (voice),7
+38356,1241,John Turturro,Simmons,8
+38356,236048,Rosie Huntington-Whiteley,Carly,9
+217,3,Harrison Ford,Indiana Jones,0
+217,112,Cate Blanchett,Irina Spalko,1
+217,10959,Shia LaBeouf,Mutt Williams,2
+217,5538,Ray Winstone,'Mac' George Michale,3
+217,650,Karen Allen,Marion Ravenwood,4
+217,5049,John Hurt,Professor Oxley,5
+217,388,Jim Broadbent,Dean Charles Stanforth,6
+217,36218,Andrew Divoff,Russian Soldier,7
+217,52761,Igor Jijikine,Dovchenko,8
+217,52762,Pavel Lychnikoff,Russian Soldier,9
+105864,963134,Raymond Ochoa,Arlo (voice),0
+105864,1476748,Jack Bright,Spot (voice),1
+105864,2954,Jeffrey Wright,Poppa (voice),2
+105864,3910,Frances McDormand,Momma (voice),3
+105864,1540680,Maleah Nipay-Padilla,Young Libby (voice),4
+105864,1540681,Ryan Teeple,Young Buck (voice),5
+105864,1540682,Jack McGraw,Young Arlo (voice),6
+105864,1348591,Marcus Scribner,Buck (voice),7
+105864,21198,Peter Sohn,Forrest Woodbush (voice),8
+105864,18324,Steve Zahn,Thunderclap (voice),9
+62177,9015,Kelly Macdonald,Mérida (voice),0
+62177,477,Julie Walters,The Witch (voice),1
+62177,9188,Billy Connolly,King Fergus (voice),2
+62177,7056,Emma Thompson,Queen Elinor (voice),3
+62177,9013,Kevin McKidd,Lord MacGuffin / Young MacGuffin (voice),4
+62177,24264,Craig Ferguson,Lord Macintosh (voice),5
+62177,1923,Robbie Coltrane,Lord Dingwall (voice),6
+62177,1113604,Peigi Barker,Young Merida (voice),7
+62177,1102427,Steven Cree,Young Macintosh (voice),8
+62177,137262,Steve Purcell,The Crow (voice),9
+188927,62064,Chris Pine,James T. Kirk,0
+188927,17306,Zachary Quinto,Spock,1
+188927,1372,Karl Urban,Dr. Leonard 'Bones' McCoy,2
+188927,11108,Simon Pegg,Montgomery 'Scotty' Scott,3
+188927,8691,Zoe Saldana,Nyota Uhura,4
+188927,68842,John Cho,Hikaru Sulu,5
+188927,21028,Anton Yelchin,Pavel Chekov,6
+188927,568657,Sofia Boutella,Jaylah,7
+188927,17605,Idris Elba,Krall,8
+188927,592496,Joe Taslim,Manas/Anderson Le,9
+10681,670,Ben Burtt,WALL·E / M-O (voice),0
+10681,72754,Elissa Knight,EVE (voice),1
+10681,60074,Jeff Garlin,Captain (voice),2
+10681,20753,Fred Willard,"Shelby Forthright, BnL CEO",3
+10681,7907,John Ratzenberger,John (voice),4
+10681,11074,Kathy Najimy,Mary (voice),6
+10681,117081,Teresa Ganzel,(voice),7
+10681,35159,Laraine Newman,Axiom Passenger (voice),8
+10681,72755,MacInTalk,AUTO (voice),9
+10681,59357,Teddy Newton,Steward Bots (voice),10
+5174,66,Chris Tucker,Det. James Carter,0
+5174,18897,Jackie Chan,Chief Insp. Lee,1
+5174,9195,Hiroyuki Sanada,Kenji,2
+5174,2201,Max von Sydow,Varden Reynard,3
+5174,2245,Yvan Attal,George,4
+5174,3556,Roman Polanski,Det. Revi,5
+5174,41894,Zhang Jingchu,Soo Yung,6
+5174,4492,Philip Baker Hall,Capt. William Diel,7
+5174,145633,Noémie Lenoir,Genevieve,8
+5174,164945,Sarah Shahi,Zoe (uncredited),9
+14161,3036,John Cusack,Jackson Curtis,0
+14161,2956,Amanda Peet,Kate Curtis,1
+14161,5294,Chiwetel Ejiofor,Adrian Helmsley,2
+14161,9030,Thandie Newton,Laura Wilson,3
+14161,17485,Oliver Platt,Carl Anheuser,4
+14161,17867,Tom McCarthy,Dr. Gordon Silberman,5
+14161,57755,Woody Harrelson,Charlie Frost,6
+14161,2047,Danny Glover,President Wilson,7
+14161,83852,Liam James,Noah Curtis,8
+14161,74227,Morgan Lily,Lilly Curtis,9
+17979,64,Gary Oldman,"Tiny Tim, Bob Cratchit, Marley",0
+17979,206,Jim Carrey,"Ebenezer Scrooge, Ghost of Christmas Past, Ghost of Christmas Present, Ghost of Christmas Yet To Come",1
+17979,78311,Steve Valentine,Funerary Undertaker / Topper,2
+17979,57675,Daryl Sabara,Undertaker's Apprentice / Tattered Caroler / Beggar Boy / Peter Cratchit / Well-Dressed Caroler,3
+17979,558926,Sage Ryan,Tattered Caroler,4
+17979,1074139,Amber Gainey Meade,Tattered Caroler / Well-Dressed Caroler,5
+17979,492081,Ryan Ochoa,Tattered Caroler / Beggar Boy / Young Cratchit Boy / Ignorance Boy / Young Boy with Sleigh,6
+17979,1074140,Bobbi Page,Tattered Caroler / Well-Dressed Caroler,7
+17979,60602,Ron Bottitta,Tattered Caroler / Well-Dressed Caroler,8
+17979,61831,Sammi Hanratty,Beggar Boy / Young Cratchit Girl / Want Girl,9
+76757,18973,Mila Kunis,Jupiter Jones,0
+76757,38673,Channing Tatum,Caine Wise,1
+76757,48,Sean Bean,Stinger Apini,2
+76757,37632,Eddie Redmayne,Balem Abrasax,3
+76757,230680,Douglas Booth,Titus Abrasax,4
+76757,89822,Tuppence Middleton,Kalique Abrasax,5
+76757,1216606,Gugu Mbatha-Raw,Famulus,6
+76757,109319,Nikki Amuka-Bird,Diomika Tsing,7
+76757,47625,Christina Cole,Gemma Chatterjee,8
+76757,1360221,Nicholas A. Newman,Nesh,9
+258489,28846,Alexander Skarsgård,John Clayton / Tarzan,0
+258489,234352,Margot Robbie,Jane Porter,1
+258489,27319,Christoph Waltz,Captain Leon Rom,2
+258489,2231,Samuel L. Jackson,George Washington Williams,3
+258489,938,Djimon Hounsou,Chief Mbonga,4
+258489,388,Jim Broadbent,Prime Minister,5
+258489,1026019,Casper Crump,Captain Kerchover,6
+258489,1029045,Yule Masiteng,Muviro,7
+258489,21343,Ben Chaplin,Captain Moulle,8
+258489,1795843,Sidney Ralitsoele,Wasimbu,9
+411,5528,William Moseley,Peter Pevensie,0
+411,5529,Anna Popplewell,Susan Pevensie,1
+411,5527,Skandar Keynes,Edmund Pevensie,2
+411,5526,Georgie Henley,Lucy Pevensie,3
+411,3896,Liam Neeson,Aslan (voice),4
+411,3063,Tilda Swinton,White Witch,5
+411,5530,James McAvoy,"Mr. Tumnus, the Faun",6
+411,388,Jim Broadbent,Professor Kirke,7
+411,5531,Kiran Shah,Ginarrbrik,8
+411,2467,James Cosmo,Father Christmas,9
+246655,5530,James McAvoy,Professor Charles Xavier,0
+246655,17288,Michael Fassbender,Erik Lehnsherr / Magneto,1
+246655,72129,Jennifer Lawrence,Raven Darkholme / Mystique,2
+246655,3292,Nicholas Hoult,Hank McCoy / Beast,3
+246655,25072,Oscar Isaac,En Sabah Nur / Apocalypse,4
+246655,9827,Rose Byrne,Moira MacTaggert,5
+246655,55089,Evan Peters,Peter Maximoff / Quicksilver,6
+246655,1056053,Josh Helman,Col. William Stryker,7
+246655,1001657,Sophie Turner,Jean Grey / Phoenix,8
+246655,1034681,Tye Sheridan,Scott Summers / Cyclops,9
+155,3894,Christian Bale,Bruce Wayne,0
+155,1810,Heath Ledger,Joker,1
+155,6383,Aaron Eckhart,Harvey Dent,2
+155,3895,Michael Caine,Alfred,3
+155,1579,Maggie Gyllenhaal,Rachel,4
+155,64,Gary Oldman,Gordon,5
+155,192,Morgan Freeman,Lucius Fox,6
+155,53651,Monique Gabriela Curnen,Ramirez,7
+155,57597,Ron Dean,Wuertz,8
+155,2037,Cillian Murphy,Scarecrow,9
+14160,68812,Ed Asner,Carl Fredricksen (voice),0
+14160,290,Christopher Plummer,Charles Muntz (voice),1
+14160,80676,Jordan Nagai,Russell (voice),2
+14160,10,Bob Peterson,Dug / Alpha (voice),3
+14160,18792,Delroy Lindo,Beta (voice),4
+14160,7960,Jerome Ranft,Gamma (voice),5
+14160,7907,John Ratzenberger,Construction Foreman Tom (voice),6
+14160,84490,David Kaye,Newsreel Announcer (voice),7
+14160,84491,Elie Docter,Young Ellie (voice),8
+14160,84492,Jeremy Leary,Young Carl (voice),9
+15512,19274,Seth Rogen,B.O.B. (voice),0
+15512,368,Reese Witherspoon,Susan Murphy / Ginormica (voice),1
+15512,41419,Hugh Laurie,Dr. Cockroach Ph.D. (voice),2
+15512,22226,Paul Rudd,Derek Dietl (voice),3
+15512,2628,Kiefer Sutherland,General W.R. Monger (voice),4
+15512,11678,Rainn Wilson,Gallaxhar (voice),5
+15512,21200,Will Arnett,The Missing Link (voice),6
+15512,58769,Stephen Colbert,President Hathaway (voice),7
+15512,78303,Jimmy Kimmel,Insectosaurus (voice),8
+15512,24305,Julie White,Wendy Murphy (voice),9
+1726,3223,Robert Downey Jr.,Tony Stark / Iron Man,0
+1726,18288,Terrence Howard,"Lt. Col. James ""Rhodey"" Rhodes / War Machine",1
+1726,1229,Jeff Bridges,Obadiah Stane / Iron Monger,2
+1726,17857,Shaun Toub,Yinsen,3
+1726,12052,Gwyneth Paltrow,"Virginia ""Pepper"" Potts",4
+1726,57452,Faran Tahir,Raza,5
+1726,6162,Paul Bettany,J.A.R.V.I.S. (voice),6
+1726,57451,Leslie Bibb,Christine Everhart,7
+1726,9048,Clark Gregg,Agent Phil Coulson,8
+1726,163671,Will Lyman,Award Ceremony Narrator (voice),9
+44826,2282,Ben Kingsley,Georges Méliès,0
+44826,6730,Sacha Baron Cohen,The Station Inspector,1
+44826,77996,Asa Butterfield,Hugo Cabret,2
+44826,56734,Chloë Grace Moretz,Isabelle,3
+44826,5538,Ray Winstone,Uncle Claude,4
+44826,1246,Emily Mortimer,Lisette,5
+44826,113,Christopher Lee,Monsieur Labisse,6
+44826,15737,Helen McCrory,Mama Jeanne,7
+44826,72873,Michael Stuhlbarg,Rene Rabard,8
+44826,47468,Frances de la Tour,Madame Emilie,9
+8487,2888,Will Smith,Capt. James West,0
+8487,8945,Kevin Kline,U.S. Marshal Artemus Gordon,1
+8487,11181,Kenneth Branagh,Dr. Arliss Loveless,2
+8487,3136,Salma Hayek,Rita Escobar,3
+8487,588,M. Emmet Walsh,Coleman,4
+8487,15854,Ted Levine,General 'Bloodbath' McGrath,5
+8487,55254,Frederique van der Wal,Amazonia,6
+8487,1475,Musetta Vander,Munitia,7
+8487,55255,Sofia Eng,Miss Lippenrieder,8
+8487,31647,Garcelle Beauvais,Belle,9
+1735,18269,Brendan Fraser,Richard O'Connell,0
+1735,1336,Jet Li,Emperor Han,1
+1735,10727,John Hannah,Jonathan Carnahan,2
+1735,49,Maria Bello,Evelyn O’Connell,3
+1735,55900,Luke Ford,Alex O'Connell,4
+1735,1620,Michelle Yeoh,Zi Juan,5
+1735,72040,Isabella Leong,Lin,6
+1735,66717,Anthony Wong,General Yang,7
+1735,21354,Russell Wong,Ming Guo,8
+1735,15498,Liam Cunningham,Maguire,9
+297761,2888,Will Smith,Floyd Lawton / Deadshot,0
+297761,234352,Margot Robbie,Harleen Quinzel / Harley Quinn,1
+297761,92404,Joel Kinnaman,Rick Flag,2
+297761,19492,Viola Davis,Amanda Waller,3
+297761,7499,Jared Leto,The Joker,4
+297761,224181,Jai Courtney,George 'Digger' Harkness / Boomerang,5
+297761,19487,Jay Hernandez,Chato Santana / El Diablo,6
+297761,31164,Adewale Akinnuoye-Agbaje,Waylon Jones / Killer Croc,7
+297761,1289968,Cara Delevingne,June Moone / Enchantress,8
+297761,1461608,Karen Fukuhara,Tatsu Yamashiro / Katana,9
+2698,4495,Steve Carell,Evan Baxter,0
+2698,16858,Lauren Graham,Joan Baxter,1
+2698,1230,John Goodman,Congressman Long,2
+2698,6860,Jimmy Bennett,Ryan Baxter,3
+2698,8265,John Michael Higgins,Marty,4
+2698,192,Morgan Freeman,God,5
+2698,27102,Wanda Sykes,Rita,6
+2698,27103,Graham Phillips,Jordan Baxter,7
+2698,27104,Johnny Simmons,Dylan Baxter,8
+2698,21007,Jonah Hill,Eugene,9
+137113,500,Tom Cruise,"Maj. William ""Bill"" Cage",0
+137113,5081,Emily Blunt,Sgt. Rita Vrataski,1
+137113,2039,Brendan Gleeson,General Brigham,2
+137113,2053,Bill Paxton,Msg. Farell,3
+137113,119224,Jonas Armstrong,Skinner,4
+137113,147255,Tony Way,Kimmel,5
+137113,93111,Kick Gurry,Griff,6
+137113,1363086,Franz Drameh,Ford,7
+137113,125740,Dragomir Mrsic,Kuntz,8
+137113,115679,Charlotte Riley,Nance,9
+9804,1269,Kevin Costner,Mariner,0
+9804,59350,Chaim Girafi,Drifter,1
+9804,3432,Rick Aviles,Gatesman,2
+9804,49832,R. D. Call,Enforcer,3
+9804,59352,Zitto Kazann,Elder / Survivor,4
+9804,10478,Jeanne Tripplehorn,Helen,5
+9804,2778,Dennis Hopper,Deacon,6
+9804,70851,Jack Black,Pilot,7
+9804,47458,Zakes Mokae,Priam,8
+9804,1240,Jack Kehler,Banker,9
+14869,6065,Dennis Quaid,General Hawk,0
+14869,38673,Channing Tatum,Duke,1
+14869,9562,Marlon Wayans,Ripcord,2
+14869,23459,Sienna Miller,Ana Lewis / Baroness,3
+14869,24045,Joseph Gordon-Levitt,The Doctor / Rex,4
+14869,5419,Saïd Taghmaoui,Breaker,5
+14869,2040,Christopher Eccleston,McCullen / Destro,6
+14869,31164,Adewale Akinnuoye-Agbaje,Heavy Duty,7
+14869,25002,Lee Byung-hun,Storm Shadow,8
+14869,50347,Rachel Nichols,Scarlet,9
+150540,56322,Amy Poehler,Joy (voice),0
+150540,169200,Phyllis Smith,Sadness (voice),1
+150540,21125,Richard Kind,Bing Bong (voice),2
+150540,19278,Bill Hader,Fear (voice),3
+150540,59258,Lewis Black,Anger (voice),4
+150540,125167,Mindy Kaling,Disgust (voice),5
+150540,1371894,Kaitlyn Dias,Riley (voice),6
+150540,2882,Diane Lane,Mom (voice),7
+150540,6677,Kyle MacLachlan,Dad (voice),8
+150540,196502,Paula Poundstone,Forgetter Paula (voice),9
+278927,1414734,Neel Sethi,Mowgli,0
+278927,1532,Bill Murray,Baloo (voice),1
+278927,2282,Ben Kingsley,Bagheera (voice),2
+278927,17605,Idris Elba,Shere Khan (voice),3
+278927,1245,Scarlett Johansson,Kaa (voice),4
+278927,4690,Christopher Walken,King Louie (voice),5
+278927,1267329,Lupita Nyong'o,Raksha (voice),6
+278927,4808,Giancarlo Esposito,Akela (voice),7
+278927,52865,Garry Shandling,Ikki (voice),8
+278927,15277,Jon Favreau,Pygmy Hog (voice),9
+10138,3223,Robert Downey Jr.,Tony Stark / Iron Man,0
+10138,12052,Gwyneth Paltrow,"Virginia ""Pepper"" Potts",1
+10138,1896,Don Cheadle,"Lt. Col. James ""Rhodey"" Rhodes / War Machine",2
+10138,1245,Scarlett Johansson,Natalie Rushman / Natasha Romanoff / Black Widow,3
+10138,2295,Mickey Rourke,Ivan Vanko / Whiplash,4
+10138,6807,Sam Rockwell,Justin Hammer,5
+10138,2231,Samuel L. Jackson,Director Nick Fury,6
+10138,9048,Clark Gregg,Agent Phil Coulson,7
+10138,21134,John Slattery,Howard Stark,8
+10138,52865,Garry Shandling,Senator Stern,9
+58595,37917,Kristen Stewart,Snow White,0
+58595,6885,Charlize Theron,Queen Ravenna,1
+58595,74568,Chris Hemsworth,The Huntsman,2
+58595,237455,Sam Claflin,William,3
+58595,6972,Ian McShane,Beith,4
+58595,5538,Ray Winstone,Gort,5
+58595,11109,Nick Frost,Nion,6
+58595,13014,Toby Jones,Coll,7
+58595,1665,Eddie Marsan,Duir,8
+58595,382,Bob Hoskins,Muir,9
+102651,11701,Angelina Jolie,Maleficent,0
+102651,18050,Elle Fanning,Princess Aurora,1
+102651,82191,Sharlto Copley,Stefan,2
+102651,32987,Sam Riley,Diaval,3
+102651,36594,Juno Temple,Thistletwit,4
+102651,11356,Imelda Staunton,Knotgrass,5
+102651,72305,Lesley Manville,Flittle,6
+102651,1017347,Brenton Thwaites,Prince Phillip,7
+102651,1355733,Isobelle Molloy,Young Maleficent,8
+102651,8436,Miranda Richardson,Queen Ulla,9
+119450,1333,Andy Serkis,Caesar,0
+119450,76512,Jason Clarke,Malcolm,1
+119450,64,Gary Oldman,Dreyfus,2
+119450,41292,Keri Russell,Ellie,3
+119450,20286,Toby Kebbell,Koba,4
+119450,113505,Kodi Smit-McPhee,Alexander,5
+119450,55861,Kirk Acevedo,Carver,6
+119450,20750,Judy Greer,Cornelia,7
+119450,236696,Terry Notary,Rocket,8
+119450,58395,Karin Konoval,Maurice,9
+79698,2299,Josh Hartnett,James Stewart / Jay Fennel,0
+79698,76850,Simone Kessell,Clara Coldstream,1
+79698,66442,Tamsin Egerton,Laura Fennel,2
+79698,587823,Alice Englert,Dolly,3
+79698,85035,Bipasha Basu,Tulaja Naik,4
+79698,79003,Abhay Deol,Udaji,5
+79698,587822,Tehmina Sunny,Sonubai,6
+79698,30576,Shane Briant,Governor of Bombay,7
+79698,55578,Steve Nicolson,York,8
+79698,53676,Atul Kulkarni,Raoji,9
+64686,6384,Keanu Reeves,Kai,0
+64686,9195,Hiroyuki Sanada,Kuranosuke Ôishi,1
+64686,58593,Kou Shibasaki,Mika,2
+64686,13275,Tadanobu Asano,Lord Kira,3
+64686,136191,Min Tanaka,Lord Asano,4
+64686,18054,Rinko Kikuchi,Witch,5
+64686,1253541,Jin Akanishi,Chikara,6
+64686,1095404,Masayoshi Haneda,Yasuno,7
+64686,1278788,Hiroshi Sogabe,Hazama,8
+64686,1278789,Takato Yonemoto,Basho,9
+100402,16828,Chris Evans,Steve Rogers / Captain America,0
+100402,2231,Samuel L. Jackson,Nick Fury,1
+100402,1245,Scarlett Johansson,Natasha Romanoff / Black Widow,2
+100402,4135,Robert Redford,Alexander Pierce,3
+100402,60898,Sebastian Stan,Bucky Barnes / Winter Soldier,4
+100402,53650,Anthony Mackie,Sam Wilson / Falcon,5
+100402,71189,Cobie Smulders,Maria Hill,6
+100402,81685,Frank Grillo,Brock Rumlow,7
+100402,1018947,Maximiliano Hernández,Jasper Sitwell,8
+100402,84247,Emily VanCamp,Kate / Agent 13,9
+10192,12073,Mike Myers,Shrek (voice),0
+10192,776,Eddie Murphy,Donkey (voice),1
+10192,6941,Cameron Diaz,Princess Fiona (voice),2
+10192,3131,Antonio Banderas,Puss in Boots (voice),3
+10192,5823,Julie Andrews,Queen (voice),4
+10192,65717,Jon Hamm,Brogan (voice),5
+10192,8930,John Cleese,King (voice),6
+10192,64342,Craig Robinson,Cookie (voice),7
+10192,118489,Walt Dohrn,Rumpelstiltskin / Priest / Krekraw Ogre (voice),8
+10192,43775,Jane Lynch,Gretched (voice),9
+158852,52018,Britt Robertson,Casey Newton,0
+158852,1461,George Clooney,Frank Walker,1
+158852,1055230,Raffey Cassidy,Athena,2
+158852,965224,Thomas Robinson,Young Frank Walker,3
+158852,41419,Hugh Laurie,David Nix,4
+158852,17696,Kathryn Hahn,Ursula,5
+158852,298410,Keegan-Michael Key,Hugo,6
+158852,74428,Tim McGraw,Eddie Newton,7
+158852,4445,Chris Bauer,Frank's Dad,8
+158852,992427,Pierce Gagnon,Nate Newton,9
+177572,66580,Scott Adsit,Baymax (voice),0
+177572,515510,Ryan Potter,Hiro Hamada (voice),1
+177572,82093,Daniel Henney,Tadashi Hamada (voice),2
+177572,51990,T.J. Miller,Fred (voice),3
+177572,78324,Jamie Chung,GoGo Tomago (voice),4
+177572,87822,Damon Wayans Jr.,Wasabi (voice),5
+177572,589162,Génesis Rodríguez,Honey Lemon (voice),6
+177572,2505,James Cromwell,Professor Robert Callaghan (voice),7
+177572,21088,Alan Tudyk,Alistair Krei (voice),8
+177572,52792,Maya Rudolph,Aunt Cass (voice),9
+82690,4764,John C. Reilly,Wreck-It Ralph (voice),0
+82690,7404,Sarah Silverman,Vanellope von Schweetz (voice),1
+82690,58737,Jack McBrayer,Fix-It Felix (voice),2
+82690,43775,Jane Lynch,Sergeant Calhoun (voice),3
+82690,21088,Alan Tudyk,King Candy (voice),4
+82690,125167,Mindy Kaling,Taffyta Muttonfudge (voice),5
+82690,21131,Joe Lo Truglio,Markowski (voice),6
+82690,18977,Ed O'Neill,Mr. Litwak (voice),7
+82690,352,Dennis Haysbert,General Hologram (voice),8
+82690,76245,Adam Carolla,Wynnchel (voice),9
+5255,31,Tom Hanks,Hero Boy / Father / Conductor / Hobo / Scrooge / Santa Claus (voice),0
+5255,2169,Michael Jeter,Smokey / Steamer (voice),1
+5255,18286,Nona Gaye,Hero Girl (voice),2
+5255,42363,Peter Scolari,Lonely Boy Billy (voice),3
+5255,42362,Eddie Deezen,Know-It-All (voice),4
+5255,42287,Leslie Zemeckis,Sister Sarah / Mother (voice),5
+5255,37935,Steven Tyler,Elf Lieutenant (voice),6
+5255,42286,Julene Renee,Red Head Girl (voice),7
+5255,23791,Chris Coppola,Toothless Boy (voice),8
+5255,12826,Charles Fleischer,Elf General (voice),9
+47933,96066,Liam Hemsworth,Jake Morrison,0
+47933,4785,Jeff Goldblum,David Levinson,1
+47933,8984,Bill Pullman,President Whitmore,2
+47933,1094091,Maika Monroe,Patricia Whitmore,3
+47933,6068,Sela Ward,President Lanford,4
+47933,886,William Fichtner,General Adams,5
+47933,2535,Vivica A. Fox,Jasmine,6
+47933,4273,Charlotte Gainsbourg,Dr. Catherine Marceaux,7
+47933,1213786,Brent Spiner,Dr. Brakish Okun,8
+47933,6167,Judd Hirsch,Julius Levinson,9
+10191,449,Jay Baruchel,Hiccup,0
+10191,17276,Gerard Butler,Stoick,1
+10191,24264,Craig Ferguson,Gobber,2
+10191,59174,America Ferrera,Astrid,3
+10191,21007,Jonah Hill,Snotlout,4
+10191,54691,Christopher Mintz-Plasse,Fishlegs,5
+10191,51990,T.J. Miller,Tuffnut,6
+10191,41091,Kristen Wiig,Ruffnut,7
+10191,130081,Robin Atkin Downes,Ack,8
+10191,138619,Philip McGrade,Starkard,9
+296,1100,Arnold Schwarzenegger,The Terminator,0
+296,6408,Nick Stahl,John Connor,1
+296,6194,Claire Danes,Kate Brewster,2
+296,7218,Kristanna Loken,T-X,3
+296,7219,David Andrews,Robert Brewster,4
+296,7220,Mark Famiglietti,Scott Petersen,5
+296,2716,Earl Boen,Dr. Peter Silberman,6
+296,7221,Moira Harris,Betsy,7
+296,7222,Chopper Bernet,Chief Engineer,8
+296,7223,Christopher Lawford,Brewser's Aide,9
+118340,73457,Chris Pratt,Peter Quill / Star-Lord,0
+118340,8691,Zoe Saldana,Gamora,1
+118340,543530,Dave Bautista,Drax the Destroyer,2
+118340,12835,Vin Diesel,Groot (voice),3
+118340,51329,Bradley Cooper,Rocket  Raccoon (voice),4
+118340,72095,Lee Pace,Ronan the Accuser,5
+118340,12132,Michael Rooker,Yondu Udonta,6
+118340,543261,Karen Gillan,Nebula,7
+118340,938,Djimon Hounsou,Korath,8
+118340,4764,John C. Reilly,Corpsman Dey,9
+157336,10297,Matthew McConaughey,Joseph Cooper,0
+157336,83002,Jessica Chastain,Murph Cooper,1
+157336,1813,Anne Hathaway,Dr. Amelia Brand,2
+157336,3895,Michael Caine,Professor John Brand,3
+157336,1893,Casey Affleck,Tom Cooper,4
+157336,851784,Mackenzie Foy,Young Murph Cooper,5
+157336,1190668,Timothée Chalamet,Young Tom Cooper,6
+157336,58549,Bill Irwin,TARS (voice),7
+157336,1892,Matt Damon,Dr. Mann,8
+157336,9560,Ellen Burstyn,Old Murph Cooper,9
+27205,6193,Leonardo DiCaprio,Dom Cobb,0
+27205,24045,Joseph Gordon-Levitt,Arthur,1
+27205,27578,Ellen Page,Ariadne,2
+27205,2524,Tom Hardy,Eames,3
+27205,3899,Ken Watanabe,Saito,4
+27205,2037,Cillian Murphy,Robert Fischer,5
+27205,8293,Marion Cotillard,Mal,6
+27205,3895,Michael Caine,Miles,7
+27205,95697,Dileep Rao,Yusuf,8
+27205,13022,Tom Berenger,Browning,9
+315011,1098600,Hiroki Hasegawa,Rando Yaguchi : Deputy Chief Cabinet Secretary,0
+315011,588403,Yutaka Takenouchi,Hideki Akasaka : Special Advisor to the Prime Minister(National Security),1
+315011,224664,Satomi Ishihara,Kayoko Ann Patterson : US special envoy,2
+315011,120690,Kengo Kora,Yuseuke Shimura : Secretary of Rando,3
+315011,1502395,Matsuo Satoru,Syuichi Izumi : Policy Research Council Vice Chairman,4
+315011,130654,Mikako Ichikawa,Hiromi Ogashira : Ministry of the Environment  Nature / Wildlife Division Deputy Director,5
+315011,87662,Issei Takahashi,"Ryu Yasuda : Ministry of Education, Culture, Sports, Science and Technology, Research / Promotion Bureau Director",6
+315011,13256,Kanji Tsuda,"Fumiya Mori : Ministry of Health, Labour and Welfare / Research and Development Division Director",7
+315011,58608,Shinya Tsukamoto,Kunio Hazama : Jouhoku University Associate professor,8
+315011,1405926,Toru Nomaguchi,Tachikawa : Agency for Natural Resources and Energy / Electricity and Gas Industry Department Director,9
+49051,1327,Ian McKellen,Gandalf,0
+49051,7060,Martin Freeman,Bilbo,1
+49051,30315,Richard Armitage,Thorin,2
+49051,1333,Andy Serkis,Gollum,3
+49051,112,Cate Blanchett,Galadriel,4
+49051,113,Christopher Lee,Saruman,5
+49051,80112,Sylvester McCoy,Radagast,6
+49051,65,Ian Holm,Older Bilbo,7
+49051,109,Elijah Wood,Frodo,8
+49051,1331,Hugo Weaving,Elrond,9
+9799,8167,Paul Walker,Brian O'Conner,0
+9799,12835,Vin Diesel,Dominic Toretto,1
+9799,17647,Michelle Rodriguez,Letty Ortiz,2
+9799,22123,Jordana Brewster,Mia Toretto,3
+9799,10883,Rick Yune,Johnny Tran,4
+9799,9186,Chad Lindberg,Jesse,5
+9799,12796,Johnny Strong,Leon,6
+9799,15854,Ted Levine,Sgt. Tanner,7
+9799,31841,Matt Schulze,Vince,8
+9799,8175,Thom Barry,Agent Bilkins,9

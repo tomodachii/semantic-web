@@ -1,0 +1,13 @@
+# Q10: Which facts does Wikidata provide about a selected, linked film?
+# Run later in a SERVICE-capable endpoint with local verified owl:sameAs links.
+# Replace the local movie ID. No inference or automatic Web retrieval is implied by sameAs.
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?remote ?property ?value WHERE {
+  VALUES ?movie { <https://example.org/movie/969681> }
+  ?movie owl:sameAs ?remote .
+  FILTER (STRSTARTS(STR(?remote), "http://www.wikidata.org/entity/"))
+  SERVICE <https://query.wikidata.org/sparql> {
+    ?remote ?property ?value .
+  }
+}
+LIMIT 30
