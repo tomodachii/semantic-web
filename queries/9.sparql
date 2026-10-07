@@ -1,9 +1,8 @@
-# Q9: Which films have more than one recorded spoken language?
-# Contract: schema:inLanguage must come from spoken-language rows only.
-# Original language is a separate property in our proposed mapping.
-PREFIX schema: <https://schema.org/>
+# Q9: Which films have more than one recorded language?
+# Includes both original and spoken languages, matching kg:inLanguage.
+PREFIX kg: <https://example.org/ontology/>
 SELECT ?movie ?title (COUNT(DISTINCT ?language) AS ?languages) WHERE {
-  ?movie a schema:Movie ; schema:name ?title ; schema:inLanguage ?language .
+  ?movie a kg:Movie ; kg:name ?title ; kg:inLanguage ?language .
 }
 GROUP BY ?movie ?title
 HAVING (COUNT(DISTINCT ?language) > 1)

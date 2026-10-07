@@ -1,8 +1,8 @@
 # Q1: Which films have a known release date, newest first?
 # Missing dates are excluded because this question explicitly asks for known dates.
-PREFIX schema: <https://schema.org/>
+PREFIX kg: <https://example.org/ontology/>
 SELECT ?movie ?title ?date WHERE {
-  ?movie a schema:Movie ; schema:name ?title ; schema:datePublished ?date .
+  ?movie a kg:Movie ; kg:name ?title ; kg:datePublished ?date .
 }
 ORDER BY DESC(?date) ?title
 LIMIT 20

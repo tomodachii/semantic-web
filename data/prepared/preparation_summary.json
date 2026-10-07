@@ -27,12 +27,10 @@
     "original_language": 0,
     "release_date": 0,
     "runtime": 0,
-    "vote_average": 0,
-    "vote_count": 0
+    "vote_average": 0
   },
   "zero_runtime_movies": 0,
-  "zero_vote_movies": 0,
-  "processed_at_utc": "2026-10-07T11:53:49.987274+00:00",
+  "processed_at_utc": "2026-10-07T16:49:09.531936+00:00",
   "input_files": [
     "C:\\Users\\admin\\Programming\\semanticweb\\semantic-web\\data\\raw\\tmdb_5000_movies.csv",
     "C:\\Users\\admin\\Programming\\semanticweb\\semantic-web\\data\\raw\\tmdb_5000_credits.csv"

@@ -27,7 +27,7 @@ The nine retained core files follow the reference layout, with IMDb omitted:
 
 | File | Columns |
 |---|---|
-| movies.csv | id, title, overview, original_language, release_date, runtime, vote_average, vote_count |
+| movies.csv | id, title, overview, original_language, release_date, runtime, vote_average |
 | genres.csv | id, name |
 | movie_genres.csv | movie_id, genre_id |
 | countries.csv | country_code, name |
@@ -47,10 +47,10 @@ rows so that the later transformer can create movie-specific Role nodes.
 - keywords.csv: id, name.
 - movie_keywords.csv: movie_id, keyword_id.
 
-This follows exactly the genre-table pattern. Later we can define kg:Keyword,
-possibly under schema:DefinedTerm, and link movies using kg:hasKeyword.
+This follows the genre-table pattern. The ontology defines kg:Keyword
+and links movies using kg:keywords.
 It supports a question such as “Which movies share a keyword?” without changing
-the core movie, person, role, and rating structure.
+the core movie, person, and role structure.
 
 ## Source differences and cleaning decisions
 
@@ -65,8 +65,8 @@ the core movie, person, role, and rating structure.
   source IDs, JSON lists, and scores between 0 and 10.
 - Remove exact repeated rows. Reject conflicting duplicate selected IDs or
   nonempty entity labels instead of silently overwriting them.
-- Preserve source zeros, like the reference. Runtime 0 and rating with zero
-  votes need a documented policy in the RDF stage; the summary counts them.
+- Preserve source zeros, like the reference. Runtime 0 needs a documented policy in the RDF stage; the summary counts it.
+  Vote counts are not collected.
 - Missing credit rows are recorded in the summary and do not discard the movie.
 - Omit budget, revenue, additional crew jobs, and other optional extensions.
 

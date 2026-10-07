@@ -1,12 +1,8 @@
-# Q4: Which Drama films rank highest with at least 100 votes?
-# 100 is a chosen evidence threshold, not a universal definition of a reliable rating.
-PREFIX schema: <https://schema.org/>
-SELECT ?movie ?title ?average ?votes WHERE {
-  ?movie a schema:Movie ; schema:name ?title ; schema:genre ?genre ;
-         schema:aggregateRating ?rating .
-  ?genre schema:name "Drama" .
-  ?rating schema:ratingValue ?average ; schema:ratingCount ?votes .
-  FILTER (?votes >= 100)
+# Q4: Which Drama films have the highest average rating?
+PREFIX kg: <https://example.org/ontology/>
+SELECT ?movie ?title ?average WHERE {
+  ?movie a kg:Movie ; kg:name ?title ; kg:genre ?genre ; kg:ratingValue ?average .
+  ?genre kg:name "Drama" .
 }
-ORDER BY DESC(?average) DESC(?votes) ?title
+ORDER BY DESC(?average) ?title
 LIMIT 20

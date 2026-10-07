@@ -1,20 +1,20 @@
 # Q6: Which actor pairs share at least two films in this snapshot?
 # URI ordering avoids counting both (A,B) and (B,A); DISTINCT avoids duplicate films.
 # Results only cover the retained first-ten cast entries.
-PREFIX schema: <https://schema.org/>
+PREFIX kg: <https://example.org/ontology/>
 SELECT ?personA ?nameA ?personB ?nameB ?films WHERE {
   # Count connected pairs first; attach display names afterwards.
   {
     SELECT ?personA ?personB (COUNT(DISTINCT ?movie) AS ?films) WHERE {
-      ?movie schema:actor ?personA, ?personB .
+      ?movie kg:actor ?personA, ?personB .
       FILTER (isIRI(?personA) && isIRI(?personB))
       FILTER (STR(?personA) < STR(?personB))
     }
     GROUP BY ?personA ?personB
     HAVING (COUNT(DISTINCT ?movie) >= 2)
   }
-  ?personA a schema:Person ; schema:name ?nameA .
-  ?personB a schema:Person ; schema:name ?nameB .
+  ?personA a kg:Person ; kg:name ?nameA .
+  ?personB a kg:Person ; kg:name ?nameB .
 }
 ORDER BY DESC(?films) ?nameA ?nameB
 LIMIT 20

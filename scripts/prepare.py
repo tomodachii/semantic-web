@@ -11,7 +11,7 @@ from pathlib import Path
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 MOVIE_FIELDS = [
     "id", "title", "overview", "original_language",
-    "release_date", "runtime", "vote_average", "vote_count",
+    "release_date", "runtime", "vote_average",
 ]
 TABLE_FIELDS = {
     "movies": MOVIE_FIELDS,
@@ -131,7 +131,6 @@ def prepare_tables(movies_path, credits_path, limit=100, cast_limit=10):
             if movie["release_date"]:
                 movie["release_date"] = date.fromisoformat(movie["release_date"]).isoformat()
             movie["runtime"] = number(movie["runtime"], "runtime", integer=True)
-            movie["vote_count"] = number(movie["vote_count"], "vote_count", integer=True)
             movie["vote_average"] = number(movie["vote_average"], "vote_average")
             if movie["vote_average"] and Decimal(movie["vote_average"]) > 10:
                 raise ValueError("vote_average must be between 0 and 10")
@@ -198,7 +197,6 @@ def prepare_tables(movies_path, credits_path, limit=100, cast_limit=10):
         "missing_movie_fields": {field: sum(row[field] == "" for row in tables["movies"])
                                  for field in MOVIE_FIELDS},
         "zero_runtime_movies": sum(row["runtime"] == "0" for row in tables["movies"]),
-        "zero_vote_movies": sum(row["vote_count"] == "0" for row in tables["movies"]),
     }
     return tables, summary
 

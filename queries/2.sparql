@@ -1,9 +1,9 @@
 # Q2: Which people have both acting and directing credits in our snapshot?
 # The two films can be the same or different. Person identity, not name, joins them.
-PREFIX schema: <https://schema.org/>
+PREFIX kg: <https://example.org/ontology/>
 SELECT DISTINCT ?person ?name WHERE {
-  ?directedFilm schema:director ?person .
-  ?person schema:name ?name .
-  FILTER EXISTS { ?actedFilm schema:actor ?person . ?actedFilm a schema:Movie . }
+  ?directedFilm kg:director ?person .
+  ?person kg:name ?name .
+  FILTER EXISTS { ?actedFilm kg:actor ?person . ?actedFilm a kg:Movie . }
 }
 ORDER BY ?name

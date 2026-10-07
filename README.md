@@ -32,7 +32,7 @@ Run from this directory (Python 3.10+):
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements-eda.txt
+python -m pip install -r requirements.txt
 ```
 
 In your IDE, select the Python environment containing the EDA dependencies as
@@ -61,7 +61,7 @@ table contract, cleaning decisions, and test command.
 
 ## Later steps
 
-Write the ontology, transform `data/prepared/` CSVs into RDF,
+Transform `data/prepared/` CSVs into RDF,
 test reasoning, establish external links, and provide SPARQL access. The scope
 document and notebook explain the decisions these steps will implement.
 
@@ -71,3 +71,9 @@ Open [03_test_ontology.ipynb](notebooks/03_test_ontology.ipynb) and run all cell
 using an environment with the packages in requirements.txt. The notebook uses
 small invented examples to show inference, exact SPARQL answers, conflicts,
 and the limits of OWL restrictions. Outputs and a reasoning diagram are saved.
+
+The ontology uses our own `kg:` vocabulary (`https://example.org/ontology/`),
+including `kg:Keyword`. `kg:referencePage` is an ordinary webpage link;
+`owl:sameAs` is reserved for verified identity links. Earlier EDA notebooks and
+the hand-drawn ontology.png describe earlier designs; ontology.owl and
+CONCEPTS.md are the current vocabulary reference.
