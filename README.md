@@ -61,8 +61,7 @@ table contract, cleaning decisions, and test command.
 
 ## Later steps
 
-Transform `data/prepared/` CSVs into RDF,
-test reasoning, establish external links, and provide SPARQL access. The scope
+Establish external identity links and provide SPARQL access. The scope
 document and notebook explain the decisions these steps will implement.
 
 ## Test the ontology
@@ -77,3 +76,26 @@ including `kg:Keyword`. `kg:referencePage` is an ordinary webpage link;
 `owl:sameAs` is reserved for verified identity links. Earlier EDA notebooks and
 the hand-drawn ontology.png describe earlier designs; ontology.owl and
 CONCEPTS.md are the current vocabulary reference.
+
+## Transform prepared CSVs into RDF
+
+Run from semantic-web with the environment containing rdflib:
+
+```powershell
+python scripts/transform.py
+```
+
+Reads the 11 tables in data/prepared/ and writes output/movies.ttl.
+Optional arguments: --data-dir, --output, --base-uri. Defaults are relative
+ to the project directory, so the script also runs from the workspace root.
+
+The script follows the reference transformer: shared ID-based entity URIs,
+typed date/duration/numeric literals, direct actor links, and acting-role blank
+nodes when character or order is available. Our differences are kg vocabulary,
+keywords, director-only crew, a decimal rating directly on each movie, and
+kg:referencePage links to TMDB. Empty values are omitted; numeric zeros remain.
+Original and spoken languages share kg:inLanguage. No companies or IMDb data
+are required. Ontology axioms remain in ontology/ontology.owl; inference and
+verified external identity links are separate later steps.
+
+Run checks with `python -m unittest discover -s tests -v`.

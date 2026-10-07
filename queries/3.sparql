@@ -1,9 +1,9 @@
 # Q3: Who are a selected film's first ten credited actors, and their characters?
-# Replace movie/969681 with an ID displayed in the notebook. It need not be in every sample.
+# Replace movie/19995 with an ID displayed in the notebook. It need not be in every sample.
 # Cast position is zero-based in TMDB: position 0 is the first actor.
 PREFIX kg: <https://example.org/ontology/>
 SELECT ?person ?name ?character ?position WHERE {
-  VALUES ?movie { <https://example.org/movie/969681> }
+  VALUES ?movie { <https://example.org/movie/19995> }
   ?movie kg:actor ?role .
   ?role a kg:Role ; kg:actor ?person ; kg:position ?position .
   ?person a kg:Person ; kg:name ?name .

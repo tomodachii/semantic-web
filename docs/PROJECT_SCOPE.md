@@ -3,7 +3,7 @@
 This project describes movies, their cast and directors, genres, production
 countries, languages, keywords, and audience ratings. We will keep its first
 version close to `Movie-Knowledge-Graph`, but use our own questions and examples.
-The EDA, CSV preparation, and local ontology are implemented; RDF generation comes next.
+The EDA, CSV preparation, and local ontology are implemented; RDF generation is implemented in scripts/transform.py.
 
 Notebook 01 reads the reference's 11 CSV tables copied into `../data/ref/`.
 Notebook 02 reads a bounded sample (100 rows per file by default) from our raw
@@ -81,5 +81,5 @@ Drama will be instances of Genre, not subclasses of Movie.
 4. We distinguish data checks from OWL inference and avoid inventing facts.
 5. We can describe the future CSV layout before implementing its exporter.
 
-Next steps: implement CSV-to-RDF mapping from data/prepared/, establish external
+Next steps: establish external
 links, and expose SPARQL through a terminal or endpoint.
