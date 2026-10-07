@@ -47,15 +47,16 @@ Notebook 01 uses `data/ref/`; notebook 02 uses the two raw TMDB files in `data/r
 Run from this directory:
 
 ```powershell
-python scripts/tmdb.py
+python scripts/prepare.py
 ```
 
-This creates the reference's 11 core tables plus `keywords.csv` and
-`movie_keywords.csv` in `data/prepared/`, using 100 movies, up to ten actors
+This creates 11 tables (nine retained reference tables plus `keywords.csv` and
+`movie_keywords.csv`) in `data/prepared/`, using 100 movies, up to ten actors
 per movie, and directors only. The script uses the Python standard library.
 Use `--limit 0` to process every movie, or `--cast-limit 0` to keep all cast.
-IMDb IDs and company origin countries remain empty because the raw files
-do not supply them. See [data preparation](docs/DATA_PREPARATION.md) for the
+Production companies are excluded; movie countries remain available.
+IMDb IDs are omitted because the raw files do not supply them.
+See [data preparation](docs/DATA_PREPARATION.md) for the
 table contract, cleaning decisions, and test command.
 
 ## Later steps

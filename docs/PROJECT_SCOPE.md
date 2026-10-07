@@ -1,7 +1,7 @@
 # Movie knowledge graph: scope and learning goals
 
 This project describes movies, their cast and directors, genres, production
-companies, countries, languages, and audience ratings. We will keep its first
+countries, languages, keywords, and audience ratings. We will keep its first
 version close to `Movie-Knowledge-Graph`, but use our own questions and examples.
 The EDA and CSV preparation are implemented; ontology and RDF generation come next.
 
@@ -10,7 +10,7 @@ Notebook 02 reads a bounded sample (100 rows per file by default) from our raw
 TMDB files in `../data/raw/`. It explores how their nested fields can become the
 same core table layout, and suggests optional extensions. It does not scan the
 full files. Neither notebook reads the older prepared tables directly under data/.
-The exporter in scripts/tmdb.py writes the agreed layout to data/prepared/;
+The exporter in scripts/prepare.py writes the agreed layout to data/prepared/;
 the raw snapshot and a fresh
 popular-movie API collection can contain different movies and available fields.
 
@@ -21,7 +21,7 @@ popular-movie API collection can contain different movies and available fields.
 - All available director credits for those movies. A movie can have multiple directors.
 - Movie IDs, IMDb IDs when available, titles, overviews, release dates, runtimes,
   original languages, vote averages, and vote counts.
-- Genres, production companies, production countries, and spoken languages.
+- Genres, movie production countries, and spoken languages. Production companies are excluded.
 - Later: identity links for movies in Wikidata and DBpedia, retaining evidence for review.
 - Include keywords as the one small extension: keywords.csv and movie_keywords.csv.
 - Defer budget, revenue, producers, writers, recommendations, and a custom website.
@@ -45,7 +45,7 @@ or endpoint has already been implemented. Their comments explain inputs and assu
 | 5.sparql | Which films released from 2010 onward feature a selected actor in a selected genre? | Date, actor, genre | Combining graph paths |
 | 6.sparql | Which pairs of actors share at least two films in this snapshot? | Movie–person identities | Grouping and counting distinct movies |
 | 7.sparql | Which directors have at least two films in this snapshot? | Director–movie relationships | Aggregation and inverse relations |
-| 8.sparql | Which countries are associated with each film's production companies? | Movie–company–country | A path and its inferred shortcut |
+| 8.sparql | What are each movie's recorded production countries? | Movie–country | Direct movie-origin relationships |
 | 9.sparql | Which films have more than one recorded spoken language? | Movie–language relationships | Many-to-many relationships |
 | 10.sparql | Which additional facts can Wikidata provide for a linked film? | Verified movie identity links | External linked data |
 
@@ -63,7 +63,6 @@ The actual ontology will be written in a later step.
 | schema:Movie | One film per TMDB movie ID | Title, date, duration, relationships |
 | schema:Person | One person per TMDB person ID | Name; shared across acting/directing credits |
 | kg:Genre | One genre per genre ID | Genre name; keep schema:genre as the movie relationship |
-| schema:Organization | One production company per company ID | Name, country of origin when known |
 | schema:Country | One country per country code | Country name |
 | schema:Language | One language per language code | Language name |
 | schema:Role | One retained acting participation | Actor, character string, cast position |

@@ -1,4 +1,4 @@
-"""Split raw TMDB 5000 CSVs into the reference's 11 tables plus two keyword tables."""
+"""Split raw TMDB 5000 CSVs into 11 tables for movies, credits, genres, countries, languages, and keywords."""
 
 import argparse
 import csv
@@ -17,8 +17,6 @@ TABLE_FIELDS = {
     "movies": MOVIE_FIELDS,
     "genres": ["id", "name"],
     "movie_genres": ["movie_id", "genre_id"],
-    "companies": ["id", "name", "origin_country"],
-    "movie_companies": ["movie_id", "company_id"],
     "countries": ["country_code", "name"],
     "movie_countries": ["movie_id", "country_code"],
     "languages": ["language_code", "name"],
@@ -29,7 +27,7 @@ TABLE_FIELDS = {
     "movie_keywords": ["movie_id", "keyword_id"],
 }
 NESTED_FIELDS = [
-    "genres", "production_companies", "production_countries",
+    "genres", "production_countries",
     "spoken_languages", "keywords",
 ]
 
@@ -110,7 +108,7 @@ def prepare_tables(movies_path, credits_path, limit=100, cast_limit=10):
         credits[movie_id] = row
 
     tables = {name: [] for name in TABLE_FIELDS}
-    entities = {name: {} for name in ["genres", "companies", "countries", "languages", "keywords"]}
+    entities = {name: {} for name in ["genres", "countries", "languages", "keywords"]}
     missing_credits = []
 
     def remember(table, key, record):
@@ -125,7 +123,7 @@ def prepare_tables(movies_path, credits_path, limit=100, cast_limit=10):
 
     for movie_id, source in selected.items():
         try:
-            # Same movie columns as the reference. IMDb is absent in these raw files.
+            # Keep the available core movie fields; IMDb is absent in these raw files.
             movie = {field: text(source.get(field)) for field in MOVIE_FIELDS}
             movie["id"] = movie_id
             if not movie["title"]:
@@ -142,7 +140,6 @@ def prepare_tables(movies_path, credits_path, limit=100, cast_limit=10):
             # Each nested list produces an entity lookup and movie–entity pairs.
             for field, table, source_key, output_key, relation, relation_key in [
                 ("genres", "genres", "id", "id", "movie_genres", "genre_id"),
-                ("production_companies", "companies", "id", "id", "movie_companies", "company_id"),
                 ("production_countries", "countries", "iso_3166_1", "country_code", "movie_countries", "country_code"),
                 ("spoken_languages", "languages", "iso_639_1", "language_code", "movie_languages", "language_code"),
                 ("keywords", "keywords", "id", "id", "movie_keywords", "keyword_id"),
@@ -153,9 +150,6 @@ def prepare_tables(movies_path, credits_path, limit=100, cast_limit=10):
                         raise ValueError(f"Missing code in {field}")
                     name = text(item.get("english_name") or item.get("name"))
                     record = {output_key: key, "name": name}
-                    if table == "companies":
-                        # Never substitute the movie's production country here.
-                        record["origin_country"] = text(item.get("origin_country"))
                     remember(table, key, record)
                     tables[relation].append({"movie_id": movie_id, relation_key: key})
 

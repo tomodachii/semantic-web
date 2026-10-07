@@ -11,8 +11,6 @@
     "movies.csv": 100,
     "genres.csv": 14,
     "movie_genres.csv": 330,
-    "companies.csv": 183,
-    "movie_companies.csv": 381,
     "countries.csv": 19,
     "movie_countries.csv": 150,
     "languages.csv": 23,
@@ -34,7 +32,7 @@
   },
   "zero_runtime_movies": 0,
   "zero_vote_movies": 0,
-  "processed_at_utc": "2026-10-07T07:56:10.188548+00:00",
+  "processed_at_utc": "2026-10-07T11:53:49.987274+00:00",
   "input_files": [
     "C:\\Users\\admin\\Programming\\semanticweb\\semantic-web\\data\\raw\\tmdb_5000_movies.csv",
     "C:\\Users\\admin\\Programming\\semanticweb\\semantic-web\\data\\raw\\tmdb_5000_credits.csv"

@@ -6,7 +6,8 @@ question and explanation at the top of each numbered file first.
 The queries target the **planned** reference-style RDF model. They do not run
 on CSV files, and this stage does not create RDF or `ask.py`.
 
-- Q1–Q9: local queries, with Q7 and Q8 documenting equivalent inferred shortcuts.
+- Q1–Q9: local queries. Q7 documents an inferred inverse shortcut; Q8 uses
+  movie countryOfOrigin directly, with no production companies.
 - Q3 and Q5: replace the example `VALUES` URI with an ID from the notebook.
 - Q10: federated query intended for a SPARQL engine supporting `SERVICE`, such as
   a suitably configured Fuseki instance. It requires verified local links and

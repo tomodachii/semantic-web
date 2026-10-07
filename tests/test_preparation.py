@@ -8,7 +8,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-SCRIPT = Path(__file__).resolve().parents[1] / "scripts/tmdb.py"
+SCRIPT = Path(__file__).resolve().parents[1] / "scripts/prepare.py"
 spec = importlib.util.spec_from_file_location("tmdb", SCRIPT)
 tmdb = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(tmdb)
@@ -21,7 +21,8 @@ def movie(mid):
     row.update({field: "[]" for field in tmdb.NESTED_FIELDS})
     row["genres"] = json.dumps([{"id": 28, "name": "Action"}] * 2)
     row["keywords"] = json.dumps([{"id": 1, "name": "space"}] * 2)
-    row["production_companies"] = json.dumps([{"id": 5, "name": "Studio"}])
+    # Company data is intentionally irrelevant, even if malformed.
+    row["production_companies"] = "ignored, not JSON"
     return row
 
 
@@ -58,12 +59,13 @@ class PreparationTests(unittest.TestCase):
     def test_id_join_reference_columns_and_keywords(self):
         tables, summary = self.prepare([movie("1"), movie("2")],
                                        [credit("2"), credit("1")], cast_limit=1)
-        self.assertEqual(len(tables), 13)
+        self.assertEqual(len(tables), 11)
         self.assertEqual(tables["movies"][0]["title"], "Same title")
         self.assertEqual(tables["movies"][0]["runtime"], "120")
-        self.assertEqual(tables["movies"][0]["imdb_id"], "")
+        self.assertNotIn("imdb_id", tables["movies"][0])
         self.assertEqual(tables["movies"][0]["vote_average"], "0")
-        self.assertEqual(tables["companies"][0]["origin_country"], "")
+        self.assertNotIn("companies", tables)
+        self.assertNotIn("movie_companies", tables)
         self.assertEqual(tables["languages"], [{"language_code": "en", "name": ""}])
         self.assertEqual([r["person_id"] for r in tables["cast"]], ["10", "10"])
         self.assertEqual({r["job"] for r in tables["crew"]}, {"Director"})
