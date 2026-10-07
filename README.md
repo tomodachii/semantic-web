@@ -64,3 +64,10 @@ table contract, cleaning decisions, and test command.
 Write the ontology, transform `data/prepared/` CSVs into RDF,
 test reasoning, establish external links, and provide SPARQL access. The scope
 document and notebook explain the decisions these steps will implement.
+
+## Test the ontology
+
+Open [03_test_ontology.ipynb](notebooks/03_test_ontology.ipynb) and run all cells
+using an environment with the packages in requirements.txt. The notebook uses
+small invented examples to show inference, exact SPARQL answers, conflicts,
+and the limits of OWL restrictions. Outputs and a reasoning diagram are saved.

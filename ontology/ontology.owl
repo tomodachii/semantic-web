@@ -1,0 +1,253 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix kg: <https://example.org/ontology/> .
+
+<https://example.org/ontology/movie-knowledge-graph>
+    a owl:Ontology ;
+    rdfs:label "Movie Knowledge Graph Ontology"@en ;
+    rdfs:comment "An OWL ontology for the movie RDF dataset generated from TMDB data. It reuses Schema.org classes and properties."@en ;
+    owl:versionInfo "1.1.0" .
+
+#################################################################
+# Classes
+#################################################################
+
+schema:Movie
+    a owl:Class ;
+    rdfs:label "Movie"@en ;
+    rdfs:comment "A motion picture represented in the movie knowledge graph."@en ;
+    owl:disjointWith schema:Person, kg:Genre, schema:Country,
+        schema:Language, schema:AggregateRating,
+        schema:Role .
+
+schema:Person
+    a owl:Class ;
+    rdfs:label "Person"@en ;
+    rdfs:comment "An actor or director represented by a shared TMDB person identity."@en .
+
+schema:Role
+    a owl:Class ;
+    rdfs:label "Acting role"@en ;
+    rdfs:comment "A reified acting role connecting a movie, an actor, a character name, and cast position."@en ;
+    owl:disjointWith schema:Movie, schema:Person, kg:Genre,
+        schema:Country, schema:Language,
+        schema:AggregateRating .
+
+kg:Genre
+    a owl:Class ;
+    rdfs:label "Genre"@en ;
+    rdfs:comment "A genre assigned to a movie."@en ;
+    owl:disjointWith schema:Person, schema:Country, schema:Language,
+        schema:AggregateRating .
+
+schema:Country
+    a owl:Class ;
+    rdfs:label "Country"@en ;
+    rdfs:comment "A recorded production country of a movie; not necessarily a filming location."@en ;
+    owl:disjointWith schema:Person, schema:Language,
+        schema:AggregateRating .
+
+schema:Language
+    a owl:Class ;
+    rdfs:label "Language"@en ;
+    rdfs:comment "A language associated with a movie."@en ;
+    owl:disjointWith schema:Person, schema:Country,
+        schema:AggregateRating .
+
+schema:AggregateRating
+    a owl:Class ;
+    rdfs:label "Aggregate rating"@en ;
+    rdfs:comment "An aggregate of the vote value and vote count for a movie."@en ;
+    owl:disjointWith schema:Movie, schema:Person, kg:Genre,
+        schema:Country, schema:Language, schema:Role .
+
+schema:DefinedTerm
+    a owl:Class ;
+    rdfs:label "Keyword"@en ;
+    rdfs:comment "A TMDB keyword represented as a shared term with a name."@en ;
+    owl:disjointWith schema:Movie, schema:Person, schema:Role,
+        kg:Genre, schema:Country, schema:Language, schema:AggregateRating .
+
+#################################################################
+# Object properties
+#################################################################
+
+schema:actor
+    a owl:ObjectProperty ;
+    rdfs:label "actor"@en ;
+    rdfs:comment "Links a movie to an actor or reified role, and links a reified role to its actor."@en ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( schema:Movie schema:Role )
+    ] ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf ( schema:Person schema:Role )
+    ] .
+
+schema:aggregateRating
+    a owl:ObjectProperty ;
+    rdfs:label "aggregate rating"@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:AggregateRating .
+
+schema:countryOfOrigin
+    a owl:ObjectProperty ;
+    rdfs:label "country of origin"@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Country .
+
+schema:director
+    a owl:ObjectProperty ;
+    rdfs:label "director"@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Person .
+
+schema:genre
+    a owl:ObjectProperty ;
+    rdfs:label "genre"@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range kg:Genre .
+
+schema:keywords
+    a owl:ObjectProperty ;
+    rdfs:label "keywords"@en ;
+    rdfs:comment "Links a movie to a keyword resource identified by its TMDB keyword ID."@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:DefinedTerm .
+
+schema:inLanguage
+    a owl:ObjectProperty ;
+    rdfs:label "in language"@en ;
+    rdfs:comment "Combines original and spoken languages, following the reference mapping."@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Language .
+
+kg:directedMovie
+    a owl:ObjectProperty ;
+    rdfs:label "directed movie"@en ;
+    rdfs:domain schema:Person ;
+    rdfs:range schema:Movie ;
+    owl:inverseOf schema:director .
+
+# The actor predicate targets both people and role nodes. Therefore this
+# shortcut also has a union range: a Person-only range would wrongly type
+# acting-role nodes as people. Queries for actors should require schema:Person.
+kg:hasCastMember
+    a owl:ObjectProperty ;
+    rdfs:label "has cast member"@en ;
+    rdfs:comment "Links a director to people or acting roles in movies they directed. Filter for Person when listing actors."@en ;
+    rdfs:domain schema:Person ;
+    rdfs:range [
+        a owl:Class ;
+        owl:unionOf ( schema:Person schema:Role )
+    ] ;
+    owl:propertyChainAxiom ( kg:directedMovie schema:actor ) .
+
+#################################################################
+# Datatype properties
+#################################################################
+
+schema:abstract
+    a owl:DatatypeProperty ;
+    rdfs:label "abstract"@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range xsd:string .
+
+schema:characterName
+    a owl:DatatypeProperty ;
+    rdfs:label "character name"@en ;
+    rdfs:domain schema:Role ;
+    rdfs:range xsd:string .
+
+schema:datePublished
+    a owl:DatatypeProperty ;
+    rdfs:label "date published"@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range xsd:date .
+
+schema:duration
+    a owl:DatatypeProperty ;
+    rdfs:label "duration"@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range xsd:duration .
+
+schema:name
+    a owl:DatatypeProperty ;
+    rdfs:label "name"@en ;
+    rdfs:domain [
+        a owl:Class ;
+        owl:unionOf ( schema:Movie schema:Person kg:Genre
+            schema:Country schema:Language schema:DefinedTerm )
+    ] ;
+    rdfs:range xsd:string .
+
+schema:position
+    a owl:DatatypeProperty ;
+    rdfs:label "cast position"@en ;
+    rdfs:domain schema:Role ;
+    rdfs:range xsd:integer .
+
+schema:ratingCount
+    a owl:DatatypeProperty ;
+    rdfs:label "rating count"@en ;
+    rdfs:domain schema:AggregateRating ;
+    rdfs:range xsd:integer .
+
+schema:ratingValue
+    a owl:DatatypeProperty ;
+    rdfs:label "rating value"@en ;
+    rdfs:domain schema:AggregateRating ;
+    rdfs:range xsd:decimal .
+
+schema:sameAs
+    a owl:ObjectProperty ;
+    rdfs:label "same as"@en ;
+    rdfs:domain schema:Movie ;
+    rdfs:range rdfs:Resource .
+
+#################################################################
+# OWL restrictions
+# rdfs:subClassOf below attaches restrictions, not broad superclass categories.
+# Under open-world semantics these are not missing-field validation checks.
+#################################################################
+
+schema:Movie
+    rdfs:subClassOf
+        [ a owl:Restriction ;
+          owl:onProperty schema:name ;
+          owl:minCardinality "1"^^xsd:nonNegativeInteger
+        ],
+        [ a owl:Restriction ;
+          owl:onProperty schema:aggregateRating ;
+          owl:maxCardinality "1"^^xsd:nonNegativeInteger
+        ] .
+
+schema:Role
+    rdfs:subClassOf
+        [ a owl:Restriction ;
+          owl:onProperty schema:actor ;
+          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          owl:onClass schema:Person
+        ],
+        [ a owl:Restriction ;
+          owl:onProperty schema:characterName ;
+          owl:maxCardinality "1"^^xsd:nonNegativeInteger
+        ],
+        [ a owl:Restriction ;
+          owl:onProperty schema:position ;
+          owl:maxCardinality "1"^^xsd:nonNegativeInteger
+        ] .
+
+schema:AggregateRating
+    rdfs:subClassOf
+        [ a owl:Restriction ;
+          owl:onProperty schema:ratingValue ;
+          owl:maxCardinality "1"^^xsd:nonNegativeInteger
+        ],
+        [ a owl:Restriction ;
+          owl:onProperty schema:ratingCount ;
+          owl:maxCardinality "1"^^xsd:nonNegativeInteger
+        ] .
