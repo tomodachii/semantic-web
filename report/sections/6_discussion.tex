@@ -1,0 +1,8 @@
+\section{Discussion}\label{sec:discussion}
+The graph supports movie search, rating queries, shared-person relationships, and inferred director-to-cast relationships. Our smaller model keeps these functions while replacing companies with keywords and simplifying ratings.
+
+\paragraph{Limitations}
+The dataset contains only 100 movies and the first ten cast members per movie. It cannot describe every collaboration. Without vote counts, ratings cannot be filtered by the number of voters. Original and spoken languages are combined. External matches can be uncertain, and DBpedia targets still need verification. Loading identity links does not retrieve remote facts; reasoning may also return multiple equivalent URIs for one entity.
+
+\paragraph{Future work}
+We can review uncertain links, verify DBpedia resources, and test remote queries. A Fuseki endpoint could provide browser-based SPARQL access. For public five-star Linked Open Data, the development URIs must also be replaced by persistent public identifiers and the data made available under suitable publication terms~\cite{bernerslee2006linkeddata}.

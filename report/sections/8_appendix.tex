@@ -1,0 +1,10 @@
+\section{Running the application}
+Run the following commands from the \code{semantic-web} directory after installing \path{requirements.txt}:
+\begin{lstlisting}
+python scripts/prepare.py
+python scripts/transform.py
+python scripts/ask.py -q queries/4.sparql
+python scripts/ask.py -q queries/11.sparql --reasoning
+python scripts/ask.py -q queries/show_links.sparql --links output/movie_links.ttl
+\end{lstlisting}
+The final two commands illustrate reasoning and loading a link file. Additional link files can be supplied by repeating \code{--links}. The original files are not changed by querying.

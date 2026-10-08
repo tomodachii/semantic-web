@@ -1,0 +1,171 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://example.org/country/AU> owl:sameAs <http://dbpedia.org/resource/Australia>,
+        <http://www.wikidata.org/entity/Q408> .
+
+<https://example.org/country/BE> owl:sameAs <http://dbpedia.org/resource/Belgium>,
+        <http://www.wikidata.org/entity/Q31> .
+
+<https://example.org/country/BS> owl:sameAs <http://dbpedia.org/resource/The_Bahamas>,
+        <http://www.wikidata.org/entity/Q778> .
+
+<https://example.org/country/CA> owl:sameAs <http://dbpedia.org/resource/Canada>,
+        <http://www.wikidata.org/entity/Q16> .
+
+<https://example.org/country/CN> owl:sameAs <http://dbpedia.org/resource/China>,
+        <http://www.wikidata.org/entity/Q148> .
+
+<https://example.org/country/CZ> owl:sameAs <http://dbpedia.org/resource/Czech_Republic>,
+        <http://www.wikidata.org/entity/Q213> .
+
+<https://example.org/country/DE> owl:sameAs <http://dbpedia.org/resource/Germany>,
+        <http://www.wikidata.org/entity/Q183> .
+
+<https://example.org/country/DM> owl:sameAs <http://dbpedia.org/resource/Dominica>,
+        <http://www.wikidata.org/entity/Q784> .
+
+<https://example.org/country/FR> owl:sameAs <http://dbpedia.org/resource/France>,
+        <http://www.wikidata.org/entity/Q142> .
+
+<https://example.org/country/GB> owl:sameAs <http://dbpedia.org/resource/United_Kingdom>,
+        <http://www.wikidata.org/entity/Q145> .
+
+<https://example.org/country/IN> owl:sameAs <http://dbpedia.org/resource/India>,
+        <http://www.wikidata.org/entity/Q668> .
+
+<https://example.org/country/IT> owl:sameAs <http://dbpedia.org/resource/Italy>,
+        <http://www.wikidata.org/entity/Q38> .
+
+<https://example.org/country/JM> owl:sameAs <http://dbpedia.org/resource/Jamaica>,
+        <http://www.wikidata.org/entity/Q766> .
+
+<https://example.org/country/JP> owl:sameAs <http://dbpedia.org/resource/Japan>,
+        <http://www.wikidata.org/entity/Q17> .
+
+<https://example.org/country/MT> owl:sameAs <http://dbpedia.org/resource/Malta>,
+        <http://www.wikidata.org/entity/Q233> .
+
+<https://example.org/country/NZ> owl:sameAs <http://dbpedia.org/resource/New_Zealand>,
+        <http://www.wikidata.org/entity/Q664> .
+
+<https://example.org/country/PL> owl:sameAs <http://dbpedia.org/resource/Poland>,
+        <http://www.wikidata.org/entity/Q36> .
+
+<https://example.org/country/SI> owl:sameAs <http://dbpedia.org/resource/Slovenia>,
+        <http://www.wikidata.org/entity/Q215> .
+
+<https://example.org/country/US> owl:sameAs <http://dbpedia.org/resource/United_States>,
+        <http://www.wikidata.org/entity/Q30> .
+
+<https://example.org/genre/10749> skos:closeMatch <http://dbpedia.org/resource/Romance_film>,
+        <http://www.wikidata.org/entity/Q1054574> .
+
+<https://example.org/genre/10751> skos:closeMatch <http://dbpedia.org/resource/Family_film>,
+        <http://www.wikidata.org/entity/Q1361932> .
+
+<https://example.org/genre/12> skos:closeMatch <http://dbpedia.org/resource/Adventure_film>,
+        <http://www.wikidata.org/entity/Q319221> .
+
+<https://example.org/genre/14> skos:closeMatch <http://dbpedia.org/resource/Fantasy_film>,
+        <http://www.wikidata.org/entity/Q157394> .
+
+<https://example.org/genre/16> skos:closeMatch <http://dbpedia.org/resource/Animated_film>,
+        <http://www.wikidata.org/entity/Q202866> .
+
+<https://example.org/genre/18> skos:closeMatch <http://dbpedia.org/resource/Drama_(film_and_television)>,
+        <http://www.wikidata.org/entity/Q130232> .
+
+<https://example.org/genre/27> skos:closeMatch <http://dbpedia.org/resource/Horror_film>,
+        <http://www.wikidata.org/entity/Q200092> .
+
+<https://example.org/genre/28> skos:closeMatch <http://dbpedia.org/resource/Action_film>,
+        <http://www.wikidata.org/entity/Q188473> .
+
+<https://example.org/genre/35> skos:closeMatch <http://dbpedia.org/resource/Comedy_film>,
+        <http://www.wikidata.org/entity/Q157443> .
+
+<https://example.org/genre/37> skos:closeMatch <http://dbpedia.org/resource/Western_film>,
+        <http://www.wikidata.org/entity/Q172980> .
+
+<https://example.org/genre/53> skos:closeMatch <http://dbpedia.org/resource/Thriller_film>,
+        <http://www.wikidata.org/entity/Q2484376> .
+
+<https://example.org/genre/80> skos:closeMatch <http://dbpedia.org/resource/Crime_film>,
+        <http://www.wikidata.org/entity/Q959790> .
+
+<https://example.org/genre/878> skos:closeMatch <http://dbpedia.org/resource/Science_fiction_film>,
+        <http://www.wikidata.org/entity/Q471839> .
+
+<https://example.org/genre/9648> skos:closeMatch <http://dbpedia.org/resource/Mystery_film>,
+        <http://www.wikidata.org/entity/Q1200678> .
+
+<https://example.org/language/ar> owl:sameAs <http://dbpedia.org/resource/Arabic>,
+        <http://www.wikidata.org/entity/Q13955> .
+
+<https://example.org/language/bo> owl:sameAs <http://dbpedia.org/resource/Lhasa_Tibetan>,
+        <http://www.wikidata.org/entity/Q34271> .
+
+<https://example.org/language/de> owl:sameAs <http://dbpedia.org/resource/German_language>,
+        <http://www.wikidata.org/entity/Q188> .
+
+<https://example.org/language/el> owl:sameAs <http://dbpedia.org/resource/Modern_Greek>,
+        <http://www.wikidata.org/entity/Q36510> .
+
+<https://example.org/language/en> owl:sameAs <http://dbpedia.org/resource/English_language>,
+        <http://www.wikidata.org/entity/Q1860> .
+
+<https://example.org/language/es> owl:sameAs <http://dbpedia.org/resource/Spanish_language>,
+        <http://www.wikidata.org/entity/Q1321> .
+
+<https://example.org/language/fa> owl:sameAs <http://dbpedia.org/resource/Persian_language>,
+        <http://www.wikidata.org/entity/Q9168> .
+
+<https://example.org/language/fr> owl:sameAs <http://dbpedia.org/resource/French_language>,
+        <http://www.wikidata.org/entity/Q150> .
+
+<https://example.org/language/gd> owl:sameAs <http://dbpedia.org/resource/Scottish_Gaelic>,
+        <http://www.wikidata.org/entity/Q9314> .
+
+<https://example.org/language/hi> owl:sameAs <http://dbpedia.org/resource/Hindi>,
+        <http://www.wikidata.org/entity/Q1568> .
+
+<https://example.org/language/is> owl:sameAs <http://dbpedia.org/resource/Icelandic_language>,
+        <http://www.wikidata.org/entity/Q294> .
+
+<https://example.org/language/it> owl:sameAs <http://dbpedia.org/resource/Italian_language>,
+        <http://www.wikidata.org/entity/Q652> .
+
+<https://example.org/language/ja> owl:sameAs <http://dbpedia.org/resource/Japanese_language>,
+        <http://www.wikidata.org/entity/Q5287> .
+
+<https://example.org/language/la> owl:sameAs <http://dbpedia.org/resource/Latin>,
+        <http://www.wikidata.org/entity/Q397> .
+
+<https://example.org/language/pt> owl:sameAs <http://dbpedia.org/resource/Portuguese_language>,
+        <http://www.wikidata.org/entity/Q5146> .
+
+<https://example.org/language/ro> owl:sameAs <http://dbpedia.org/resource/Romanian_language>,
+        <http://www.wikidata.org/entity/Q7913> .
+
+<https://example.org/language/ru> owl:sameAs <http://dbpedia.org/resource/Russian_language>,
+        <http://www.wikidata.org/entity/Q7737> .
+
+<https://example.org/language/sa> owl:sameAs <http://dbpedia.org/resource/Sanskrit>,
+        <http://www.wikidata.org/entity/Q11059> .
+
+<https://example.org/language/sv> owl:sameAs <http://dbpedia.org/resource/Swedish_language>,
+        <http://www.wikidata.org/entity/Q9027> .
+
+<https://example.org/language/th> owl:sameAs <http://dbpedia.org/resource/Thai_language>,
+        <http://www.wikidata.org/entity/Q9217> .
+
+<https://example.org/language/tr> owl:sameAs <http://dbpedia.org/resource/Turkish_language>,
+        <http://www.wikidata.org/entity/Q256> .
+
+<https://example.org/language/ur> owl:sameAs <http://dbpedia.org/resource/Urdu>,
+        <http://www.wikidata.org/entity/Q1617> .
+
+<https://example.org/language/zh> owl:sameAs <http://dbpedia.org/resource/Chinese_language>,
+        <http://www.wikidata.org/entity/Q7850> .
+

@@ -100,6 +100,85 @@ verified external identity links are separate later steps.
 
 Run checks with `python -m unittest discover -s tests -v`.
 
+## Link movies to Wikidata and DBpedia
+
+```powershell
+python scripts/link_movies.py
+```
+
+The script reads data/prepared/movies.csv, builds the same movie URIs as
+transform.py, and queries the public Wikidata SPARQL endpoint, so network
+access is required. Each movie is first matched by its TMDB movie ID (Wikidata
+P4947). Movies without an ID match are searched by exact title among Wikidata
+films released within one year of the local release date. For every candidate,
+the Wikidata release years, the IMDb ID, and the English Wikipedia article are
+recorded as evidence. The article title determines the DBpedia resource.
+
+Scoring is conservative. A candidate is approved automatically only when the
+TMDB ID matches and a Wikidata release year equals the local year. A one-year
+difference, a missing date, a title-only match, or several approved candidates
+for one movie result in the status `review`. A difference of more than one year
+results in `rejected`.
+
+Outputs:
+
+- output/movie_candidates.csv: every candidate with its evidence, score, and
+  status (`approved`, `review`, `rejected`, `not_found`).
+- output/movie_links.ttl: `owl:sameAs` triples to Wikidata and DBpedia for
+  approved candidates only.
+
+Optional arguments: --data-dir, --base-uri, --candidates, --links, --delay,
+--limit (restricts the run to the first N movies).
+
+## Link people to Wikidata and DBpedia
+
+```powershell
+python scripts/link_people.py
+```
+
+The script links the 825 distinct people in data/prepared/cast.csv and
+crew.csv. It must run after link_movies.py because the fallback search uses
+output/movie_links.ttl. People are first matched in batches by TMDB person ID
+(Wikidata P4985). A candidate is approved automatically only when it is a human
+(P31 Q5) and its label or an alias equals the local name, ignoring case,
+accents, and punctuation. A person without an ID match is searched by exact
+name among the cast (P161) and directors (P57) of the movies linked in
+output/movie_links.ttl; such matches always have the status `review`.
+
+Outputs:
+
+- output/person_candidates.csv: every candidate with the person's roles, the
+  number of movies, the evidence, and the status. A person with several
+  approved candidates, or a Wikidata item claimed by several people, is set to
+  `review`.
+- output/person_links.ttl: `owl:sameAs` triples for approved candidates only.
+
+Optional arguments: --data-dir, --base-uri, --movie-links, --candidates,
+--links, --delay, --limit.
+
+## Link countries, languages and genres
+
+```powershell
+python scripts/link_lookups.py
+```
+
+The script links the lookup tables in data/prepared/: 19 countries, 23
+languages, and 14 genres. Countries are matched by ISO 3166-1 alpha-2 code
+(Wikidata P297) and languages by ISO 639-1 code (P218); both are linked with
+`owl:sameAs`. Wikidata has no TMDB genre identifier, so genres are matched by
+the label of a film genre (Q201658 and its subclasses), such as "action film"
+or "animated film". Because a TMDB genre is not defined identically to the
+Wikidata genre, genres are linked with the weaker `skos:closeMatch`. For every
+class, a single candidate is approved and several candidates are set to
+`review`.
+
+Outputs:
+
+- output/lookup_candidates.csv: every candidate with its status.
+- output/lookup_links.ttl: link triples for approved candidates only.
+
+Optional arguments: --data-dir, --base-uri, --candidates, --links.
+
 ## Query the RDF
 
 Use `python scripts/ask.py -q queries/4.sparql`. Add `--reasoning` for

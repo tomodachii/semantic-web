@@ -1,0 +1,6 @@
+\section{Introduction}
+Movie datasets contain many relationships between films, actors, directors, genres, and countries. In CSV files, these relationships are often stored as nested lists or repeated values. A knowledge graph represents them explicitly as connections between resources. RDF provides the triple representation, while SPARQL allows us to query the connected data~\cite{w3c2014rdf11,w3c2013sparql}.
+
+Our goal is to build a Linked Open Data application for the movie domain. We follow the workflow of the supplied Movie-Knowledge-Graph reference project: prepare data, transform it into RDF, define an ontology, establish external links, and query the graph. We adapt this workflow to the TMDB 5000 CSV dataset instead of collecting movies through the live API. We also remove production companies and vote counts, add keywords, and use a local vocabulary.
+
+The following sections describe the method, data preparation, ontology, linking, and query results. The application currently runs through a command-line interface.

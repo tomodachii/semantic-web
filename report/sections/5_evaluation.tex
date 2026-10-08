@@ -1,0 +1,78 @@
+\section{Evaluation}\label{sec:eval}
+We evaluate the graph using the same types of questions as the reference project. The following results come from our current local dataset.
+
+\subsection{Basic retrieval}
+A simple query checks whether the sample contains Spider-Man movies:
+\begin{lstlisting}
+PREFIX kg: <https://example.org/ontology/>
+SELECT ?title WHERE {
+  ?movie a kg:Movie ; kg:name ?title .
+  FILTER(CONTAINS(LCASE(STR(?title)), "spider"))
+}
+ORDER BY ?title
+\end{lstlisting}
+It returns four titles: Spider-Man 2, Spider-Man 3, The Amazing Spider-Man, and The Amazing Spider-Man 2.
+
+\subsection{Structured filtering and aggregation}
+The rating query selects Drama movies and orders them by average rating. Unlike the reference, it reads the rating directly from Movie:
+\begin{lstlisting}
+PREFIX kg: <https://example.org/ontology/>
+SELECT ?title ?rating WHERE {
+  ?movie a kg:Movie ; kg:name ?title ;
+    kg:genre ?genre ; kg:ratingValue ?rating .
+  ?genre kg:name "Drama" .
+}
+ORDER BY DESC(?rating) ?title
+LIMIT 20
+\end{lstlisting}
+The query returns fifteen films. Table~\ref{tab:rating} shows the first three. Other queries count repeated actor collaborations and find directors with multiple films.
+\begin{table}[h]
+\caption{First three results of the Drama rating query.}
+\label{tab:rating}\centering\small
+\begin{tabular}{lr}
+\toprule Movie & Rating\\\midrule
+The Dark Knight & 8.2\\
+Interstellar & 8.1\\
+Inside Out & 8.0\\
+\bottomrule\end{tabular}
+\end{table}
+
+\subsection{Reasoning-based queries}
+Query 11 asks for a person's directed movies using \kg{directedMovie}. It returns no results before reasoning because the transformer stores \kg{director} instead. With OWL-RL reasoning, the inverse relationship is inferred and the query returns twenty rows, its specified limit.
+
+Query 12 uses \kg{hasCastMember} to find actors in movies directed by a person. It returns no rows before reasoning and 1,023 rows after reasoning, without external links loaded. This query has no result limit in the current version. These examples show the effect of the inverse and property-chain axioms.
+
+
+\begin{table}[t]
+\caption{Effect of reasoning on the two inference queries, without external links.}
+\label{tab:inference-results}
+\centering\small
+\begin{tabularx}{\columnwidth}{@{}Xrr@{}}
+\toprule Query & Before & After\\\midrule
+Q11: directed movies & 0 & 20\\
+Q12: director--actor pairs & 0 & 1,023\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Table~\ref{tab:inference-results} compares the same queries on asserted data and
+after loading the ontology and applying reasoning. Q11 is limited to twenty
+results; Q12 has no limit. The additional answers follow from local facts and
+ontology axioms, rather than new information downloaded from the Web.
+
+\subsection{Cross-knowledge-graph queries}
+We can list the external links associated with each movie:
+\begin{lstlisting}
+PREFIX kg: <https://example.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?title ?external WHERE {
+  ?movie a kg:Movie ; kg:name ?title ;
+    owl:sameAs ?external .
+}
+\end{lstlisting}
+This query reads the stored links; it does not download external facts. A separate SERVICE query is available for requesting Wikidata information, but remote results were not evaluated here. Its example movie ID must be changed to a linked movie from our sample.
+
+\subsection{SPARQL command-line interface}
+Our implementation uses \path{scripts/ask.py} instead of a deployed Fuseki endpoint. The script loads the movie data, ontology, and any specified link files into one RDFLib graph. The \code{--reasoning} option applies OWL-RL before running the query.
+
+All 32 existing unit tests passed. After reasoning with all link files, the missing-name and disjoint-type checks returned no rows. These checks cover specific problems and do not prove complete ontology correctness.

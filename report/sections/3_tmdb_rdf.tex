@@ -1,0 +1,66 @@
+\section{Data collection and transformation}\label{sec:data}
+\subsection{Data collection}
+We use the movie and credit files from the TMDB 5000 dataset on Kaggle. The preparation script selects the first 100 distinct movies, keeps up to ten cast members per movie in credit order, and retains directors only from the crew. Movie and credit records are joined by movie ID.
+
+Movie fields include title, overview, original language, release date, runtime, and average rating. Nested lists provide genres, countries, spoken languages, and keywords. We exclude companies, budget, revenue, and vote counts to keep the model small. The input does not provide IMDb IDs.
+
+\begin{table}[t]
+\caption{Prepared CSV tables.}
+\centering\small
+\begin{tabular}{lr}
+\toprule Table & Rows\\\midrule
+movies & 100\\
+genres & 14\\
+movie\_genres & 330\\
+countries & 19\\
+movie\_countries & 150\\
+languages & 23\\
+movie\_languages & 170\\
+cast & 1,000\\
+crew & 111\\
+keywords & 667\\
+movie\_keywords & 1,049\\
+\bottomrule\end{tabular}
+\end{table}
+
+The script checks dates and numeric values, removes exact duplicate rows, and preserves missing values as empty cells. The eleven tables include reusable entity records and movie-to-entity relationships.
+
+\subsection{Data transformation}
+The transformer follows the reference's RDFLib implementation. Each identified entity receives a URI based on its type and source ID, such as \url{https://example.org/movie/558}. A person keeps the same URI across acting and directing credits.
+
+Titles and descriptions become literals. Release dates use \code{xsd:date}, runtime uses \code{xsd:duration}, and average rating uses \code{xsd:decimal}. Missing values are omitted. Original and spoken languages share \kg{inLanguage}. Movie production countries remain available even though companies are excluded.
+
+Acting credits use both a direct movie--person relationship and a Role blank node when character or cast-order information is available. The role holds details specific to that film:
+\begin{lstlisting}
+ex:film kg:actor ex:person, [
+  a kg:Role ;
+  kg:actor ex:person ;
+  kg:characterName "Pilot" ;
+  kg:position 0
+] .
+\end{lstlisting}
+Here, \code{ex:} represents example resources. The output file, \path{output/movies.ttl}, contains 11,603 triples for the current sample.
+
+\begin{table}[t]
+\caption{Examples of the CSV-to-RDF mapping.}
+\label{tab:mapping}
+\centering\small
+\begin{tabularx}{\columnwidth}{@{}lX@{}}
+\toprule Source field & RDF representation\\\midrule
+Movie ID & Part of the movie URI, not its display title\\
+Title & \kg{name}, string literal\\
+Release date & \kg{datePublished}, \code{xsd:date}\\
+Runtime & \kg{duration}, e.g., \code{PT120M}\\
+Vote average & \kg{ratingValue}, \code{xsd:decimal}\\
+Keyword ID & Shared Keyword resource via \kg{keywords}\\
+Character and order & \kg{characterName} and \kg{position} on Role\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Table~\ref{tab:mapping} shows how source values become either resource identifiers,
+relationships, or literals. Titles are used for display and search; IDs preserve
+identity even when different movies have the same title. A character name is
+attached to a role because a person can play different characters in different
+movies. Ratings need only one literal in our model, so no separate rating node
+is created.
