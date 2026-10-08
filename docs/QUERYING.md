@@ -36,6 +36,12 @@ current directory. You can override --rdf and --ontology. Once links exist:
 python scripts/ask.py -q queries/4.sparql --links output/movie_links.ttl
 ```
 
+The option can be repeated to load the movie, person, and lookup links together:
+
+```powershell
+python scripts/ask.py -q queries/4.sparql --links output/movie_links.ttl --links output/person_links.ttl --links output/lookup_links.ttl
+```
+
 Links are optional and are loaded only when --links is supplied. This version
 implements the reference's local query flow; it does not implement its remote
 --target rewriting. Query 10 requires verified external links and network access

@@ -10,11 +10,13 @@ PROJECT = Path(__file__).resolve().parents[1]
 
 
 def load_graph(rdf, ontology, links=None, reasoning=False):
+    """Load the data and ontology; links is one Turtle path or a list of them."""
     graph = Graph()
     graph.parse(rdf, format="turtle")
     graph.parse(ontology, format="turtle")
     if links is not None:
-        graph.parse(links, format="turtle")
+        for link_file in [links] if isinstance(links, (str, Path)) else links:
+            graph.parse(link_file, format="turtle")
     if reasoning:
         DeductiveClosure(OWLRL_Semantics).expand(graph)
     return graph
@@ -41,7 +43,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--rdf", type=Path, default=PROJECT / "output/movies.ttl")
     parser.add_argument("--ontology", type=Path, default=PROJECT / "ontology/ontology.owl")
-    parser.add_argument("--links", type=Path, help="Optional Turtle identity-links file")
+    parser.add_argument("--links", type=Path, action="append",
+                        help="Optional Turtle identity-links file; repeat to load several")
     parser.add_argument("-q", "--query-file", type=Path, required=True)
     parser.add_argument("--reasoning", action="store_true", help="Apply OWL-RL inference in memory")
     args = parser.parse_args()
