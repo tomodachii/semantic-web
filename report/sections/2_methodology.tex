@@ -1,0 +1,47 @@
+\section{Methodology}\label{sec:method}
+The project follows five steps. First, we explore the raw movie and credit files and choose the information needed for our questions. Second, we split the data into CSV tables. Third, we define the ontology and transform the tables into RDF. Fourth, we link local entities to Wikidata and DBpedia. Finally, we query the graph using SPARQL, with reasoning enabled when needed.
+
+Figure~\ref{fig:pipeline} summarizes the workflow. The ontology and movie data are stored separately. The query program combines them in memory, with external link files loaded when requested.
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+ node distance=5mm,
+ box/.style={draw,rounded corners,align=center,font=\small,
+ text width=.82\columnwidth,minimum height=8mm},
+ arr/.style={-{Latex},thick}]
+\node[box] (raw) {Raw TMDB movie and credit CSVs};
+\node[box,below=of raw] (prep) {Preparation: 11 CSV tables};
+\node[box,below=of prep] (rdf) {RDF transformation and local OWL ontology};
+\node[box,below=of rdf] (link) {Entity linking: candidates and approved links};
+\node[box,below=of link] (query) {SPARQL queries with optional OWL-RL reasoning};
+\draw[arr] (raw)--(prep);
+\draw[arr] (prep)--(rdf);
+\draw[arr] (rdf)--(link);
+\draw[arr] (link)--(query);
+\end{tikzpicture}
+\caption{Overview of the project workflow. Local queries can also run before external linking.}
+\label{fig:pipeline}
+\end{figure}
+
+\paragraph{Movie ontology}
+We use the namespace \url{https://example.org/ontology/}, abbreviated as \code{kg:}. The ontology contains seven classes. Movie represents films; Person represents actors and directors; Role stores an acting credit; Genre, Country, Language, and Keyword describe related entities. Ratings are decimal values on Movie rather than separate resources.
+
+\begin{table}[t]
+\caption{Main vocabulary of our movie ontology.}
+\centering\small
+\begin{tabularx}{\columnwidth}{@{}lX@{}}
+\toprule Category & Terms, using the kg: prefix\\\midrule
+Classes & Movie, Person, Role, Genre, Country, Language, Keyword\\
+Object properties & actor, director, directedMovie, hasCastMember, genre, keywords, countryOfOrigin, inLanguage, referencePage\\
+Datatype properties & name, abstract, characterName, datePublished, duration, position, ratingValue\\
+\bottomrule\end{tabularx}
+\end{table}
+
+\paragraph{Evaluation protocol}
+Following the reference, we demonstrate basic retrieval, filtering and aggregation, reasoning-based queries, and external links. We run the queries on the generated RDF and compare selected results before and after reasoning. The results describe only our sample, not the complete TMDB catalogue.
+
+The questions guide the model: cast questions require shared person identities,
+character questions require acting-role nodes, and thematic search requires
+movie-to-keyword relationships. We do not infer universal rules, such as exactly
+one director per movie, from the small sample.

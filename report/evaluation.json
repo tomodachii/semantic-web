@@ -1,0 +1,339 @@
+{
+  "data_triples": 11603,
+  "ontology_triples": 177,
+  "classes": {
+    "Movie": 100,
+    "Person": 825,
+    "Role": 1000,
+    "Genre": 14,
+    "Country": 19,
+    "Language": 23,
+    "Keyword": 667
+  },
+  "queries": {
+    "1": {
+      "asserted_rows": 20,
+      "sample": [
+        [
+          "https://example.org/movie/297761",
+          "Suicide Squad",
+          "2016-08-02"
+        ],
+        [
+          "https://example.org/movie/315011",
+          "Shin Godzilla",
+          "2016-07-29"
+        ],
+        [
+          "https://example.org/movie/188927",
+          "Star Trek Beyond",
+          "2016-07-07"
+        ],
+        [
+          "https://example.org/movie/258489",
+          "The Legend of Tarzan",
+          "2016-06-29"
+        ],
+        [
+          "https://example.org/movie/47933",
+          "Independence Day: Resurgence",
+          "2016-06-22"
+        ]
+      ]
+    },
+    "2": {
+      "asserted_rows": 3,
+      "sample": [
+        [
+          "https://example.org/person/15277",
+          "Jon Favreau"
+        ],
+        [
+          "https://example.org/person/21198",
+          "Peter Sohn"
+        ],
+        [
+          "https://example.org/person/137262",
+          "Steve Purcell"
+        ]
+      ]
+    },
+    "3": {
+      "asserted_rows": 10,
+      "sample": [
+        [
+          "https://example.org/person/65731",
+          "Sam Worthington",
+          "Jake Sully",
+          "0"
+        ],
+        [
+          "https://example.org/person/8691",
+          "Zoe Saldana",
+          "Neytiri",
+          "1"
+        ],
+        [
+          "https://example.org/person/10205",
+          "Sigourney Weaver",
+          "Dr. Grace Augustine",
+          "2"
+        ],
+        [
+          "https://example.org/person/32747",
+          "Stephen Lang",
+          "Col. Quaritch",
+          "3"
+        ],
+        [
+          "https://example.org/person/17647",
+          "Michelle Rodriguez",
+          "Trudy Chacon",
+          "4"
+        ]
+      ]
+    },
+    "4": {
+      "asserted_rows": 15,
+      "sample": [
+        [
+          "https://example.org/movie/155",
+          "The Dark Knight",
+          "8.2"
+        ],
+        [
+          "https://example.org/movie/157336",
+          "Interstellar",
+          "8.1"
+        ],
+        [
+          "https://example.org/movie/150540",
+          "Inside Out",
+          "8.0"
+        ],
+        [
+          "https://example.org/movie/49026",
+          "The Dark Knight Rises",
+          "7.6"
+        ],
+        [
+          "https://example.org/movie/597",
+          "Titanic",
+          "7.5"
+        ]
+      ]
+    },
+    "5": {
+      "asserted_rows": 5,
+      "sample": [
+        [
+          "https://example.org/movie/10138",
+          "Iron Man 2",
+          "2010-04-28"
+        ],
+        [
+          "https://example.org/movie/24428",
+          "The Avengers",
+          "2012-04-25"
+        ],
+        [
+          "https://example.org/movie/100402",
+          "Captain America: The Winter Soldier",
+          "2014-03-20"
+        ],
+        [
+          "https://example.org/movie/99861",
+          "Avengers: Age of Ultron",
+          "2015-04-22"
+        ],
+        [
+          "https://example.org/movie/271110",
+          "Captain America: Civil War",
+          "2016-04-27"
+        ]
+      ]
+    },
+    "6": {
+      "asserted_rows": 20,
+      "sample": [
+        [
+          "https://example.org/person/1896",
+          "Don Cheadle",
+          "https://example.org/person/3223",
+          "Robert Downey Jr.",
+          "4"
+        ],
+        [
+          "https://example.org/person/1245",
+          "Scarlett Johansson",
+          "https://example.org/person/16828",
+          "Chris Evans",
+          "4"
+        ],
+        [
+          "https://example.org/person/1245",
+          "Scarlett Johansson",
+          "https://example.org/person/3223",
+          "Robert Downey Jr.",
+          "4"
+        ],
+        [
+          "https://example.org/person/16828",
+          "Chris Evans",
+          "https://example.org/person/17604",
+          "Jeremy Renner",
+          "3"
+        ],
+        [
+          "https://example.org/person/16828",
+          "Chris Evans",
+          "https://example.org/person/3223",
+          "Robert Downey Jr.",
+          "3"
+        ]
+      ]
+    },
+    "7": {
+      "asserted_rows": 24,
+      "sample": [
+        [
+          "https://example.org/person/9032",
+          "Bryan Singer",
+          "4"
+        ],
+        [
+          "https://example.org/person/525",
+          "Christopher Nolan",
+          "4"
+        ],
+        [
+          "https://example.org/person/108",
+          "Peter Jackson",
+          "4"
+        ],
+        [
+          "https://example.org/person/1704",
+          "Gore Verbinski",
+          "3"
+        ],
+        [
+          "https://example.org/person/15277",
+          "Jon Favreau",
+          "3"
+        ]
+      ]
+    },
+    "8": {
+      "asserted_rows": 150,
+      "sample": [
+        [
+          "https://example.org/movie/14161",
+          "2012",
+          "https://example.org/country/CA",
+          "Canada"
+        ],
+        [
+          "https://example.org/movie/14161",
+          "2012",
+          "https://example.org/country/US",
+          "United States of America"
+        ],
+        [
+          "https://example.org/movie/64686",
+          "47 Ronin",
+          "https://example.org/country/US",
+          "United States of America"
+        ],
+        [
+          "https://example.org/movie/17979",
+          "A Christmas Carol",
+          "https://example.org/country/US",
+          "United States of America"
+        ],
+        [
+          "https://example.org/movie/12155",
+          "Alice in Wonderland",
+          "https://example.org/country/US",
+          "United States of America"
+        ]
+      ]
+    },
+    "9": {
+      "asserted_rows": 30,
+      "sample": [
+        [
+          "https://example.org/movie/14161",
+          "2012",
+          "9"
+        ],
+        [
+          "https://example.org/movie/597",
+          "Titanic",
+          "6"
+        ],
+        [
+          "https://example.org/movie/10764",
+          "Quantum of Solace",
+          "5"
+        ],
+        [
+          "https://example.org/movie/5174",
+          "Rush Hour 3",
+          "5"
+        ],
+        [
+          "https://example.org/movie/206647",
+          "Spectre",
+          "5"
+        ]
+      ]
+    },
+    "11": {
+      "asserted_rows": 0,
+      "sample": [],
+      "reasoned_rows": 20
+    },
+    "12": {
+      "asserted_rows": 0,
+      "sample": [],
+      "reasoned_rows": 1023
+    }
+  },
+  "links": {
+    "movie": {
+      "statuses": {
+        "approved": 99,
+        "rejected": 1
+      },
+      "triples": 198,
+      "approved_entities": 99
+    },
+    "person": {
+      "statuses": {
+        "approved": 805,
+        "review": 4,
+        "not_found": 17
+      },
+      "triples": 1591,
+      "approved_entities": 805
+    },
+    "lookup": {
+      "statuses": {
+        "approved": 56
+      },
+      "triples": 112,
+      "approved_entities": 56
+    }
+  },
+  "spider_titles": [
+    "Spider-Man 2",
+    "Spider-Man 3",
+    "The Amazing Spider-Man",
+    "The Amazing Spider-Man 2"
+  ],
+  "local_reasoned_triples": 35225,
+  "combined_asserted_triples": 13681,
+  "combined_reasoned_triples": 83935,
+  "check_missing_names": 0,
+  "check_disjoint_types": 0
+}

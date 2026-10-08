@@ -1,0 +1,11 @@
+PREFIX kg: <https://example.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?title ?external WHERE {
+  ?movie a kg:Movie ;
+         kg:name ?title ;
+         owl:sameAs ?external .
+}
+ORDER BY ?title
+
+# python scripts/ask.py -q queries/show_links.sparql --links output/movie_links.ttl

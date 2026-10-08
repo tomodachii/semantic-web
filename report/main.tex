@@ -1,0 +1,38 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,tabularx,array}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+\lstset{basicstyle=\ttfamily\scriptsize,breaklines=true,columns=fullflexible,
+ keepspaces=true,showstringspaces=false,frame=single,captionpos=b}
+\newcommand{\kg}[1]{\texttt{kg:#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\title{Linked Open Data Application\\for a Movie Knowledge Graph}
+\author{\IEEEauthorblockN{Author names}
+\IEEEauthorblockA{Department and institution\\City, Country\\Email addresses}}
+\begin{document}
+\maketitle
+\input{sections/0_abstract}
+\begin{IEEEkeywords}
+Linked Data, movie knowledge graph, TMDB, RDF, OWL, SPARQL, entity linking
+\end{IEEEkeywords}
+\input{sections/1_introduction}
+\input{sections/2_methodology}
+\input{sections/3_tmdb_rdf}
+\input{sections/4_ontology_and_entity_linking}
+\input{sections/5_evaluation}
+\input{sections/6_discussion}
+\input{sections/7_conclusion}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\appendices
+\input{sections/8_appendix}
+\end{document}
