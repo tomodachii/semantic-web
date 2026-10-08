@@ -1,0 +1,8 @@
+# Actors appearing in movies directed by a person, using the property chain.
+PREFIX kg: <https://example.org/ontology/>
+SELECT DISTINCT ?director ?directorName ?actor ?actorName WHERE {
+  ?director kg:hasCastMember ?actor ; kg:name ?directorName .
+  ?actor a kg:Person ; kg:name ?actorName .
+}
+ORDER BY ?directorName ?actorName
+# LIMIT 20

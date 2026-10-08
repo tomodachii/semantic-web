@@ -1,0 +1,6 @@
+# Data completeness check: an empty result means no unnamed movies were found.
+PREFIX kg: <https://example.org/ontology/>
+SELECT ?movie WHERE {
+  ?movie a kg:Movie .
+  FILTER NOT EXISTS { ?movie kg:name ?name }
+}

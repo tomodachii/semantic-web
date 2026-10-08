@@ -1,0 +1,8 @@
+# Do we have Spider-Man movies?
+PREFIX kg: <https://example.org/ontology/>
+
+SELECT ?movie ?title WHERE {
+  ?movie a kg:Movie ; kg:name ?title .
+  FILTER(CONTAINS(LCASE(STR(?title)), "spider"))
+}
+ORDER BY ?title

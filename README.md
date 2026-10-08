@@ -99,3 +99,9 @@ are required. Ontology axioms remain in ontology/ontology.owl; inference and
 verified external identity links are separate later steps.
 
 Run checks with `python -m unittest discover -s tests -v`.
+
+## Query the RDF
+
+Use `python scripts/ask.py -q queries/4.sparql`. Add `--reasoning` for
+queries 11 and 12. See [querying and checks](docs/QUERYING.md) for commands
+and explanations of what the checks establish.

@@ -1,0 +1,8 @@
+# Directors and their movies, using the inferred inverse relationship.
+PREFIX kg: <https://example.org/ontology/>
+SELECT ?director ?name ?movie ?title WHERE {
+  ?director kg:directedMovie ?movie ; kg:name ?name .
+  ?movie kg:name ?title .
+}
+ORDER BY ?name ?title
+LIMIT 20

@@ -1,0 +1,7 @@
+# Known type conflicts; run with --reasoning to include inferred types.
+# Empty results do not prove full OWL consistency.
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT DISTINCT ?entity ?classA ?classB WHERE {
+  ?classA owl:disjointWith ?classB .
+  ?entity a ?classA, ?classB .
+}
