@@ -1,0 +1,2398 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://example.org/person/10> owl:sameAs <http://dbpedia.org/resource/Bob_Peterson_(filmmaker)>,
+        <http://www.wikidata.org/entity/Q740682> .
+
+<https://example.org/person/1001657> owl:sameAs <http://dbpedia.org/resource/Sophie_Turner>,
+        <http://www.wikidata.org/entity/Q240573> .
+
+<https://example.org/person/1007683> owl:sameAs <http://dbpedia.org/resource/Jack_Reynor>,
+        <http://www.wikidata.org/entity/Q2791895> .
+
+<https://example.org/person/10132> owl:sameAs <http://dbpedia.org/resource/Colm_Feore>,
+        <http://www.wikidata.org/entity/Q449679> .
+
+<https://example.org/person/1017347> owl:sameAs <http://dbpedia.org/resource/Brenton_Thwaites>,
+        <http://www.wikidata.org/entity/Q798656> .
+
+<https://example.org/person/1018947> owl:sameAs <http://dbpedia.org/resource/Maximiliano_Hernández>,
+        <http://www.wikidata.org/entity/Q15834608> .
+
+<https://example.org/person/10205> owl:sameAs <http://dbpedia.org/resource/Sigourney_Weaver>,
+        <http://www.wikidata.org/entity/Q102124> .
+
+<https://example.org/person/1026019> owl:sameAs <http://dbpedia.org/resource/Casper_Crump>,
+        <http://www.wikidata.org/entity/Q12305526> .
+
+<https://example.org/person/1027850> owl:sameAs <http://www.wikidata.org/entity/Q21206803> .
+
+<https://example.org/person/1029045> owl:sameAs <http://www.wikidata.org/entity/Q72044122> .
+
+<https://example.org/person/10297> owl:sameAs <http://dbpedia.org/resource/Matthew_McConaughey>,
+        <http://www.wikidata.org/entity/Q188955> .
+
+<https://example.org/person/103> owl:sameAs <http://dbpedia.org/resource/Mark_Ruffalo>,
+        <http://www.wikidata.org/entity/Q41422> .
+
+<https://example.org/person/1030261> owl:sameAs <http://dbpedia.org/resource/Bérénice_Marlohe>,
+        <http://www.wikidata.org/entity/Q28463> .
+
+<https://example.org/person/1032> owl:sameAs <http://dbpedia.org/resource/Martin_Scorsese>,
+        <http://www.wikidata.org/entity/Q41148> .
+
+<https://example.org/person/1032536> owl:sameAs <http://dbpedia.org/resource/Robert_Stromberg>,
+        <http://www.wikidata.org/entity/Q2158922> .
+
+<https://example.org/person/1034681> owl:sameAs <http://dbpedia.org/resource/Tye_Sheridan>,
+        <http://www.wikidata.org/entity/Q760896> .
+
+<https://example.org/person/103554> owl:sameAs <http://dbpedia.org/resource/Isabel_Lucas>,
+        <http://www.wikidata.org/entity/Q229416> .
+
+<https://example.org/person/1038379> owl:sameAs <http://dbpedia.org/resource/Robert_Kazinsky>,
+        <http://www.wikidata.org/entity/Q3938329> .
+
+<https://example.org/person/10460> owl:sameAs <http://dbpedia.org/resource/Richard_Kiel>,
+        <http://www.wikidata.org/entity/Q376140> .
+
+<https://example.org/person/10478> owl:sameAs <http://dbpedia.org/resource/Jeanne_Tripplehorn>,
+        <http://www.wikidata.org/entity/Q120366> .
+
+<https://example.org/person/1052162> owl:sameAs <http://dbpedia.org/resource/Gregory_D._Gadson>,
+        <http://www.wikidata.org/entity/Q5606871> .
+
+<https://example.org/person/1055230> owl:sameAs <http://dbpedia.org/resource/Raffey_Cassidy>,
+        <http://www.wikidata.org/entity/Q6455419> .
+
+<https://example.org/person/1056053> owl:sameAs <http://dbpedia.org/resource/Josh_Helman>,
+        <http://www.wikidata.org/entity/Q5799862> .
+
+<https://example.org/person/1064> owl:sameAs <http://dbpedia.org/resource/Crispin_Glover>,
+        <http://www.wikidata.org/entity/Q310060> .
+
+<https://example.org/person/10690> owl:sameAs <http://dbpedia.org/resource/Anna_Paquin>,
+        <http://www.wikidata.org/entity/Q199884> .
+
+<https://example.org/person/10696> owl:sameAs <http://dbpedia.org/resource/Famke_Janssen>,
+        <http://www.wikidata.org/entity/Q190794> .
+
+<https://example.org/person/10702> owl:sameAs <http://dbpedia.org/resource/Martin_Campbell>,
+        <http://www.wikidata.org/entity/Q282033> .
+
+<https://example.org/person/10723> owl:sameAs <http://dbpedia.org/resource/Mike_Newell_(director)>,
+        <http://www.wikidata.org/entity/Q312088> .
+
+<https://example.org/person/10727> owl:sameAs <http://dbpedia.org/resource/John_Hannah_(actor)>,
+        <http://www.wikidata.org/entity/Q298243> .
+
+<https://example.org/person/1074140> owl:sameAs <http://www.wikidata.org/entity/Q112670452> .
+
+<https://example.org/person/108> owl:sameAs <http://dbpedia.org/resource/Peter_Jackson>,
+        <http://www.wikidata.org/entity/Q4465> .
+
+<https://example.org/person/10828> owl:sameAs <http://dbpedia.org/resource/Guillermo_del_Toro>,
+        <http://www.wikidata.org/entity/Q219124> .
+
+<https://example.org/person/10859> owl:sameAs <http://dbpedia.org/resource/Ryan_Reynolds>,
+        <http://www.wikidata.org/entity/Q192682> .
+
+<https://example.org/person/10883> owl:sameAs <http://dbpedia.org/resource/Rick_Yune>,
+        <http://www.wikidata.org/entity/Q923084> .
+
+<https://example.org/person/109> owl:sameAs <http://dbpedia.org/resource/Elijah_Wood>,
+        <http://www.wikidata.org/entity/Q483771> .
+
+<https://example.org/person/10912> owl:sameAs <http://dbpedia.org/resource/Eva_Green>,
+        <http://www.wikidata.org/entity/Q191644> .
+
+<https://example.org/person/109319> owl:sameAs <http://dbpedia.org/resource/Nikki_Amuka-Bird>,
+        <http://www.wikidata.org/entity/Q1752126> .
+
+<https://example.org/person/1094091> owl:sameAs <http://dbpedia.org/resource/Maika_Monroe>,
+        <http://www.wikidata.org/entity/Q16235655> .
+
+<https://example.org/person/109432> owl:sameAs <http://dbpedia.org/resource/Li_Bingbing>,
+        <http://www.wikidata.org/entity/Q254166> .
+
+<https://example.org/person/1095404> owl:sameAs <http://dbpedia.org/resource/Masayoshi_Haneda>,
+        <http://www.wikidata.org/entity/Q17152845> .
+
+<https://example.org/person/10959> owl:sameAs <http://dbpedia.org/resource/Shia_LaBeouf>,
+        <http://www.wikidata.org/entity/Q180942> .
+
+<https://example.org/person/10964> owl:sameAs <http://dbpedia.org/resource/Laz_Alonso>,
+        <http://www.wikidata.org/entity/Q302335> .
+
+<https://example.org/person/10978> owl:sameAs <http://dbpedia.org/resource/Maggie_Smith>,
+        <http://www.wikidata.org/entity/Q172653> .
+
+<https://example.org/person/10980> owl:sameAs <http://dbpedia.org/resource/Daniel_Radcliffe>,
+        <http://www.wikidata.org/entity/Q38119> .
+
+<https://example.org/person/1098600> owl:sameAs <http://dbpedia.org/resource/Hiroki_Hasegawa>,
+        <http://www.wikidata.org/entity/Q11653757> .
+
+<https://example.org/person/10989> owl:sameAs <http://dbpedia.org/resource/Rupert_Grint>,
+        <http://www.wikidata.org/entity/Q19190> .
+
+<https://example.org/person/10990> owl:sameAs <http://dbpedia.org/resource/Emma_Watson>,
+        <http://www.wikidata.org/entity/Q39476> .
+
+<https://example.org/person/10993> owl:sameAs <http://dbpedia.org/resource/Tom_Felton>,
+        <http://www.wikidata.org/entity/Q105682> .
+
+<https://example.org/person/1100> owl:sameAs <http://dbpedia.org/resource/Arnold_Schwarzenegger>,
+        <http://www.wikidata.org/entity/Q2685> .
+
+<https://example.org/person/11006> owl:sameAs <http://dbpedia.org/resource/James_Marsden>,
+        <http://www.wikidata.org/entity/Q485901> .
+
+<https://example.org/person/11022> owl:sameAs <http://dbpedia.org/resource/Aaron_Stanford>,
+        <http://www.wikidata.org/entity/Q302786> .
+
+<https://example.org/person/11023> owl:sameAs <http://dbpedia.org/resource/Shawn_Ashmore>,
+        <http://www.wikidata.org/entity/Q313579> .
+
+<https://example.org/person/1102427> owl:sameAs <http://dbpedia.org/resource/Steven_Cree>,
+        <http://www.wikidata.org/entity/Q21574198> .
+
+<https://example.org/person/11045> owl:sameAs <http://dbpedia.org/resource/Ola_Rapace>,
+        <http://www.wikidata.org/entity/Q521623> .
+
+<https://example.org/person/11074> owl:sameAs <http://dbpedia.org/resource/Kathy_Najimy>,
+        <http://www.wikidata.org/entity/Q235460> .
+
+<https://example.org/person/1108> owl:sameAs <http://dbpedia.org/resource/Shane_Black>,
+        <http://www.wikidata.org/entity/Q726126> .
+
+<https://example.org/person/11086> owl:sameAs <http://dbpedia.org/resource/Michael_Ironside>,
+        <http://www.wikidata.org/entity/Q344973> .
+
+<https://example.org/person/1108907> owl:sameAs <http://dbpedia.org/resource/Nick_Robinson_(American_actor)>,
+        <http://www.wikidata.org/entity/Q2985242> .
+
+<https://example.org/person/11091> owl:sameAs <http://dbpedia.org/resource/Brett_Ratner>,
+        <http://www.wikidata.org/entity/Q319204> .
+
+<https://example.org/person/11108> owl:sameAs <http://dbpedia.org/resource/Simon_Pegg>,
+        <http://www.wikidata.org/entity/Q238464> .
+
+<https://example.org/person/11109> owl:sameAs <http://dbpedia.org/resource/Nick_Frost>,
+        <http://www.wikidata.org/entity/Q363400> .
+
+<https://example.org/person/1113604> owl:sameAs <http://www.wikidata.org/entity/Q114743636> .
+
+<https://example.org/person/1115> owl:sameAs <http://dbpedia.org/resource/Stephen_Graham>,
+        <http://www.wikidata.org/entity/Q442547> .
+
+<https://example.org/person/11181> owl:sameAs <http://dbpedia.org/resource/Kenneth_Branagh>,
+        <http://www.wikidata.org/entity/Q55294> .
+
+<https://example.org/person/11184> owl:sameAs <http://dbpedia.org/resource/Warwick_Davis>,
+        <http://www.wikidata.org/entity/Q108270> .
+
+<https://example.org/person/112> owl:sameAs <http://dbpedia.org/resource/Cate_Blanchett>,
+        <http://www.wikidata.org/entity/Q80966> .
+
+<https://example.org/person/1125> owl:sameAs <http://dbpedia.org/resource/Ewen_Bremner>,
+        <http://www.wikidata.org/entity/Q520651> .
+
+<https://example.org/person/112692> owl:sameAs <http://dbpedia.org/resource/Robert_Maillet>,
+        <http://www.wikidata.org/entity/Q589775> .
+
+<https://example.org/person/11276> owl:sameAs <http://dbpedia.org/resource/Tim_Pigott-Smith>,
+        <http://www.wikidata.org/entity/Q1334710> .
+
+<https://example.org/person/113> owl:sameAs <http://dbpedia.org/resource/Christopher_Lee>,
+        <http://www.wikidata.org/entity/Q180338> .
+
+<https://example.org/person/1133349> owl:sameAs <http://dbpedia.org/resource/Elizabeth_Debicki>,
+        <http://www.wikidata.org/entity/Q5362676> .
+
+<https://example.org/person/11343> owl:sameAs <http://dbpedia.org/resource/David_Yates>,
+        <http://www.wikidata.org/entity/Q312988> .
+
+<https://example.org/person/113505> owl:sameAs <http://dbpedia.org/resource/Kodi_Smit-McPhee>,
+        <http://www.wikidata.org/entity/Q716251> .
+
+<https://example.org/person/11356> owl:sameAs <http://dbpedia.org/resource/Imelda_Staunton>,
+        <http://www.wikidata.org/entity/Q234798> .
+
+<https://example.org/person/11357> owl:sameAs <http://dbpedia.org/resource/Bruce_Campbell>,
+        <http://www.wikidata.org/entity/Q309932> .
+
+<https://example.org/person/114> owl:sameAs <http://dbpedia.org/resource/Orlando_Bloom>,
+        <http://www.wikidata.org/entity/Q44467> .
+
+<https://example.org/person/115679> owl:sameAs <http://dbpedia.org/resource/Charlotte_Riley>,
+        <http://www.wikidata.org/entity/Q441078> .
+
+<https://example.org/person/116> owl:sameAs <http://dbpedia.org/resource/Keira_Knightley>,
+        <http://www.wikidata.org/entity/Q42581> .
+
+<https://example.org/person/11678> owl:sameAs <http://dbpedia.org/resource/Rainn_Wilson>,
+        <http://www.wikidata.org/entity/Q349548> .
+
+<https://example.org/person/11694> owl:sameAs <http://dbpedia.org/resource/Doug_Liman>,
+        <http://www.wikidata.org/entity/Q349339> .
+
+<https://example.org/person/11701> owl:sameAs <http://dbpedia.org/resource/Angelina_Jolie>,
+        <http://www.wikidata.org/entity/Q13909> .
+
+<https://example.org/person/117081> owl:sameAs <http://dbpedia.org/resource/Teresa_Ganzel>,
+        <http://www.wikidata.org/entity/Q7702142> .
+
+<https://example.org/person/118> owl:sameAs <http://dbpedia.org/resource/Geoffrey_Rush>,
+        <http://www.wikidata.org/entity/Q166272> .
+
+<https://example.org/person/1180907> owl:sameAs <http://dbpedia.org/resource/Daniella_Kertesz>,
+        <http://www.wikidata.org/entity/Q6580510> .
+
+<https://example.org/person/118489> owl:sameAs <http://dbpedia.org/resource/Walt_Dohrn>,
+        <http://www.wikidata.org/entity/Q2713565> .
+
+<https://example.org/person/11855> owl:sameAs <http://dbpedia.org/resource/Geraldine_James>,
+        <http://www.wikidata.org/entity/Q440926> .
+
+<https://example.org/person/118590> owl:sameAs <http://dbpedia.org/resource/Larry_Joe_Campbell>,
+        <http://www.wikidata.org/entity/Q949043> .
+
+<https://example.org/person/1186840> owl:sameAs <http://dbpedia.org/resource/Sterling_Jerins>,
+        <http://www.wikidata.org/entity/Q15148681> .
+
+<https://example.org/person/1190668> owl:sameAs <http://dbpedia.org/resource/Timothée_Chalamet>,
+        <http://www.wikidata.org/entity/Q19877770> .
+
+<https://example.org/person/119224> owl:sameAs <http://dbpedia.org/resource/Jonas_Armstrong>,
+        <http://www.wikidata.org/entity/Q40132> .
+
+<https://example.org/person/119297> owl:sameAs <http://dbpedia.org/resource/Ludi_Boeken>,
+        <http://www.wikidata.org/entity/Q13538517> .
+
+<https://example.org/person/1193834> owl:sameAs <http://dbpedia.org/resource/Stephen_Hunter_(actor)>,
+        <http://www.wikidata.org/entity/Q1033115> .
+
+<https://example.org/person/12052> owl:sameAs <http://dbpedia.org/resource/Gwyneth_Paltrow>,
+        <http://www.wikidata.org/entity/Q34460> .
+
+<https://example.org/person/120690> owl:sameAs <http://dbpedia.org/resource/Kengo_Kora>,
+        <http://www.wikidata.org/entity/Q873277> .
+
+<https://example.org/person/12073> owl:sameAs <http://dbpedia.org/resource/Mike_Myers>,
+        <http://www.wikidata.org/entity/Q185724> .
+
+<https://example.org/person/12080> owl:sameAs <http://dbpedia.org/resource/Conrad_Vernon>,
+        <http://www.wikidata.org/entity/Q521501> .
+
+<https://example.org/person/12132> owl:sameAs <http://dbpedia.org/resource/Michael_Rooker>,
+        <http://www.wikidata.org/entity/Q525065> .
+
+<https://example.org/person/1213786> owl:sameAs <http://dbpedia.org/resource/Brent_Spiner>,
+        <http://www.wikidata.org/entity/Q311453> .
+
+<https://example.org/person/121529> owl:sameAs <http://dbpedia.org/resource/Léa_Seydoux>,
+        <http://www.wikidata.org/entity/Q231096> .
+
+<https://example.org/person/1216606> owl:sameAs <http://dbpedia.org/resource/Gugu_Mbatha-Raw>,
+        <http://www.wikidata.org/entity/Q3119298> .
+
+<https://example.org/person/121830> owl:sameAs <http://dbpedia.org/resource/Nathan_Greno>,
+        <http://www.wikidata.org/entity/Q16028506> .
+
+<https://example.org/person/1219029> owl:sameAs <http://dbpedia.org/resource/Paul_F._Tompkins>,
+        <http://www.wikidata.org/entity/Q2059493> .
+
+<https://example.org/person/121953> owl:sameAs <http://dbpedia.org/resource/Stéphanie_Szostak>,
+        <http://www.wikidata.org/entity/Q45827> .
+
+<https://example.org/person/122889> owl:sameAs <http://dbpedia.org/resource/Dane_DeHaan>,
+        <http://www.wikidata.org/entity/Q860876> .
+
+<https://example.org/person/1229> owl:sameAs <http://dbpedia.org/resource/Jeff_Bridges>,
+        <http://www.wikidata.org/entity/Q174843> .
+
+<https://example.org/person/1230> owl:sameAs <http://dbpedia.org/resource/John_Goodman>,
+        <http://www.wikidata.org/entity/Q215072> .
+
+<https://example.org/person/123725> owl:sameAs <http://dbpedia.org/resource/Abigail_Spencer>,
+        <http://www.wikidata.org/entity/Q321131> .
+
+<https://example.org/person/1240> owl:sameAs <http://dbpedia.org/resource/Jack_Kehler>,
+        <http://www.wikidata.org/entity/Q3157229> .
+
+<https://example.org/person/1241> owl:sameAs <http://dbpedia.org/resource/John_Turturro>,
+        <http://www.wikidata.org/entity/Q244234> .
+
+<https://example.org/person/1245> owl:sameAs <http://dbpedia.org/resource/Scarlett_Johansson>,
+        <http://www.wikidata.org/entity/Q34436> .
+
+<https://example.org/person/1246> owl:sameAs <http://dbpedia.org/resource/Emily_Mortimer>,
+        <http://www.wikidata.org/entity/Q230308> .
+
+<https://example.org/person/125025> owl:sameAs <http://dbpedia.org/resource/Joey_King>,
+        <http://www.wikidata.org/entity/Q112536> .
+
+<https://example.org/person/125167> owl:sameAs <http://dbpedia.org/resource/Mindy_Kaling>,
+        <http://www.wikidata.org/entity/Q539917> .
+
+<https://example.org/person/1253541> owl:sameAs <http://dbpedia.org/resource/Jin_Akanishi>,
+        <http://www.wikidata.org/entity/Q347456> .
+
+<https://example.org/person/125660> owl:sameAs <http://dbpedia.org/resource/Andrew_Scott_(actor)>,
+        <http://www.wikidata.org/entity/Q507322> .
+
+<https://example.org/person/125740> owl:sameAs <http://dbpedia.org/resource/Dragomir_Mrsic>,
+        <http://www.wikidata.org/entity/Q1254792> .
+
+<https://example.org/person/126638> owl:sameAs <http://dbpedia.org/resource/Mark_Andrews_(filmmaker)>,
+        <http://www.wikidata.org/entity/Q1408804> .
+
+<https://example.org/person/1267329> owl:sameAs <http://dbpedia.org/resource/Lupita_Nyong'o>,
+        <http://www.wikidata.org/entity/Q3840847> .
+
+<https://example.org/person/1269> owl:sameAs <http://dbpedia.org/resource/Kevin_Costner>,
+        <http://www.wikidata.org/entity/Q11930> .
+
+<https://example.org/person/1271300> owl:sameAs <http://www.wikidata.org/entity/Q135668559> .
+
+<https://example.org/person/1273208> owl:sameAs <http://www.wikidata.org/entity/Q27986463> .
+
+<https://example.org/person/1278789> owl:sameAs <http://www.wikidata.org/entity/Q94616717> .
+
+<https://example.org/person/12796> owl:sameAs <http://dbpedia.org/resource/Johnny_Strong>,
+        <http://www.wikidata.org/entity/Q1702414> .
+
+<https://example.org/person/1281> owl:sameAs <http://dbpedia.org/resource/Freddie_Highmore>,
+        <http://www.wikidata.org/entity/Q296887> .
+
+<https://example.org/person/12826> owl:sameAs <http://dbpedia.org/resource/Charles_Fleischer>,
+        <http://www.wikidata.org/entity/Q658690> .
+
+<https://example.org/person/1283> owl:sameAs <http://dbpedia.org/resource/Helena_Bonham_Carter>,
+        <http://www.wikidata.org/entity/Q170428> .
+
+<https://example.org/person/12834> owl:sameAs <http://dbpedia.org/resource/Barry_Pepper>,
+        <http://www.wikidata.org/entity/Q315604> .
+
+<https://example.org/person/12835> owl:sameAs <http://dbpedia.org/resource/Vin_Diesel>,
+        <http://www.wikidata.org/entity/Q178166> .
+
+<https://example.org/person/12890> owl:sameAs <http://dbpedia.org/resource/Pete_Docter>,
+        <http://www.wikidata.org/entity/Q357627> .
+
+<https://example.org/person/12891> owl:sameAs <http://dbpedia.org/resource/Joss_Whedon>,
+        <http://www.wikidata.org/entity/Q298025> .
+
+<https://example.org/person/12898> owl:sameAs <http://dbpedia.org/resource/Tim_Allen>,
+        <http://www.wikidata.org/entity/Q208408> .
+
+<https://example.org/person/1289968> owl:sameAs <http://dbpedia.org/resource/Cara_Delevingne>,
+        <http://www.wikidata.org/entity/Q1395624> .
+
+<https://example.org/person/12900> owl:sameAs <http://dbpedia.org/resource/Wallace_Shawn>,
+        <http://www.wikidata.org/entity/Q311068> .
+
+<https://example.org/person/12995> owl:sameAs <http://dbpedia.org/resource/Marc_Forster>,
+        <http://www.wikidata.org/entity/Q28497> .
+
+<https://example.org/person/130081> owl:sameAs <http://dbpedia.org/resource/Robin_Atkin_Downes>,
+        <http://www.wikidata.org/entity/Q4346488> .
+
+<https://example.org/person/130108> owl:sameAs <http://dbpedia.org/resource/Elizabeth_Mathis>,
+        <http://www.wikidata.org/entity/Q16732135> .
+
+<https://example.org/person/13014> owl:sameAs <http://dbpedia.org/resource/Toby_Jones>,
+        <http://www.wikidata.org/entity/Q342419> .
+
+<https://example.org/person/13022> owl:sameAs <http://dbpedia.org/resource/Tom_Berenger>,
+        <http://www.wikidata.org/entity/Q299317> .
+
+<https://example.org/person/130654> owl:sameAs <http://dbpedia.org/resource/Mikako_Ichikawa>,
+        <http://www.wikidata.org/entity/Q1042876> .
+
+<https://example.org/person/131> owl:sameAs <http://dbpedia.org/resource/Jake_Gyllenhaal>,
+        <http://www.wikidata.org/entity/Q133313> .
+
+<https://example.org/person/131519> owl:sameAs <http://dbpedia.org/resource/Rihanna>,
+        <http://www.wikidata.org/entity/Q36844> .
+
+<https://example.org/person/131520> owl:sameAs <http://dbpedia.org/resource/Brooklyn_Decker>,
+        <http://www.wikidata.org/entity/Q230282> .
+
+<https://example.org/person/13240> owl:sameAs <http://dbpedia.org/resource/Mark_Wahlberg>,
+        <http://www.wikidata.org/entity/Q164119> .
+
+<https://example.org/person/13242> owl:sameAs <http://dbpedia.org/resource/Paul_Giamatti>,
+        <http://www.wikidata.org/entity/Q208649> .
+
+<https://example.org/person/13256> owl:sameAs <http://dbpedia.org/resource/Kanji_Tsuda>,
+        <http://www.wikidata.org/entity/Q3543561> .
+
+<https://example.org/person/1327> owl:sameAs <http://dbpedia.org/resource/Ian_McKellen>,
+        <http://www.wikidata.org/entity/Q170510> .
+
+<https://example.org/person/13275> owl:sameAs <http://dbpedia.org/resource/Tadanobu_Asano>,
+        <http://www.wikidata.org/entity/Q379824> .
+
+<https://example.org/person/133> owl:sameAs <http://dbpedia.org/resource/Peter_Sarsgaard>,
+        <http://www.wikidata.org/entity/Q315099> .
+
+<https://example.org/person/1331> owl:sameAs <http://dbpedia.org/resource/Hugo_Weaving>,
+        <http://www.wikidata.org/entity/Q42204> .
+
+<https://example.org/person/1333> owl:sameAs <http://dbpedia.org/resource/Andy_Serkis>,
+        <http://www.wikidata.org/entity/Q206922> .
+
+<https://example.org/person/1336> owl:sameAs <http://dbpedia.org/resource/Jet_Li>,
+        <http://www.wikidata.org/entity/Q159577> .
+
+<https://example.org/person/134> owl:sameAs <http://dbpedia.org/resource/Jamie_Foxx>,
+        <http://www.wikidata.org/entity/Q171905> .
+
+<https://example.org/person/1348591> owl:sameAs <http://dbpedia.org/resource/Marcus_Scribner>,
+        <http://www.wikidata.org/entity/Q23831178> .
+
+<https://example.org/person/13548> owl:sameAs <http://dbpedia.org/resource/James_Spader>,
+        <http://www.wikidata.org/entity/Q296928> .
+
+<https://example.org/person/1355733> owl:sameAs <http://dbpedia.org/resource/Isobelle_Molloy>,
+        <http://www.wikidata.org/entity/Q17198353> .
+
+<https://example.org/person/136191> owl:sameAs <http://dbpedia.org/resource/Min_Tanaka>,
+        <http://www.wikidata.org/entity/Q3108327> .
+
+<https://example.org/person/1363086> owl:sameAs <http://dbpedia.org/resource/Franz_Drameh>,
+        <http://www.wikidata.org/entity/Q1446573> .
+
+<https://example.org/person/13633> owl:sameAs <http://dbpedia.org/resource/Mark_Addy>,
+        <http://www.wikidata.org/entity/Q342430> .
+
+<https://example.org/person/1369> owl:sameAs <http://dbpedia.org/resource/Bernard_Hill>,
+        <http://www.wikidata.org/entity/Q310515> .
+
+<https://example.org/person/1371894> owl:sameAs <http://www.wikidata.org/entity/Q22004049> .
+
+<https://example.org/person/1372> owl:sameAs <http://dbpedia.org/resource/Karl_Urban>,
+        <http://www.wikidata.org/entity/Q132430> .
+
+<https://example.org/person/13724> owl:sameAs <http://dbpedia.org/resource/Jane_Alexander>,
+        <http://www.wikidata.org/entity/Q242717> .
+
+<https://example.org/person/13726> owl:sameAs <http://dbpedia.org/resource/Ned_Beatty>,
+        <http://www.wikidata.org/entity/Q4212> .
+
+<https://example.org/person/137262> owl:sameAs <http://dbpedia.org/resource/Steve_Purcell>,
+        <http://www.wikidata.org/entity/Q1390504> .
+
+<https://example.org/person/139549> owl:sameAs <http://dbpedia.org/resource/Rory_Kinnear>,
+        <http://www.wikidata.org/entity/Q1320782> .
+
+<https://example.org/person/1414734> owl:sameAs <http://dbpedia.org/resource/Neel_Sethi>,
+        <http://www.wikidata.org/entity/Q19631217> .
+
+<https://example.org/person/145633> owl:sameAs <http://dbpedia.org/resource/Noémie_Lenoir>,
+        <http://www.wikidata.org/entity/Q265782> .
+
+<https://example.org/person/14592> owl:sameAs <http://dbpedia.org/resource/BD_Wong>,
+        <http://www.wikidata.org/entity/Q359207> .
+
+<https://example.org/person/1461> owl:sameAs <http://dbpedia.org/resource/George_Clooney>,
+        <http://www.wikidata.org/entity/Q23844> .
+
+<https://example.org/person/1461608> owl:sameAs <http://dbpedia.org/resource/Karen_Fukuhara>,
+        <http://www.wikidata.org/entity/Q22277846> .
+
+<https://example.org/person/14721> owl:sameAs <http://dbpedia.org/resource/Kevin_Dunn>,
+        <http://www.wikidata.org/entity/Q706117> .
+
+<https://example.org/person/147255> owl:sameAs <http://dbpedia.org/resource/Tony_Way>,
+        <http://www.wikidata.org/entity/Q7823655> .
+
+<https://example.org/person/1475> owl:sameAs <http://dbpedia.org/resource/Musetta_Vander>,
+        <http://www.wikidata.org/entity/Q432309> .
+
+<https://example.org/person/1502395> owl:sameAs <http://dbpedia.org/resource/Satoru_Matsuo>,
+        <http://www.wikidata.org/entity/Q11529701> .
+
+<https://example.org/person/151246> owl:sameAs <http://dbpedia.org/resource/Nicole_Scherzinger>,
+        <http://www.wikidata.org/entity/Q167696> .
+
+<https://example.org/person/15217> owl:sameAs <http://dbpedia.org/resource/Zack_Snyder>,
+        <http://www.wikidata.org/entity/Q139890> .
+
+<https://example.org/person/15218> owl:sameAs <http://dbpedia.org/resource/James_Gunn>,
+        <http://www.wikidata.org/entity/Q717015> .
+
+<https://example.org/person/152566> owl:sameAs <http://dbpedia.org/resource/Dean_O'Gorman>,
+        <http://www.wikidata.org/entity/Q328618> .
+
+<https://example.org/person/15277> owl:sameAs <http://dbpedia.org/resource/Jon_Favreau>,
+        <http://www.wikidata.org/entity/Q295964> .
+
+<https://example.org/person/1532> owl:sameAs <http://dbpedia.org/resource/Bill_Murray>,
+        <http://www.wikidata.org/entity/Q29250> .
+
+<https://example.org/person/15344> owl:sameAs <http://dbpedia.org/resource/J._J._Abrams>,
+        <http://www.wikidata.org/entity/Q188137> .
+
+<https://example.org/person/1540680> owl:sameAs <http://www.wikidata.org/entity/Q68451289> .
+
+<https://example.org/person/15498> owl:sameAs <http://dbpedia.org/resource/Liam_Cunningham>,
+        <http://www.wikidata.org/entity/Q460572> .
+
+<https://example.org/person/15556> owl:sameAs <http://dbpedia.org/resource/Rebecca_Hall>,
+        <http://www.wikidata.org/entity/Q230534> .
+
+<https://example.org/person/155649> owl:sameAs <http://dbpedia.org/resource/Joel_Murray>,
+        <http://www.wikidata.org/entity/Q1120939> .
+
+<https://example.org/person/15576> owl:sameAs <http://dbpedia.org/resource/Matthew_Macfadyen>,
+        <http://www.wikidata.org/entity/Q314954> .
+
+<https://example.org/person/15735> owl:sameAs <http://dbpedia.org/resource/Helen_Mirren>,
+        <http://www.wikidata.org/entity/Q349391> .
+
+<https://example.org/person/15737> owl:sameAs <http://dbpedia.org/resource/Helen_McCrory>,
+        <http://www.wikidata.org/entity/Q231310> .
+
+<https://example.org/person/1579> owl:sameAs <http://dbpedia.org/resource/Maggie_Gyllenhaal>,
+        <http://www.wikidata.org/entity/Q202381> .
+
+<https://example.org/person/15853> owl:sameAs <http://dbpedia.org/resource/Wes_Studi>,
+        <http://www.wikidata.org/entity/Q350819> .
+
+<https://example.org/person/15854> owl:sameAs <http://dbpedia.org/resource/Ted_Levine>,
+        <http://www.wikidata.org/entity/Q433520> .
+
+<https://example.org/person/15897> owl:sameAs <http://dbpedia.org/resource/Larry_the_Cable_Guy>,
+        <http://www.wikidata.org/entity/Q331728> .
+
+<https://example.org/person/1619> owl:sameAs <http://dbpedia.org/resource/Chow_Yun-fat>,
+        <http://www.wikidata.org/entity/Q181425> .
+
+<https://example.org/person/1620> owl:sameAs <http://dbpedia.org/resource/Michelle_Yeoh>,
+        <http://www.wikidata.org/entity/Q214289> .
+
+<https://example.org/person/163671> owl:sameAs <http://dbpedia.org/resource/Will_Lyman>,
+        <http://www.wikidata.org/entity/Q1629137> .
+
+<https://example.org/person/1640> owl:sameAs <http://dbpedia.org/resource/Stellan_Skarsgård>,
+        <http://www.wikidata.org/entity/Q208667> .
+
+<https://example.org/person/16431> owl:sameAs <http://dbpedia.org/resource/Sam_Elliott>,
+        <http://www.wikidata.org/entity/Q311314> .
+
+<https://example.org/person/164945> owl:sameAs <http://dbpedia.org/resource/Sarah_Shahi>,
+        <http://www.wikidata.org/entity/Q230530> .
+
+<https://example.org/person/165787> owl:sameAs <http://dbpedia.org/resource/Rich_Moore>,
+        <http://www.wikidata.org/entity/Q2499079> .
+
+<https://example.org/person/1665> owl:sameAs <http://dbpedia.org/resource/Eddie_Marsan>,
+        <http://www.wikidata.org/entity/Q45647> .
+
+<https://example.org/person/16828> owl:sameAs <http://dbpedia.org/resource/Chris_Evans_(actor)>,
+        <http://www.wikidata.org/entity/Q178348> .
+
+<https://example.org/person/16851> owl:sameAs <http://dbpedia.org/resource/Josh_Brolin>,
+        <http://www.wikidata.org/entity/Q41396> .
+
+<https://example.org/person/16855> owl:sameAs <http://dbpedia.org/resource/Mandy_Moore>,
+        <http://www.wikidata.org/entity/Q187832> .
+
+<https://example.org/person/16858> owl:sameAs <http://dbpedia.org/resource/Lauren_Graham>,
+        <http://www.wikidata.org/entity/Q228755> .
+
+<https://example.org/person/169200> owl:sameAs <http://dbpedia.org/resource/Phyllis_Smith>,
+        <http://www.wikidata.org/entity/Q508280> .
+
+<https://example.org/person/16940> owl:sameAs <http://dbpedia.org/resource/Jeremy_Irons>,
+        <http://www.wikidata.org/entity/Q171745> .
+
+<https://example.org/person/1704> owl:sameAs <http://dbpedia.org/resource/Gore_Verbinski>,
+        <http://www.wikidata.org/entity/Q295463> .
+
+<https://example.org/person/17051> owl:sameAs <http://dbpedia.org/resource/James_Franco>,
+        <http://www.wikidata.org/entity/Q306403> .
+
+<https://example.org/person/17052> owl:sameAs <http://dbpedia.org/resource/Topher_Grace>,
+        <http://www.wikidata.org/entity/Q277978> .
+
+<https://example.org/person/17064> owl:sameAs <http://dbpedia.org/resource/Ben_Whishaw>,
+        <http://www.wikidata.org/entity/Q342617> .
+
+<https://example.org/person/1709> owl:sameAs <http://dbpedia.org/resource/Jack_Davenport>,
+        <http://www.wikidata.org/entity/Q310930> .
+
+<https://example.org/person/1710> owl:sameAs <http://dbpedia.org/resource/Lee_Arenberg>,
+        <http://www.wikidata.org/entity/Q548163> .
+
+<https://example.org/person/1711> owl:sameAs <http://dbpedia.org/resource/Mackenzie_Crook>,
+        <http://www.wikidata.org/entity/Q447614> .
+
+<https://example.org/person/1712> owl:sameAs <http://dbpedia.org/resource/Damian_O'Hare>,
+        <http://www.wikidata.org/entity/Q1158461> .
+
+<https://example.org/person/17181> owl:sameAs <http://dbpedia.org/resource/Ty_Simpkins>,
+        <http://www.wikidata.org/entity/Q545357> .
+
+<https://example.org/person/172069> owl:sameAs <http://dbpedia.org/resource/Chadwick_Boseman>,
+        <http://www.wikidata.org/entity/Q5066520> .
+
+<https://example.org/person/17271> owl:sameAs <http://dbpedia.org/resource/Brandon_Routh>,
+        <http://www.wikidata.org/entity/Q299324> .
+
+<https://example.org/person/17276> owl:sameAs <http://dbpedia.org/resource/Gerard_Butler>,
+        <http://www.wikidata.org/entity/Q169982> .
+
+<https://example.org/person/17287> owl:sameAs <http://dbpedia.org/resource/Dominic_West>,
+        <http://www.wikidata.org/entity/Q313020> .
+
+<https://example.org/person/17288> owl:sameAs <http://dbpedia.org/resource/Michael_Fassbender>,
+        <http://www.wikidata.org/entity/Q57147> .
+
+<https://example.org/person/17306> owl:sameAs <http://dbpedia.org/resource/Zachary_Quinto>,
+        <http://www.wikidata.org/entity/Q139642> .
+
+<https://example.org/person/17419> owl:sameAs <http://dbpedia.org/resource/Bryan_Cranston>,
+        <http://www.wikidata.org/entity/Q23547> .
+
+<https://example.org/person/17485> owl:sameAs <http://dbpedia.org/resource/Oliver_Platt>,
+        <http://www.wikidata.org/entity/Q343510> .
+
+<https://example.org/person/1749> owl:sameAs <http://dbpedia.org/resource/Leonard_Nimoy>,
+        <http://www.wikidata.org/entity/Q16345> .
+
+<https://example.org/person/175826> owl:sameAs <http://dbpedia.org/resource/Mireille_Enos>,
+        <http://www.wikidata.org/entity/Q28211> .
+
+<https://example.org/person/17604> owl:sameAs <http://dbpedia.org/resource/Jeremy_Renner>,
+        <http://www.wikidata.org/entity/Q23365> .
+
+<https://example.org/person/17605> owl:sameAs <http://dbpedia.org/resource/Idris_Elba>,
+        <http://www.wikidata.org/entity/Q342604> .
+
+<https://example.org/person/17633> owl:sameAs <http://dbpedia.org/resource/Rob_Marshall>,
+        <http://www.wikidata.org/entity/Q353501> .
+
+<https://example.org/person/17647> owl:sameAs <http://dbpedia.org/resource/Michelle_Rodriguez>,
+        <http://www.wikidata.org/entity/Q184219> .
+
+<https://example.org/person/17648> owl:sameAs <http://dbpedia.org/resource/James_Purefoy>,
+        <http://www.wikidata.org/entity/Q360528> .
+
+<https://example.org/person/17696> owl:sameAs <http://dbpedia.org/resource/Kathryn_Hahn>,
+        <http://www.wikidata.org/entity/Q271986> .
+
+<https://example.org/person/1771> owl:sameAs <http://dbpedia.org/resource/Giovanni_Ribisi>,
+        <http://www.wikidata.org/entity/Q224081> .
+
+<https://example.org/person/17857> owl:sameAs <http://dbpedia.org/resource/Shaun_Toub>,
+        <http://www.wikidata.org/entity/Q144643> .
+
+<https://example.org/person/17867> owl:sameAs <http://dbpedia.org/resource/Tom_McCarthy_(director)>,
+        <http://www.wikidata.org/entity/Q514527> .
+
+<https://example.org/person/18> owl:sameAs <http://dbpedia.org/resource/Brad_Garrett>,
+        <http://www.wikidata.org/entity/Q331720> .
+
+<https://example.org/person/18050> owl:sameAs <http://dbpedia.org/resource/Elle_Fanning>,
+        <http://www.wikidata.org/entity/Q228943> .
+
+<https://example.org/person/18054> owl:sameAs <http://dbpedia.org/resource/Rinko_Kikuchi>,
+        <http://www.wikidata.org/entity/Q232499> .
+
+<https://example.org/person/1810> owl:sameAs <http://dbpedia.org/resource/Heath_Ledger>,
+        <http://www.wikidata.org/entity/Q40572> .
+
+<https://example.org/person/1812> owl:sameAs <http://dbpedia.org/resource/Michelle_Williams_(actress)>,
+        <http://www.wikidata.org/entity/Q156796> .
+
+<https://example.org/person/1813> owl:sameAs <http://dbpedia.org/resource/Anne_Hathaway>,
+        <http://www.wikidata.org/entity/Q36301> .
+
+<https://example.org/person/18182> owl:sameAs <http://dbpedia.org/resource/Olga_Kurylenko>,
+        <http://www.wikidata.org/entity/Q164730> .
+
+<https://example.org/person/18269> owl:sameAs <http://dbpedia.org/resource/Brendan_Fraser>,
+        <http://www.wikidata.org/entity/Q193555> .
+
+<https://example.org/person/18286> owl:sameAs <http://dbpedia.org/resource/Nona_Gaye>,
+        <http://www.wikidata.org/entity/Q508359> .
+
+<https://example.org/person/18288> owl:sameAs <http://dbpedia.org/resource/Terrence_Howard>,
+        <http://www.wikidata.org/entity/Q296500> .
+
+<https://example.org/person/18324> owl:sameAs <http://dbpedia.org/resource/Steve_Zahn>,
+        <http://www.wikidata.org/entity/Q491775> .
+
+<https://example.org/person/184581> owl:sameAs <http://dbpedia.org/resource/Hamish_Linklater>,
+        <http://www.wikidata.org/entity/Q558301> .
+
+<https://example.org/person/18473> owl:sameAs <http://dbpedia.org/resource/James_Badge_Dale>,
+        <http://www.wikidata.org/entity/Q451974> .
+
+<https://example.org/person/18686> owl:sameAs <http://dbpedia.org/resource/Holly_Hunter>,
+        <http://www.wikidata.org/entity/Q105660> .
+
+<https://example.org/person/18792> owl:sameAs <http://dbpedia.org/resource/Delroy_Lindo>,
+        <http://www.wikidata.org/entity/Q362559> .
+
+<https://example.org/person/18878> owl:sameAs <http://dbpedia.org/resource/Rob_Cohen>,
+        <http://www.wikidata.org/entity/Q503966> .
+
+<https://example.org/person/18897> owl:sameAs <http://dbpedia.org/resource/Jackie_Chan>,
+        <http://www.wikidata.org/entity/Q36970> .
+
+<https://example.org/person/18918> owl:sameAs <http://dbpedia.org/resource/Dwayne_Johnson>,
+        <http://www.wikidata.org/entity/Q10738> .
+
+<https://example.org/person/1892> owl:sameAs <http://dbpedia.org/resource/Matt_Damon>,
+        <http://www.wikidata.org/entity/Q175535> .
+
+<https://example.org/person/1893> owl:sameAs <http://dbpedia.org/resource/Casey_Affleck>,
+        <http://www.wikidata.org/entity/Q270730> .
+
+<https://example.org/person/1896> owl:sameAs <http://dbpedia.org/resource/Don_Cheadle>,
+        <http://www.wikidata.org/entity/Q272019> .
+
+<https://example.org/person/18973> owl:sameAs <http://dbpedia.org/resource/Mila_Kunis>,
+        <http://www.wikidata.org/entity/Q37628> .
+
+<https://example.org/person/18977> owl:sameAs <http://dbpedia.org/resource/Ed_O'Neill>,
+        <http://www.wikidata.org/entity/Q16758> .
+
+<https://example.org/person/18997> owl:sameAs <http://dbpedia.org/resource/Bryce_Dallas_Howard>,
+        <http://www.wikidata.org/entity/Q229775> .
+
+<https://example.org/person/18998> owl:sameAs <http://dbpedia.org/resource/Rosemary_Harris>,
+        <http://www.wikidata.org/entity/Q234195> .
+
+<https://example.org/person/19152> owl:sameAs <http://dbpedia.org/resource/Dylan_Baker>,
+        <http://www.wikidata.org/entity/Q726128> .
+
+<https://example.org/person/19154> owl:sameAs <http://dbpedia.org/resource/Daniel_Gillies>,
+        <http://www.wikidata.org/entity/Q512006> .
+
+<https://example.org/person/19159> owl:sameAs <http://dbpedia.org/resource/Thomas_Haden_Church>,
+        <http://www.wikidata.org/entity/Q311615> .
+
+<https://example.org/person/192> owl:sameAs <http://dbpedia.org/resource/Morgan_Freeman>,
+        <http://www.wikidata.org/entity/Q48337> .
+
+<https://example.org/person/1923> owl:sameAs <http://dbpedia.org/resource/Robbie_Coltrane>,
+        <http://www.wikidata.org/entity/Q296008> .
+
+<https://example.org/person/1926> owl:sameAs <http://dbpedia.org/resource/Eddie_Izzard>,
+        <http://www.wikidata.org/entity/Q254022> .
+
+<https://example.org/person/19271> owl:sameAs <http://dbpedia.org/resource/Anthony_Russo_(director)>,
+        <http://www.wikidata.org/entity/Q18018415> .
+
+<https://example.org/person/19272> owl:sameAs <http://dbpedia.org/resource/Joe_Russo_(director)>,
+        <http://www.wikidata.org/entity/Q20675767> .
+
+<https://example.org/person/19274> owl:sameAs <http://dbpedia.org/resource/Seth_Rogen>,
+        <http://www.wikidata.org/entity/Q220308> .
+
+<https://example.org/person/19278> owl:sameAs <http://dbpedia.org/resource/Bill_Hader>,
+        <http://www.wikidata.org/entity/Q14537> .
+
+<https://example.org/person/19487> owl:sameAs <http://dbpedia.org/resource/Jay_Hernandez>,
+        <http://www.wikidata.org/entity/Q533655> .
+
+<https://example.org/person/19492> owl:sameAs <http://dbpedia.org/resource/Viola_Davis>,
+        <http://www.wikidata.org/entity/Q229181> .
+
+<https://example.org/person/19536> owl:sameAs <http://dbpedia.org/resource/Josh_Duhamel>,
+        <http://www.wikidata.org/entity/Q19794> .
+
+<https://example.org/person/19537> owl:sameAs <http://dbpedia.org/resource/Megan_Fox>,
+        <http://www.wikidata.org/entity/Q80069> .
+
+<https://example.org/person/1954> owl:sameAs <http://dbpedia.org/resource/Billy_Zane>,
+        <http://www.wikidata.org/entity/Q205435> .
+
+<https://example.org/person/196502> owl:sameAs <http://dbpedia.org/resource/Paula_Poundstone>,
+        <http://www.wikidata.org/entity/Q3372564> .
+
+<https://example.org/person/19754> owl:sameAs <http://dbpedia.org/resource/Tony_Cox_(actor)>,
+        <http://www.wikidata.org/entity/Q589797> .
+
+<https://example.org/person/19769> owl:sameAs <http://dbpedia.org/resource/David_Ayer>,
+        <http://www.wikidata.org/entity/Q1091339> .
+
+<https://example.org/person/1979> owl:sameAs <http://dbpedia.org/resource/Kevin_Spacey>,
+        <http://www.wikidata.org/entity/Q25144> .
+
+<https://example.org/person/20286> owl:sameAs <http://dbpedia.org/resource/Toby_Kebbell>,
+        <http://www.wikidata.org/entity/Q719359> .
+
+<https://example.org/person/20300> owl:sameAs <http://dbpedia.org/resource/Eileen_Atkins>,
+        <http://www.wikidata.org/entity/Q269835> .
+
+<https://example.org/person/2037> owl:sameAs <http://dbpedia.org/resource/Cillian_Murphy>,
+        <http://www.wikidata.org/entity/Q202589> .
+
+<https://example.org/person/2038> owl:sameAs <http://dbpedia.org/resource/Naomie_Harris>,
+        <http://www.wikidata.org/entity/Q156586> .
+
+<https://example.org/person/2039> owl:sameAs <http://dbpedia.org/resource/Brendan_Gleeson>,
+        <http://www.wikidata.org/entity/Q206659> .
+
+<https://example.org/person/204> owl:sameAs <http://dbpedia.org/resource/Kate_Winslet>,
+        <http://www.wikidata.org/entity/Q202765> .
+
+<https://example.org/person/2040> owl:sameAs <http://dbpedia.org/resource/Christopher_Eccleston>,
+        <http://www.wikidata.org/entity/Q312380> .
+
+<https://example.org/person/20403> owl:sameAs <http://dbpedia.org/resource/Beau_Garrett>,
+        <http://www.wikidata.org/entity/Q236574> .
+
+<https://example.org/person/204100> owl:sameAs <http://dbpedia.org/resource/James_Bachman>,
+        <http://www.wikidata.org/entity/Q1679998> .
+
+<https://example.org/person/2047> owl:sameAs <http://dbpedia.org/resource/Danny_Glover>,
+        <http://www.wikidata.org/entity/Q192165> .
+
+<https://example.org/person/205> owl:sameAs <http://dbpedia.org/resource/Kirsten_Dunst>,
+        <http://www.wikidata.org/entity/Q76478> .
+
+<https://example.org/person/2053> owl:sameAs <http://dbpedia.org/resource/Bill_Paxton>,
+        <http://www.wikidata.org/entity/Q110374> .
+
+<https://example.org/person/205406> owl:sameAs <http://dbpedia.org/resource/John_Tui>,
+        <http://www.wikidata.org/entity/Q1059037> .
+
+<https://example.org/person/205474> owl:sameAs <http://dbpedia.org/resource/Adelaide_Clemens>,
+        <http://www.wikidata.org/entity/Q45414> .
+
+<https://example.org/person/206> owl:sameAs <http://dbpedia.org/resource/Jim_Carrey>,
+        <http://www.wikidata.org/entity/Q40504> .
+
+<https://example.org/person/207> owl:sameAs <http://dbpedia.org/resource/Tom_Wilkinson>,
+        <http://www.wikidata.org/entity/Q211322> .
+
+<https://example.org/person/20750> owl:sameAs <http://dbpedia.org/resource/Judy_Greer>,
+        <http://www.wikidata.org/entity/Q236189> .
+
+<https://example.org/person/20753> owl:sameAs <http://dbpedia.org/resource/Fred_Willard>,
+        <http://www.wikidata.org/entity/Q449521> .
+
+<https://example.org/person/207558> owl:sameAs <http://dbpedia.org/resource/Aidan_Turner>,
+        <http://www.wikidata.org/entity/Q403905> .
+
+<https://example.org/person/2076> owl:sameAs <http://dbpedia.org/resource/David_Warner_(actor)>,
+        <http://www.wikidata.org/entity/Q363271> .
+
+<https://example.org/person/20982> owl:sameAs <http://dbpedia.org/resource/Marton_Csokas>,
+        <http://www.wikidata.org/entity/Q315118> .
+
+<https://example.org/person/21007> owl:sameAs <http://dbpedia.org/resource/Jonah_Hill>,
+        <http://www.wikidata.org/entity/Q313388> .
+
+<https://example.org/person/21028> owl:sameAs <http://dbpedia.org/resource/Anton_Yelchin>,
+        <http://www.wikidata.org/entity/Q314133> .
+
+<https://example.org/person/21044> owl:sameAs <http://dbpedia.org/resource/Lynn_Collins>,
+        <http://www.wikidata.org/entity/Q233237> .
+
+<https://example.org/person/21088> owl:sameAs <http://dbpedia.org/resource/Alan_Tudyk>,
+        <http://www.wikidata.org/entity/Q349350> .
+
+<https://example.org/person/21089> owl:sameAs <http://dbpedia.org/resource/Bruce_Greenwood>,
+        <http://www.wikidata.org/entity/Q342788> .
+
+<https://example.org/person/21125> owl:sameAs <http://dbpedia.org/resource/Richard_Kind>,
+        <http://www.wikidata.org/entity/Q449959> .
+
+<https://example.org/person/21131> owl:sameAs <http://dbpedia.org/resource/Joe_Lo_Truglio>,
+        <http://www.wikidata.org/entity/Q716936> .
+
+<https://example.org/person/21134> owl:sameAs <http://dbpedia.org/resource/John_Slattery>,
+        <http://www.wikidata.org/entity/Q374346> .
+
+<https://example.org/person/21198> owl:sameAs <http://dbpedia.org/resource/Peter_Sohn>,
+        <http://www.wikidata.org/entity/Q7177024> .
+
+<https://example.org/person/21200> owl:sameAs <http://dbpedia.org/resource/Will_Arnett>,
+        <http://www.wikidata.org/entity/Q355116> .
+
+<https://example.org/person/2127> owl:sameAs <http://dbpedia.org/resource/James_Wan>,
+        <http://www.wikidata.org/entity/Q108047434> .
+
+<https://example.org/person/21290> owl:sameAs <http://dbpedia.org/resource/Dave_Foley>,
+        <http://www.wikidata.org/entity/Q607793> .
+
+<https://example.org/person/213049> owl:sameAs <http://www.wikidata.org/entity/Q4283806> .
+
+<https://example.org/person/21343> owl:sameAs <http://dbpedia.org/resource/Ben_Chaplin>,
+        <http://www.wikidata.org/entity/Q447397> .
+
+<https://example.org/person/21354> owl:sameAs <http://dbpedia.org/resource/Russell_Wong>,
+        <http://www.wikidata.org/entity/Q958353> .
+
+<https://example.org/person/2166> owl:sameAs <http://dbpedia.org/resource/Sergio_Castellitto>,
+        <http://www.wikidata.org/entity/Q524544> .
+
+<https://example.org/person/2169> owl:sameAs <http://dbpedia.org/resource/Michael_Jeter>,
+        <http://www.wikidata.org/entity/Q329716> .
+
+<https://example.org/person/2176> owl:sameAs <http://dbpedia.org/resource/Tommy_Lee_Jones>,
+        <http://www.wikidata.org/entity/Q170587> .
+
+<https://example.org/person/2201> owl:sameAs <http://dbpedia.org/resource/Max_von_Sydow>,
+        <http://www.wikidata.org/entity/Q203215> .
+
+<https://example.org/person/2206> owl:sameAs <http://dbpedia.org/resource/Samantha_Morton>,
+        <http://www.wikidata.org/entity/Q230190> .
+
+<https://example.org/person/22063> owl:sameAs <http://dbpedia.org/resource/James_Frain>,
+        <http://www.wikidata.org/entity/Q535507> .
+
+<https://example.org/person/22123> owl:sameAs <http://dbpedia.org/resource/Jordana_Brewster>,
+        <http://www.wikidata.org/entity/Q230827> .
+
+<https://example.org/person/22132> owl:sameAs <http://dbpedia.org/resource/M._C._Gainey>,
+        <http://www.wikidata.org/entity/Q722038> .
+
+<https://example.org/person/2219> owl:sameAs <http://dbpedia.org/resource/Tobey_Maguire>,
+        <http://www.wikidata.org/entity/Q165524> .
+
+<https://example.org/person/22226> owl:sameAs <http://dbpedia.org/resource/Paul_Rudd>,
+        <http://www.wikidata.org/entity/Q276525> .
+
+<https://example.org/person/22227> owl:sameAs <http://dbpedia.org/resource/Christopher_Meloni>,
+        <http://www.wikidata.org/entity/Q380095> .
+
+<https://example.org/person/2227> owl:sameAs <http://dbpedia.org/resource/Nicole_Kidman>,
+        <http://www.wikidata.org/entity/Q37459> .
+
+<https://example.org/person/2231> owl:sameAs <http://dbpedia.org/resource/Samuel_L._Jackson>,
+        <http://www.wikidata.org/entity/Q172678> .
+
+<https://example.org/person/2232> owl:sameAs <http://dbpedia.org/resource/Michael_Keaton>,
+        <http://www.wikidata.org/entity/Q138005> .
+
+<https://example.org/person/224181> owl:sameAs <http://dbpedia.org/resource/Jai_Courtney>,
+        <http://www.wikidata.org/entity/Q604849> .
+
+<https://example.org/person/2244> owl:sameAs <http://dbpedia.org/resource/Jesper_Christensen>,
+        <http://www.wikidata.org/entity/Q530997> .
+
+<https://example.org/person/2245> owl:sameAs <http://dbpedia.org/resource/Yvan_Attal>,
+        <http://www.wikidata.org/entity/Q724208> .
+
+<https://example.org/person/224664> owl:sameAs <http://dbpedia.org/resource/Satomi_Ishihara>,
+        <http://www.wikidata.org/entity/Q1197220> .
+
+<https://example.org/person/224723> owl:sameAs <http://dbpedia.org/resource/Stephen_R._Hart>,
+        <http://www.wikidata.org/entity/Q7610310> .
+
+<https://example.org/person/225976> owl:sameAs <http://dbpedia.org/resource/Dan_Scanlon>,
+        <http://www.wikidata.org/entity/Q5214348> .
+
+<https://example.org/person/227> owl:sameAs <http://dbpedia.org/resource/William_Hurt>,
+        <http://www.wikidata.org/entity/Q105825> .
+
+<https://example.org/person/227439> owl:sameAs <http://dbpedia.org/resource/Don_Hall_(filmmaker)>,
+        <http://www.wikidata.org/entity/Q18921842> .
+
+<https://example.org/person/228134> owl:sameAs <http://dbpedia.org/resource/Rupert_Sanders>,
+        <http://www.wikidata.org/entity/Q175062> .
+
+<https://example.org/person/2282> owl:sameAs <http://dbpedia.org/resource/Ben_Kingsley>,
+        <http://www.wikidata.org/entity/Q173158> .
+
+<https://example.org/person/2283> owl:sameAs <http://dbpedia.org/resource/Stanley_Tucci>,
+        <http://www.wikidata.org/entity/Q223117> .
+
+<https://example.org/person/2295> owl:sameAs <http://dbpedia.org/resource/Mickey_Rourke>,
+        <http://www.wikidata.org/entity/Q178552> .
+
+<https://example.org/person/22970> owl:sameAs <http://dbpedia.org/resource/Peter_Dinklage>,
+        <http://www.wikidata.org/entity/Q310937> .
+
+<https://example.org/person/2299> owl:sameAs <http://dbpedia.org/resource/Josh_Hartnett>,
+        <http://www.wikidata.org/entity/Q303957> .
+
+<https://example.org/person/230680> owl:sameAs <http://dbpedia.org/resource/Douglas_Booth>,
+        <http://www.wikidata.org/entity/Q554412> .
+
+<https://example.org/person/231547> owl:sameAs <http://dbpedia.org/resource/Chris_Zylka>,
+        <http://www.wikidata.org/entity/Q507888> .
+
+<https://example.org/person/234352> owl:sameAs <http://dbpedia.org/resource/Margot_Robbie>,
+        <http://www.wikidata.org/entity/Q1924847> .
+
+<https://example.org/person/23459> owl:sameAs <http://dbpedia.org/resource/Sienna_Miller>,
+        <http://www.wikidata.org/entity/Q193458> .
+
+<https://example.org/person/236048> owl:sameAs <http://dbpedia.org/resource/Rosie_Huntington-Whiteley>,
+        <http://www.wikidata.org/entity/Q212006> .
+
+<https://example.org/person/236696> owl:sameAs <http://dbpedia.org/resource/Terry_Notary>,
+        <http://www.wikidata.org/entity/Q7704857> .
+
+<https://example.org/person/236851> owl:sameAs <http://dbpedia.org/resource/Callan_McAuliffe>,
+        <http://www.wikidata.org/entity/Q923241> .
+
+<https://example.org/person/2372> owl:sameAs <http://dbpedia.org/resource/Ron_Perlman>,
+        <http://www.wikidata.org/entity/Q220698> .
+
+<https://example.org/person/237455> owl:sameAs <http://dbpedia.org/resource/Sam_Claflin>,
+        <http://www.wikidata.org/entity/Q366833> .
+
+<https://example.org/person/23791> owl:sameAs <http://dbpedia.org/resource/Chris_Coppola>,
+        <http://www.wikidata.org/entity/Q5106259> .
+
+<https://example.org/person/2387> owl:sameAs <http://dbpedia.org/resource/Patrick_Stewart>,
+        <http://www.wikidata.org/entity/Q16296> .
+
+<https://example.org/person/2395> owl:sameAs <http://dbpedia.org/resource/Whoopi_Goldberg>,
+        <http://www.wikidata.org/entity/Q49001> .
+
+<https://example.org/person/239571> owl:sameAs <http://dbpedia.org/resource/Carl_Rinsch>,
+        <http://www.wikidata.org/entity/Q15652455> .
+
+<https://example.org/person/24> owl:sameAs <http://dbpedia.org/resource/Robert_Zemeckis>,
+        <http://www.wikidata.org/entity/Q187364> .
+
+<https://example.org/person/24045> owl:sameAs <http://dbpedia.org/resource/Joseph_Gordon-Levitt>,
+        <http://www.wikidata.org/entity/Q177311> .
+
+<https://example.org/person/24264> owl:sameAs <http://dbpedia.org/resource/Craig_Ferguson>,
+        <http://www.wikidata.org/entity/Q72867> .
+
+<https://example.org/person/24305> owl:sameAs <http://dbpedia.org/resource/Julie_White>,
+        <http://www.wikidata.org/entity/Q269802> .
+
+<https://example.org/person/2440> owl:sameAs <http://dbpedia.org/resource/Bill_Nighy>,
+        <http://www.wikidata.org/entity/Q207179> .
+
+<https://example.org/person/2441> owl:sameAs <http://dbpedia.org/resource/Tom_Hollander>,
+        <http://www.wikidata.org/entity/Q312124> .
+
+<https://example.org/person/2449> owl:sameAs <http://dbpedia.org/resource/Kevin_McNally>,
+        <http://www.wikidata.org/entity/Q335376> .
+
+<https://example.org/person/2467> owl:sameAs <http://dbpedia.org/resource/James_Cosmo>,
+        <http://www.wikidata.org/entity/Q733122> .
+
+<https://example.org/person/25002> owl:sameAs <http://dbpedia.org/resource/Lee_Byung-hun>,
+        <http://www.wikidata.org/entity/Q380121> .
+
+<https://example.org/person/2505> owl:sameAs <http://dbpedia.org/resource/James_Cromwell>,
+        <http://www.wikidata.org/entity/Q299483> .
+
+<https://example.org/person/25072> owl:sameAs <http://dbpedia.org/resource/Oscar_Isaac>,
+        <http://www.wikidata.org/entity/Q336788> .
+
+<https://example.org/person/25130> owl:sameAs <http://dbpedia.org/resource/Ben_Barnes_(actor)>,
+        <http://www.wikidata.org/entity/Q310086> .
+
+<https://example.org/person/25132> owl:sameAs <http://dbpedia.org/resource/Alicia_Borrachero>,
+        <http://www.wikidata.org/entity/Q276393> .
+
+<https://example.org/person/25133> owl:sameAs <http://dbpedia.org/resource/Vincent_Grass>,
+        <http://www.wikidata.org/entity/Q366272> .
+
+<https://example.org/person/25136> owl:sameAs <http://dbpedia.org/resource/Ken_Stott>,
+        <http://www.wikidata.org/entity/Q722927> .
+
+<https://example.org/person/2517> owl:sameAs <http://dbpedia.org/resource/Donna_Murphy>,
+        <http://www.wikidata.org/entity/Q439457> .
+
+<https://example.org/person/2524> owl:sameAs <http://dbpedia.org/resource/Tom_Hardy>,
+        <http://www.wikidata.org/entity/Q208026> .
+
+<https://example.org/person/2535> owl:sameAs <http://dbpedia.org/resource/Vivica_A._Fox>,
+        <http://www.wikidata.org/entity/Q220396> .
+
+<https://example.org/person/2547> owl:sameAs <http://dbpedia.org/resource/Bruce_Boxleitner>,
+        <http://www.wikidata.org/entity/Q356156> .
+
+<https://example.org/person/2607> owl:sameAs <http://dbpedia.org/resource/Fana_Mokoena>,
+        <http://www.wikidata.org/entity/Q3267105> .
+
+<https://example.org/person/26209> owl:sameAs <http://dbpedia.org/resource/Matt_Lucas>,
+        <http://www.wikidata.org/entity/Q317251> .
+
+<https://example.org/person/2628> owl:sameAs <http://dbpedia.org/resource/Kiefer_Sutherland>,
+        <http://www.wikidata.org/entity/Q103946> .
+
+<https://example.org/person/2639> owl:sameAs <http://dbpedia.org/resource/Eva_Marie_Saint>,
+        <http://www.wikidata.org/entity/Q228928> .
+
+<https://example.org/person/2710> owl:sameAs <http://dbpedia.org/resource/James_Cameron>,
+        <http://www.wikidata.org/entity/Q42574> .
+
+<https://example.org/person/27102> owl:sameAs <http://dbpedia.org/resource/Wanda_Sykes>,
+        <http://www.wikidata.org/entity/Q237194> .
+
+<https://example.org/person/27103> owl:sameAs <http://dbpedia.org/resource/Graham_Phillips_(actor)>,
+        <http://www.wikidata.org/entity/Q1150276> .
+
+<https://example.org/person/27104> owl:sameAs <http://dbpedia.org/resource/Johnny_Simmons>,
+        <http://www.wikidata.org/entity/Q116636> .
+
+<https://example.org/person/27107> owl:sameAs <http://dbpedia.org/resource/Mike_Doyle_(actor)>,
+        <http://www.wikidata.org/entity/Q6846614> .
+
+<https://example.org/person/2716> owl:sameAs <http://dbpedia.org/resource/Earl_Boen>,
+        <http://www.wikidata.org/entity/Q452763> .
+
+<https://example.org/person/27319> owl:sameAs <http://dbpedia.org/resource/Christoph_Waltz>,
+        <http://www.wikidata.org/entity/Q76819> .
+
+<https://example.org/person/27428> owl:sameAs <http://dbpedia.org/resource/Aaron_Taylor-Johnson>,
+        <http://www.wikidata.org/entity/Q45923> .
+
+<https://example.org/person/27578> owl:sameAs <http://dbpedia.org/resource/Elliot_Page>,
+        <http://www.wikidata.org/entity/Q173399> .
+
+<https://example.org/person/2778> owl:sameAs <http://dbpedia.org/resource/Dennis_Hopper>,
+        <http://www.wikidata.org/entity/Q102711> .
+
+<https://example.org/person/27811> owl:sameAs <http://dbpedia.org/resource/Peter_Weller>,
+        <http://www.wikidata.org/entity/Q360477> .
+
+<https://example.org/person/287> owl:sameAs <http://dbpedia.org/resource/Brad_Pitt>,
+        <http://www.wikidata.org/entity/Q35332> .
+
+<https://example.org/person/28782> owl:sameAs <http://dbpedia.org/resource/Monica_Bellucci>,
+        <http://www.wikidata.org/entity/Q81819> .
+
+<https://example.org/person/2882> owl:sameAs <http://dbpedia.org/resource/Diane_Lane>,
+        <http://www.wikidata.org/entity/Q255070> .
+
+<https://example.org/person/28846> owl:sameAs <http://dbpedia.org/resource/Alexander_Skarsgård>,
+        <http://www.wikidata.org/entity/Q310637> .
+
+<https://example.org/person/2888> owl:sameAs <http://dbpedia.org/resource/Will_Smith>,
+        <http://www.wikidata.org/entity/Q40096> .
+
+<https://example.org/person/290> owl:sameAs <http://dbpedia.org/resource/Christopher_Plummer>,
+        <http://www.wikidata.org/entity/Q190523> .
+
+<https://example.org/person/2954> owl:sameAs <http://dbpedia.org/resource/Jeffrey_Wright>,
+        <http://www.wikidata.org/entity/Q343059> .
+
+<https://example.org/person/2956> owl:sameAs <http://dbpedia.org/resource/Amanda_Peet>,
+        <http://www.wikidata.org/entity/Q131332> .
+
+<https://example.org/person/2975> owl:sameAs <http://dbpedia.org/resource/Laurence_Fishburne>,
+        <http://www.wikidata.org/entity/Q193048> .
+
+<https://example.org/person/2983> owl:sameAs <http://dbpedia.org/resource/Mark_Strong>,
+        <http://www.wikidata.org/entity/Q312712> .
+
+<https://example.org/person/298410> owl:sameAs <http://dbpedia.org/resource/Keegan-Michael_Key>,
+        <http://www.wikidata.org/entity/Q6382703> .
+
+<https://example.org/person/3> owl:sameAs <http://dbpedia.org/resource/Harrison_Ford>,
+        <http://www.wikidata.org/entity/Q81328> .
+
+<https://example.org/person/30083> owl:sameAs <http://dbpedia.org/resource/Lindsay_Duncan>,
+        <http://www.wikidata.org/entity/Q242504> .
+
+<https://example.org/person/30315> owl:sameAs <http://dbpedia.org/resource/Richard_Armitage_(actor)>,
+        <http://www.wikidata.org/entity/Q181806> .
+
+<https://example.org/person/3036> owl:sameAs <http://dbpedia.org/resource/John_Cusack>,
+        <http://www.wikidata.org/entity/Q106175> .
+
+<https://example.org/person/30485> owl:sameAs <http://dbpedia.org/resource/CCH_Pounder>,
+        <http://www.wikidata.org/entity/Q236434> .
+
+<https://example.org/person/30576> owl:sameAs <http://dbpedia.org/resource/Shane_Briant>,
+        <http://www.wikidata.org/entity/Q1635878> .
+
+<https://example.org/person/3061> owl:sameAs <http://dbpedia.org/resource/Ewan_McGregor>,
+        <http://www.wikidata.org/entity/Q165518> .
+
+<https://example.org/person/3063> owl:sameAs <http://dbpedia.org/resource/Tilda_Swinton>,
+        <http://www.wikidata.org/entity/Q200534> .
+
+<https://example.org/person/3084> owl:sameAs <http://dbpedia.org/resource/Marlon_Brando>,
+        <http://www.wikidata.org/entity/Q34012> .
+
+<https://example.org/person/31> owl:sameAs <http://dbpedia.org/resource/Tom_Hanks>,
+        <http://www.wikidata.org/entity/Q2263> .
+
+<https://example.org/person/31164> owl:sameAs <http://dbpedia.org/resource/Adewale_Akinnuoye-Agbaje>,
+        <http://www.wikidata.org/entity/Q294586> .
+
+<https://example.org/person/3131> owl:sameAs <http://dbpedia.org/resource/Antonio_Banderas>,
+        <http://www.wikidata.org/entity/Q41548> .
+
+<https://example.org/person/3136> owl:sameAs <http://dbpedia.org/resource/Salma_Hayek>,
+        <http://www.wikidata.org/entity/Q125106> .
+
+<https://example.org/person/31514> owl:sameAs <http://dbpedia.org/resource/Peter_Jacobson>,
+        <http://www.wikidata.org/entity/Q313516> .
+
+<https://example.org/person/31647> owl:sameAs <http://dbpedia.org/resource/Garcelle_Beauvais>,
+        <http://www.wikidata.org/entity/Q450219> .
+
+<https://example.org/person/31841> owl:sameAs <http://dbpedia.org/resource/Matt_Schulze>,
+        <http://www.wikidata.org/entity/Q538716> .
+
+<https://example.org/person/3223> owl:sameAs <http://dbpedia.org/resource/Robert_Downey_Jr.>,
+        <http://www.wikidata.org/entity/Q165219> .
+
+<https://example.org/person/32278> owl:sameAs <http://dbpedia.org/resource/Matt_Reeves>,
+        <http://www.wikidata.org/entity/Q931613> .
+
+<https://example.org/person/3234> owl:sameAs <http://dbpedia.org/resource/Joan_Cusack>,
+        <http://www.wikidata.org/entity/Q272946> .
+
+<https://example.org/person/32532> owl:sameAs <http://dbpedia.org/resource/Brad_Lewis>,
+        <http://www.wikidata.org/entity/Q681740> .
+
+<https://example.org/person/32556> owl:sameAs <http://dbpedia.org/resource/Ronald_Pickup>,
+        <http://www.wikidata.org/entity/Q4356744> .
+
+<https://example.org/person/3266> owl:sameAs <http://dbpedia.org/resource/Joe_Mantegna>,
+        <http://www.wikidata.org/entity/Q276269> .
+
+<https://example.org/person/32747> owl:sameAs <http://dbpedia.org/resource/Stephen_Lang>,
+        <http://www.wikidata.org/entity/Q312902> .
+
+<https://example.org/person/3288> owl:sameAs <http://dbpedia.org/resource/Chris_Weitz>,
+        <http://www.wikidata.org/entity/Q238638> .
+
+<https://example.org/person/3292> owl:sameAs <http://dbpedia.org/resource/Nicholas_Hoult>,
+        <http://www.wikidata.org/entity/Q298347> .
+
+<https://example.org/person/3293> owl:sameAs <http://dbpedia.org/resource/Rachel_Weisz>,
+        <http://www.wikidata.org/entity/Q134077> .
+
+<https://example.org/person/32987> owl:sameAs <http://dbpedia.org/resource/Sam_Riley>,
+        <http://www.wikidata.org/entity/Q520001> .
+
+<https://example.org/person/33192> owl:sameAs <http://dbpedia.org/resource/Joel_Edgerton>,
+        <http://www.wikidata.org/entity/Q381768> .
+
+<https://example.org/person/335> owl:sameAs <http://dbpedia.org/resource/Michael_Shannon>,
+        <http://www.wikidata.org/entity/Q41449> .
+
+<https://example.org/person/3432> owl:sameAs <http://dbpedia.org/resource/Rick_Aviles>,
+        <http://www.wikidata.org/entity/Q2096412> .
+
+<https://example.org/person/34715> owl:sameAs <http://dbpedia.org/resource/James_Nesbitt>,
+        <http://www.wikidata.org/entity/Q439174> .
+
+<https://example.org/person/3489> owl:sameAs <http://dbpedia.org/resource/Naomi_Watts>,
+        <http://www.wikidata.org/entity/Q132616> .
+
+<https://example.org/person/3490> owl:sameAs <http://dbpedia.org/resource/Adrien_Brody>,
+        <http://www.wikidata.org/entity/Q104514> .
+
+<https://example.org/person/3491> owl:sameAs <http://dbpedia.org/resource/Thomas_Kretschmann>,
+        <http://www.wikidata.org/entity/Q57614> .
+
+<https://example.org/person/3492> owl:sameAs <http://dbpedia.org/resource/Colin_Hanks>,
+        <http://www.wikidata.org/entity/Q318134> .
+
+<https://example.org/person/3493> owl:sameAs <http://dbpedia.org/resource/Evan_Parke>,
+        <http://www.wikidata.org/entity/Q1334819> .
+
+<https://example.org/person/3494> owl:sameAs <http://dbpedia.org/resource/Lobo_Chan>,
+        <http://www.wikidata.org/entity/Q2057840> .
+
+<https://example.org/person/3495> owl:sameAs <http://www.wikidata.org/entity/Q3809639> .
+
+<https://example.org/person/35> owl:sameAs <http://dbpedia.org/resource/Sally_Field>,
+        <http://www.wikidata.org/entity/Q187033> .
+
+<https://example.org/person/35029> owl:sameAs <http://dbpedia.org/resource/David_Harbour>,
+        <http://www.wikidata.org/entity/Q391359> .
+
+<https://example.org/person/35159> owl:sameAs <http://dbpedia.org/resource/Laraine_Newman>,
+        <http://www.wikidata.org/entity/Q446290> .
+
+<https://example.org/person/352> owl:sameAs <http://dbpedia.org/resource/Dennis_Haysbert>,
+        <http://www.wikidata.org/entity/Q350208> .
+
+<https://example.org/person/3556> owl:sameAs <http://dbpedia.org/resource/Roman_Polanski>,
+        <http://www.wikidata.org/entity/Q51552> .
+
+<https://example.org/person/35780> owl:sameAs <http://dbpedia.org/resource/Amitabh_Bachchan>,
+        <http://www.wikidata.org/entity/Q9570> .
+
+<https://example.org/person/36218> owl:sameAs <http://dbpedia.org/resource/Andrew_Divoff>,
+        <http://www.wikidata.org/entity/Q465628> .
+
+<https://example.org/person/36425> owl:sameAs <http://dbpedia.org/resource/McG>,
+        <http://www.wikidata.org/entity/Q385058> .
+
+<https://example.org/person/36594> owl:sameAs <http://dbpedia.org/resource/Juno_Temple>,
+        <http://www.wikidata.org/entity/Q234434> .
+
+<https://example.org/person/36602> owl:sameAs <http://dbpedia.org/resource/Peter_Berg>,
+        <http://www.wikidata.org/entity/Q183141> .
+
+<https://example.org/person/36662> owl:sameAs <http://dbpedia.org/resource/Carey_Mulligan>,
+        <http://www.wikidata.org/entity/Q219655> .
+
+<https://example.org/person/368> owl:sameAs <http://dbpedia.org/resource/Reese_Witherspoon>,
+        <http://www.wikidata.org/entity/Q44063> .
+
+<https://example.org/person/3713> owl:sameAs <http://dbpedia.org/resource/Frances_Fisher>,
+        <http://www.wikidata.org/entity/Q35011> .
+
+<https://example.org/person/3753> owl:sameAs <http://dbpedia.org/resource/Giancarlo_Giannini>,
+        <http://www.wikidata.org/entity/Q315258> .
+
+<https://example.org/person/37625> owl:sameAs <http://dbpedia.org/resource/Andrew_Garfield>,
+        <http://www.wikidata.org/entity/Q23891> .
+
+<https://example.org/person/37632> owl:sameAs <http://dbpedia.org/resource/Eddie_Redmayne>,
+        <http://www.wikidata.org/entity/Q28288> .
+
+<https://example.org/person/378> owl:sameAs <http://dbpedia.org/resource/Jonathan_Pryce>,
+        <http://www.wikidata.org/entity/Q312702> .
+
+<https://example.org/person/37917> owl:sameAs <http://dbpedia.org/resource/Kristen_Stewart>,
+        <http://www.wikidata.org/entity/Q126599> .
+
+<https://example.org/person/37935> owl:sameAs <http://dbpedia.org/resource/Steven_Tyler>,
+        <http://www.wikidata.org/entity/Q194045> .
+
+<https://example.org/person/3810> owl:sameAs <http://dbpedia.org/resource/Javier_Bardem>,
+        <http://www.wikidata.org/entity/Q134895> .
+
+<https://example.org/person/382> owl:sameAs <http://dbpedia.org/resource/Bob_Hoskins>,
+        <http://www.wikidata.org/entity/Q211283> .
+
+<https://example.org/person/38673> owl:sameAs <http://dbpedia.org/resource/Channing_Tatum>,
+        <http://www.wikidata.org/entity/Q212064> .
+
+<https://example.org/person/388> owl:sameAs <http://dbpedia.org/resource/Jim_Broadbent>,
+        <http://www.wikidata.org/entity/Q185079> .
+
+<https://example.org/person/3894> owl:sameAs <http://dbpedia.org/resource/Christian_Bale>,
+        <http://www.wikidata.org/entity/Q45772> .
+
+<https://example.org/person/3895> owl:sameAs <http://dbpedia.org/resource/Michael_Caine>,
+        <http://www.wikidata.org/entity/Q123351> .
+
+<https://example.org/person/3896> owl:sameAs <http://dbpedia.org/resource/Liam_Neeson>,
+        <http://www.wikidata.org/entity/Q58444> .
+
+<https://example.org/person/3899> owl:sameAs <http://dbpedia.org/resource/Ken_Watanabe>,
+        <http://www.wikidata.org/entity/Q211553> .
+
+<https://example.org/person/39> owl:sameAs <http://dbpedia.org/resource/Sam_Mendes>,
+        <http://www.wikidata.org/entity/Q223233> .
+
+<https://example.org/person/3910> owl:sameAs <http://dbpedia.org/resource/Frances_McDormand>,
+        <http://www.wikidata.org/entity/Q204299> .
+
+<https://example.org/person/3926> owl:sameAs <http://dbpedia.org/resource/Albert_Finney>,
+        <http://www.wikidata.org/entity/Q219546> .
+
+<https://example.org/person/39389> owl:sameAs <http://dbpedia.org/resource/Titus_Welliver>,
+        <http://www.wikidata.org/entity/Q437693> .
+
+<https://example.org/person/39659> owl:sameAs <http://dbpedia.org/resource/Burn_Gorman>,
+        <http://www.wikidata.org/entity/Q981821> .
+
+<https://example.org/person/3971> owl:sameAs <http://dbpedia.org/resource/Sophia_Myles>,
+        <http://www.wikidata.org/entity/Q229156> .
+
+<https://example.org/person/4031> owl:sameAs <http://dbpedia.org/resource/Greg_Ellis_(actor)>,
+        <http://www.wikidata.org/entity/Q1332872> .
+
+<https://example.org/person/41091> owl:sameAs <http://dbpedia.org/resource/Kristen_Wiig>,
+        <http://www.wikidata.org/entity/Q231382> .
+
+<https://example.org/person/41292> owl:sameAs <http://dbpedia.org/resource/Keri_Russell>,
+        <http://www.wikidata.org/entity/Q229426> .
+
+<https://example.org/person/4135> owl:sameAs <http://dbpedia.org/resource/Robert_Redford>,
+        <http://www.wikidata.org/entity/Q59215> .
+
+<https://example.org/person/41419> owl:sameAs <http://dbpedia.org/resource/Hugh_Laurie>,
+        <http://www.wikidata.org/entity/Q49017> .
+
+<https://example.org/person/4175> owl:sameAs <http://dbpedia.org/resource/Jeffrey_Tambor>,
+        <http://www.wikidata.org/entity/Q320204> .
+
+<https://example.org/person/41894> owl:sameAs <http://dbpedia.org/resource/Zhang_Jingchu>,
+        <http://www.wikidata.org/entity/Q470244> .
+
+<https://example.org/person/42287> owl:sameAs <http://dbpedia.org/resource/Leslie_Zemeckis>,
+        <http://www.wikidata.org/entity/Q23767052> .
+
+<https://example.org/person/42362> owl:sameAs <http://dbpedia.org/resource/Eddie_Deezen>,
+        <http://www.wikidata.org/entity/Q747824> .
+
+<https://example.org/person/42363> owl:sameAs <http://dbpedia.org/resource/Peter_Scolari>,
+        <http://www.wikidata.org/entity/Q1740243> .
+
+<https://example.org/person/4238> owl:sameAs <http://dbpedia.org/resource/Common_(rapper)>,
+        <http://www.wikidata.org/entity/Q286022> .
+
+<https://example.org/person/4273> owl:sameAs <http://dbpedia.org/resource/Charlotte_Gainsbourg>,
+        <http://www.wikidata.org/entity/Q276005> .
+
+<https://example.org/person/43202> owl:sameAs <http://dbpedia.org/resource/Antje_Traue>,
+        <http://www.wikidata.org/entity/Q62648> .
+
+<https://example.org/person/43775> owl:sameAs <http://dbpedia.org/resource/Jane_Lynch>,
+        <http://www.wikidata.org/entity/Q228852> .
+
+<https://example.org/person/4445> owl:sameAs <http://dbpedia.org/resource/Chris_Bauer>,
+        <http://www.wikidata.org/entity/Q39979> .
+
+<https://example.org/person/44735> owl:sameAs <http://dbpedia.org/resource/Jesse_Eisenberg>,
+        <http://www.wikidata.org/entity/Q219512> .
+
+<https://example.org/person/449> owl:sameAs <http://dbpedia.org/resource/Jay_Baruchel>,
+        <http://www.wikidata.org/entity/Q316756> .
+
+<https://example.org/person/4492> owl:sameAs <http://dbpedia.org/resource/Philip_Baker_Hall>,
+        <http://www.wikidata.org/entity/Q447669> .
+
+<https://example.org/person/4495> owl:sameAs <http://dbpedia.org/resource/Steve_Carell>,
+        <http://www.wikidata.org/entity/Q216221> .
+
+<https://example.org/person/4499> owl:sameAs <http://dbpedia.org/resource/Tom_Shadyac>,
+        <http://www.wikidata.org/entity/Q722135> .
+
+<https://example.org/person/45585> owl:sameAs <http://www.wikidata.org/entity/Q11337252> .
+
+<https://example.org/person/45589> owl:sameAs <http://dbpedia.org/resource/Dakota_Blue_Richards>,
+        <http://www.wikidata.org/entity/Q234585> .
+
+<https://example.org/person/4566> owl:sameAs <http://dbpedia.org/resource/Alan_Rickman>,
+        <http://www.wikidata.org/entity/Q106481> .
+
+<https://example.org/person/4587> owl:sameAs <http://dbpedia.org/resource/Halle_Berry>,
+        <http://www.wikidata.org/entity/Q1033016> .
+
+<https://example.org/person/4602> owl:sameAs <http://dbpedia.org/resource/Jon_Tenney>,
+        <http://www.wikidata.org/entity/Q1321988> .
+
+<https://example.org/person/4690> owl:sameAs <http://dbpedia.org/resource/Christopher_Walken>,
+        <http://www.wikidata.org/entity/Q185051> .
+
+<https://example.org/person/469759> owl:sameAs <http://dbpedia.org/resource/Àstrid_Bergès-Frisbey>,
+        <http://www.wikidata.org/entity/Q234015> .
+
+<https://example.org/person/47458> owl:sameAs <http://dbpedia.org/resource/Zakes_Mokae>,
+        <http://www.wikidata.org/entity/Q650121> .
+
+<https://example.org/person/47468> owl:sameAs <http://dbpedia.org/resource/Frances_de_la_Tour>,
+        <http://www.wikidata.org/entity/Q233457> .
+
+<https://example.org/person/47625> owl:sameAs <http://dbpedia.org/resource/Christina_Cole>,
+        <http://www.wikidata.org/entity/Q1189407> .
+
+<https://example.org/person/4764> owl:sameAs <http://dbpedia.org/resource/John_C._Reilly>,
+        <http://www.wikidata.org/entity/Q223110> .
+
+<https://example.org/person/477> owl:sameAs <http://dbpedia.org/resource/Julie_Walters>,
+        <http://www.wikidata.org/entity/Q228747> .
+
+<https://example.org/person/47720> owl:sameAs <http://dbpedia.org/resource/Ruth_Wilson>,
+        <http://www.wikidata.org/entity/Q262679> .
+
+<https://example.org/person/478> owl:sameAs <http://dbpedia.org/resource/Jamie_Bell>,
+        <http://www.wikidata.org/entity/Q297071> .
+
+<https://example.org/person/4785> owl:sameAs <http://dbpedia.org/resource/Jeff_Goldblum>,
+        <http://www.wikidata.org/entity/Q106706> .
+
+<https://example.org/person/48> owl:sameAs <http://dbpedia.org/resource/Sean_Bean>,
+        <http://www.wikidata.org/entity/Q191104> .
+
+<https://example.org/person/4808> owl:sameAs <http://dbpedia.org/resource/Giancarlo_Esposito>,
+        <http://www.wikidata.org/entity/Q726142> .
+
+<https://example.org/person/488> owl:sameAs <http://dbpedia.org/resource/Steven_Spielberg>,
+        <http://www.wikidata.org/entity/Q8877> .
+
+<https://example.org/person/49> owl:sameAs <http://dbpedia.org/resource/Maria_Bello>,
+        <http://www.wikidata.org/entity/Q229220> .
+
+<https://example.org/person/492081> owl:sameAs <http://dbpedia.org/resource/Ryan_Ochoa>,
+        <http://www.wikidata.org/entity/Q552475> .
+
+<https://example.org/person/49832> owl:sameAs <http://dbpedia.org/resource/R._D._Call>,
+        <http://www.wikidata.org/entity/Q16144824> .
+
+<https://example.org/person/500> owl:sameAs <http://dbpedia.org/resource/Tom_Cruise>,
+        <http://www.wikidata.org/entity/Q37079> .
+
+<https://example.org/person/50347> owl:sameAs <http://dbpedia.org/resource/Rachel_Nichols_(actress)>,
+        <http://www.wikidata.org/entity/Q140181> .
+
+<https://example.org/person/504> owl:sameAs <http://dbpedia.org/resource/Tim_Robbins>,
+        <http://www.wikidata.org/entity/Q95048> .
+
+<https://example.org/person/5049> owl:sameAs <http://dbpedia.org/resource/John_Hurt>,
+        <http://www.wikidata.org/entity/Q200405> .
+
+<https://example.org/person/5081> owl:sameAs <http://dbpedia.org/resource/Emily_Blunt>,
+        <http://www.wikidata.org/entity/Q193517> .
+
+<https://example.org/person/510> owl:sameAs <http://dbpedia.org/resource/Tim_Burton>,
+        <http://www.wikidata.org/entity/Q56008> .
+
+<https://example.org/person/51329> owl:sameAs <http://dbpedia.org/resource/Bradley_Cooper>,
+        <http://www.wikidata.org/entity/Q205707> .
+
+<https://example.org/person/5149> owl:sameAs <http://dbpedia.org/resource/Bonnie_Hunt>,
+        <http://www.wikidata.org/entity/Q272952> .
+
+<https://example.org/person/515510> owl:sameAs <http://dbpedia.org/resource/Ryan_Potter>,
+        <http://www.wikidata.org/entity/Q1258756> .
+
+<https://example.org/person/5174> owl:sameAs <http://dbpedia.org/resource/Barry_Sonnenfeld>,
+        <http://www.wikidata.org/entity/Q317567> .
+
+<https://example.org/person/51990> owl:sameAs <http://dbpedia.org/resource/T.J._Miller>,
+        <http://www.wikidata.org/entity/Q1148822> .
+
+<https://example.org/person/52018> owl:sameAs <http://dbpedia.org/resource/Britt_Robertson>,
+        <http://www.wikidata.org/entity/Q235333> .
+
+<https://example.org/person/525> owl:sameAs <http://dbpedia.org/resource/Christopher_Nolan>,
+        <http://www.wikidata.org/entity/Q25191> .
+
+<https://example.org/person/52601> owl:sameAs <http://dbpedia.org/resource/Sean_Hayes>,
+        <http://www.wikidata.org/entity/Q223033> .
+
+<https://example.org/person/52761> owl:sameAs <http://dbpedia.org/resource/Igor_Jijikine>,
+        <http://www.wikidata.org/entity/Q1383160> .
+
+<https://example.org/person/52762> owl:sameAs <http://dbpedia.org/resource/Pasha_D._Lychnikoff>,
+        <http://www.wikidata.org/entity/Q304997> .
+
+<https://example.org/person/52792> owl:sameAs <http://dbpedia.org/resource/Maya_Rudolph>,
+        <http://www.wikidata.org/entity/Q236527> .
+
+<https://example.org/person/52848> owl:sameAs <http://dbpedia.org/resource/Isla_Fisher>,
+        <http://www.wikidata.org/entity/Q228638> .
+
+<https://example.org/person/52865> owl:sameAs <http://dbpedia.org/resource/Garry_Shandling>,
+        <http://www.wikidata.org/entity/Q1374481> .
+
+<https://example.org/person/52890> owl:sameAs <http://dbpedia.org/resource/Richard_Coyle>,
+        <http://www.wikidata.org/entity/Q634365> .
+
+<https://example.org/person/529> owl:sameAs <http://dbpedia.org/resource/Guy_Pearce>,
+        <http://www.wikidata.org/entity/Q223745> .
+
+<https://example.org/person/5293> owl:sameAs <http://dbpedia.org/resource/Willem_Dafoe>,
+        <http://www.wikidata.org/entity/Q188772> .
+
+<https://example.org/person/5294> owl:sameAs <http://dbpedia.org/resource/Chiwetel_Ejiofor>,
+        <http://www.wikidata.org/entity/Q317343> .
+
+<https://example.org/person/5309> owl:sameAs <http://dbpedia.org/resource/Judi_Dench>,
+        <http://www.wikidata.org/entity/Q28054> .
+
+<https://example.org/person/53492> owl:sameAs <http://dbpedia.org/resource/Sam_Huntington>,
+        <http://www.wikidata.org/entity/Q355361> .
+
+<https://example.org/person/53493> owl:sameAs <http://dbpedia.org/resource/Kal_Penn>,
+        <http://www.wikidata.org/entity/Q220536> .
+
+<https://example.org/person/53650> owl:sameAs <http://dbpedia.org/resource/Anthony_Mackie>,
+        <http://www.wikidata.org/entity/Q511554> .
+
+<https://example.org/person/53651> owl:sameAs <http://dbpedia.org/resource/Monique_Gabriela_Curnen>,
+        <http://www.wikidata.org/entity/Q456426> .
+
+<https://example.org/person/5367> owl:sameAs <http://dbpedia.org/resource/Zach_Braff>,
+        <http://www.wikidata.org/entity/Q139330> .
+
+<https://example.org/person/53676> owl:sameAs <http://dbpedia.org/resource/Atul_Kulkarni>,
+        <http://www.wikidata.org/entity/Q4818791> .
+
+<https://example.org/person/53807> owl:sameAs <http://dbpedia.org/resource/Armie_Hammer>,
+        <http://www.wikidata.org/entity/Q374273> .
+
+<https://example.org/person/53916> owl:sameAs <http://dbpedia.org/resource/Ralph_Brown>,
+        <http://www.wikidata.org/entity/Q124357> .
+
+<https://example.org/person/5419> owl:sameAs <http://dbpedia.org/resource/Saïd_Taghmaoui>,
+        <http://www.wikidata.org/entity/Q373034> .
+
+<https://example.org/person/543261> owl:sameAs <http://dbpedia.org/resource/Karen_Gillan>,
+        <http://www.wikidata.org/entity/Q231237> .
+
+<https://example.org/person/543505> owl:sameAs <http://dbpedia.org/resource/Jake_Johnson>,
+        <http://www.wikidata.org/entity/Q171525> .
+
+<https://example.org/person/543530> owl:sameAs <http://dbpedia.org/resource/Dave_Bautista>,
+        <http://www.wikidata.org/entity/Q44158> .
+
+<https://example.org/person/5469> owl:sameAs <http://dbpedia.org/resource/Ralph_Fiennes>,
+        <http://www.wikidata.org/entity/Q28493> .
+
+<https://example.org/person/54691> owl:sameAs <http://dbpedia.org/resource/Christopher_Mintz-Plasse>,
+        <http://www.wikidata.org/entity/Q440956> .
+
+<https://example.org/person/54693> owl:sameAs <http://dbpedia.org/resource/Emma_Stone>,
+        <http://www.wikidata.org/entity/Q147077> .
+
+<https://example.org/person/5470> owl:sameAs <http://dbpedia.org/resource/Kristin_Scott_Thomas>,
+        <http://www.wikidata.org/entity/Q208590> .
+
+<https://example.org/person/54810> owl:sameAs <http://dbpedia.org/resource/Reece_Ritchie>,
+        <http://www.wikidata.org/entity/Q1606018> .
+
+<https://example.org/person/550843> owl:sameAs <http://dbpedia.org/resource/Elizabeth_Olsen>,
+        <http://www.wikidata.org/entity/Q234644> .
+
+<https://example.org/person/55089> owl:sameAs <http://dbpedia.org/resource/Evan_Peters>,
+        <http://www.wikidata.org/entity/Q785270> .
+
+<https://example.org/person/55152> owl:sameAs <http://dbpedia.org/resource/Campbell_Scott>,
+        <http://www.wikidata.org/entity/Q528527> .
+
+<https://example.org/person/5524> owl:sameAs <http://dbpedia.org/resource/Andrew_Adamson>,
+        <http://www.wikidata.org/entity/Q432845> .
+
+<https://example.org/person/55254> owl:sameAs <http://dbpedia.org/resource/Frederique_van_der_Wal>,
+        <http://www.wikidata.org/entity/Q2326640> .
+
+<https://example.org/person/55255> owl:sameAs <http://www.wikidata.org/entity/Q133234201> .
+
+<https://example.org/person/5526> owl:sameAs <http://dbpedia.org/resource/Georgie_Henley>,
+        <http://www.wikidata.org/entity/Q228875> .
+
+<https://example.org/person/5527> owl:sameAs <http://dbpedia.org/resource/Skandar_Keynes>,
+        <http://www.wikidata.org/entity/Q310089> .
+
+<https://example.org/person/5528> owl:sameAs <http://dbpedia.org/resource/William_Moseley_(actor)>,
+        <http://www.wikidata.org/entity/Q311143> .
+
+<https://example.org/person/5529> owl:sameAs <http://dbpedia.org/resource/Anna_Popplewell>,
+        <http://www.wikidata.org/entity/Q229108> .
+
+<https://example.org/person/5530> owl:sameAs <http://dbpedia.org/resource/James_McAvoy>,
+        <http://www.wikidata.org/entity/Q193659> .
+
+<https://example.org/person/5531> owl:sameAs <http://dbpedia.org/resource/Kiran_Shah>,
+        <http://www.wikidata.org/entity/Q709329> .
+
+<https://example.org/person/5538> owl:sameAs <http://dbpedia.org/resource/Ray_Winstone>,
+        <http://www.wikidata.org/entity/Q310932> .
+
+<https://example.org/person/55412> owl:sameAs <http://dbpedia.org/resource/Steve_Toussaint>,
+        <http://www.wikidata.org/entity/Q2347359> .
+
+<https://example.org/person/55578> owl:sameAs <http://www.wikidata.org/entity/Q201512> .
+
+<https://example.org/person/55861> owl:sameAs <http://dbpedia.org/resource/Kirk_Acevedo>,
+        <http://www.wikidata.org/entity/Q456614> .
+
+<https://example.org/person/558928> owl:sameAs <http://dbpedia.org/resource/Max_Charles>,
+        <http://www.wikidata.org/entity/Q2083541> .
+
+<https://example.org/person/55900> owl:sameAs <http://dbpedia.org/resource/Luke_Ford>,
+        <http://www.wikidata.org/entity/Q545138> .
+
+<https://example.org/person/55936> owl:sameAs <http://dbpedia.org/resource/Jemaine_Clement>,
+        <http://www.wikidata.org/entity/Q439315> .
+
+<https://example.org/person/56322> owl:sameAs <http://dbpedia.org/resource/Amy_Poehler>,
+        <http://www.wikidata.org/entity/Q230203> .
+
+<https://example.org/person/56365> owl:sameAs <http://dbpedia.org/resource/Charlie_Hunnam>,
+        <http://www.wikidata.org/entity/Q356294> .
+
+<https://example.org/person/56455> owl:sameAs <http://dbpedia.org/resource/Moon_Bloodgood>,
+        <http://www.wikidata.org/entity/Q239112> .
+
+<https://example.org/person/5658> owl:sameAs <http://dbpedia.org/resource/Michael_Gambon>,
+        <http://www.wikidata.org/entity/Q203545> .
+
+<https://example.org/person/56734> owl:sameAs <http://dbpedia.org/resource/Chloë_Grace_Moretz>,
+        <http://www.wikidata.org/entity/Q4509> .
+
+<https://example.org/person/568657> owl:sameAs <http://dbpedia.org/resource/Sofia_Boutella>,
+        <http://www.wikidata.org/entity/Q258777> .
+
+<https://example.org/person/57207> owl:sameAs <http://dbpedia.org/resource/Tony_Jaa>,
+        <http://www.wikidata.org/entity/Q298551> .
+
+<https://example.org/person/5724> owl:sameAs <http://dbpedia.org/resource/Denis_Leary>,
+        <http://www.wikidata.org/entity/Q310283> .
+
+<https://example.org/person/57451> owl:sameAs <http://dbpedia.org/resource/Leslie_Bibb>,
+        <http://www.wikidata.org/entity/Q239453> .
+
+<https://example.org/person/57452> owl:sameAs <http://dbpedia.org/resource/Faran_Tahir>,
+        <http://www.wikidata.org/entity/Q371972> .
+
+<https://example.org/person/57597> owl:sameAs <http://dbpedia.org/resource/Ron_Dean>,
+        <http://www.wikidata.org/entity/Q7363691> .
+
+<https://example.org/person/57675> owl:sameAs <http://dbpedia.org/resource/Daryl_Sabara>,
+        <http://www.wikidata.org/entity/Q271469> .
+
+<https://example.org/person/57755> owl:sameAs <http://dbpedia.org/resource/Woody_Harrelson>,
+        <http://www.wikidata.org/entity/Q201279> .
+
+<https://example.org/person/578> owl:sameAs <http://dbpedia.org/resource/Ridley_Scott>,
+        <http://www.wikidata.org/entity/Q56005> .
+
+<https://example.org/person/58189> owl:sameAs <http://dbpedia.org/resource/Justin_Lin>,
+        <http://www.wikidata.org/entity/Q551876> .
+
+<https://example.org/person/5823> owl:sameAs <http://dbpedia.org/resource/Julie_Andrews>,
+        <http://www.wikidata.org/entity/Q161819> .
+
+<https://example.org/person/583040> owl:sameAs <http://dbpedia.org/resource/Mason_Cook>,
+        <http://www.wikidata.org/entity/Q1593888> .
+
+<https://example.org/person/58395> owl:sameAs <http://dbpedia.org/resource/Karin_Konoval>,
+        <http://www.wikidata.org/entity/Q6370861> .
+
+<https://example.org/person/58549> owl:sameAs <http://dbpedia.org/resource/Bill_Irwin>,
+        <http://www.wikidata.org/entity/Q603317> .
+
+<https://example.org/person/58593> owl:sameAs <http://dbpedia.org/resource/Ko_Shibasaki>,
+        <http://www.wikidata.org/entity/Q253690> .
+
+<https://example.org/person/58608> owl:sameAs <http://dbpedia.org/resource/Shinya_Tsukamoto>,
+        <http://www.wikidata.org/entity/Q738544> .
+
+<https://example.org/person/587354> owl:sameAs <http://dbpedia.org/resource/Gísli_Örn_Garðarsson>,
+        <http://www.wikidata.org/entity/Q15929501> .
+
+<https://example.org/person/58737> owl:sameAs <http://dbpedia.org/resource/Jack_McBrayer>,
+        <http://www.wikidata.org/entity/Q560896> .
+
+<https://example.org/person/58769> owl:sameAs <http://dbpedia.org/resource/Stephen_Colbert>,
+        <http://www.wikidata.org/entity/Q212886> .
+
+<https://example.org/person/587822> owl:sameAs <http://dbpedia.org/resource/Tehmina_Sunny>,
+        <http://www.wikidata.org/entity/Q1643584> .
+
+<https://example.org/person/587823> owl:sameAs <http://dbpedia.org/resource/Alice_Englert>,
+        <http://www.wikidata.org/entity/Q2836574> .
+
+<https://example.org/person/588> owl:sameAs <http://dbpedia.org/resource/M._Emmet_Walsh>,
+        <http://www.wikidata.org/entity/Q498420> .
+
+<https://example.org/person/588403> owl:sameAs <http://dbpedia.org/resource/Yutaka_Takenouchi>,
+        <http://www.wikidata.org/entity/Q1193035> .
+
+<https://example.org/person/589162> owl:sameAs <http://dbpedia.org/resource/Genesis_Rodriguez>,
+        <http://www.wikidata.org/entity/Q240355> .
+
+<https://example.org/person/59174> owl:sameAs <http://dbpedia.org/resource/America_Ferrera>,
+        <http://www.wikidata.org/entity/Q219402> .
+
+<https://example.org/person/59175> owl:sameAs <http://dbpedia.org/resource/Blake_Lively>,
+        <http://www.wikidata.org/entity/Q162959> .
+
+<https://example.org/person/59231> owl:sameAs <http://dbpedia.org/resource/Joel_David_Moore>,
+        <http://www.wikidata.org/entity/Q371786> .
+
+<https://example.org/person/59233> owl:sameAs <http://dbpedia.org/resource/Scoot_McNairy>,
+        <http://www.wikidata.org/entity/Q566037> .
+
+<https://example.org/person/592496> owl:sameAs <http://dbpedia.org/resource/Joe_Taslim>,
+        <http://www.wikidata.org/entity/Q3459336> .
+
+<https://example.org/person/59258> owl:sameAs <http://dbpedia.org/resource/Lewis_Black>,
+        <http://www.wikidata.org/entity/Q180252> .
+
+<https://example.org/person/59315> owl:sameAs <http://dbpedia.org/resource/Olivia_Wilde>,
+        <http://www.wikidata.org/entity/Q200355> .
+
+<https://example.org/person/59350> owl:sameAs <http://www.wikidata.org/entity/Q107640208> .
+
+<https://example.org/person/59352> owl:sameAs <http://www.wikidata.org/entity/Q48870670> .
+
+<https://example.org/person/59357> owl:sameAs <http://dbpedia.org/resource/Teddy_Newton>,
+        <http://www.wikidata.org/entity/Q509725> .
+
+<https://example.org/person/59620> owl:sameAs <http://dbpedia.org/resource/Gemma_Arterton>,
+        <http://www.wikidata.org/entity/Q255323> .
+
+<https://example.org/person/59803> owl:sameAs <http://dbpedia.org/resource/Brenda_Chapman>,
+        <http://www.wikidata.org/entity/Q429715> .
+
+<https://example.org/person/59860> owl:sameAs <http://dbpedia.org/resource/Alice_Eve>,
+        <http://www.wikidata.org/entity/Q232786> .
+
+<https://example.org/person/60033> owl:sameAs <http://dbpedia.org/resource/Yaya_DaCosta>,
+        <http://www.wikidata.org/entity/Q260211> .
+
+<https://example.org/person/60074> owl:sameAs <http://dbpedia.org/resource/Jeff_Garlin>,
+        <http://www.wikidata.org/entity/Q983082> .
+
+<https://example.org/person/6046> owl:sameAs <http://dbpedia.org/resource/Roland_Emmerich>,
+        <http://www.wikidata.org/entity/Q60100> .
+
+<https://example.org/person/60602> owl:sameAs <http://www.wikidata.org/entity/Q7363560> .
+
+<https://example.org/person/6065> owl:sameAs <http://dbpedia.org/resource/Dennis_Quaid>,
+        <http://www.wikidata.org/entity/Q200768> .
+
+<https://example.org/person/6068> owl:sameAs <http://dbpedia.org/resource/Sela_Ward>,
+        <http://www.wikidata.org/entity/Q229187> .
+
+<https://example.org/person/60898> owl:sameAs <http://dbpedia.org/resource/Sebastian_Stan>,
+        <http://www.wikidata.org/entity/Q455898> .
+
+<https://example.org/person/60900> owl:sameAs <http://dbpedia.org/resource/Taylor_Kitsch>,
+        <http://www.wikidata.org/entity/Q335880> .
+
+<https://example.org/person/61186> owl:sameAs <http://dbpedia.org/resource/Nicola_Peltz>,
+        <http://www.wikidata.org/entity/Q236347> .
+
+<https://example.org/person/6162> owl:sameAs <http://dbpedia.org/resource/Paul_Bettany>,
+        <http://www.wikidata.org/entity/Q242707> .
+
+<https://example.org/person/6167> owl:sameAs <http://dbpedia.org/resource/Judd_Hirsch>,
+        <http://www.wikidata.org/entity/Q365023> .
+
+<https://example.org/person/61831> owl:sameAs <http://dbpedia.org/resource/Sammi_Hanratty>,
+        <http://www.wikidata.org/entity/Q444450> .
+
+<https://example.org/person/6193> owl:sameAs <http://dbpedia.org/resource/Leonardo_DiCaprio>,
+        <http://www.wikidata.org/entity/Q38111> .
+
+<https://example.org/person/6194> owl:sameAs <http://dbpedia.org/resource/Claire_Danes>,
+        <http://www.wikidata.org/entity/Q867813> .
+
+<https://example.org/person/6201> owl:sameAs <http://dbpedia.org/resource/Baz_Luhrmann>,
+        <http://www.wikidata.org/entity/Q250545> .
+
+<https://example.org/person/62064> owl:sameAs <http://dbpedia.org/resource/Chris_Pine>,
+        <http://www.wikidata.org/entity/Q23466> .
+
+<https://example.org/person/62892> owl:sameAs <http://dbpedia.org/resource/Anatole_Taubman>,
+        <http://www.wikidata.org/entity/Q487548> .
+
+<https://example.org/person/6368> owl:sameAs <http://dbpedia.org/resource/Embeth_Davidtz>,
+        <http://www.wikidata.org/entity/Q260622> .
+
+<https://example.org/person/6383> owl:sameAs <http://dbpedia.org/resource/Aaron_Eckhart>,
+        <http://www.wikidata.org/entity/Q192643> .
+
+<https://example.org/person/6384> owl:sameAs <http://dbpedia.org/resource/Keanu_Reeves>,
+        <http://www.wikidata.org/entity/Q43416> .
+
+<https://example.org/person/64> owl:sameAs <http://dbpedia.org/resource/Gary_Oldman>,
+        <http://www.wikidata.org/entity/Q83492> .
+
+<https://example.org/person/6408> owl:sameAs <http://dbpedia.org/resource/Nick_Stahl>,
+        <http://www.wikidata.org/entity/Q335587> .
+
+<https://example.org/person/6413> owl:sameAs <http://dbpedia.org/resource/Danny_Huston>,
+        <http://www.wikidata.org/entity/Q357762> .
+
+<https://example.org/person/64151> owl:sameAs <http://dbpedia.org/resource/Mike_Mitchell_(director)>,
+        <http://www.wikidata.org/entity/Q2507259> .
+
+<https://example.org/person/64342> owl:sameAs <http://dbpedia.org/resource/Craig_Robinson_(actor)>,
+        <http://www.wikidata.org/entity/Q926912> .
+
+<https://example.org/person/65> owl:sameAs <http://dbpedia.org/resource/Ian_Holm>,
+        <http://www.wikidata.org/entity/Q223091> .
+
+<https://example.org/person/650> owl:sameAs <http://dbpedia.org/resource/Karen_Allen>,
+        <http://www.wikidata.org/entity/Q229137> .
+
+<https://example.org/person/65630> owl:sameAs <http://dbpedia.org/resource/Rob_Letterman>,
+        <http://www.wikidata.org/entity/Q428815> .
+
+<https://example.org/person/65717> owl:sameAs <http://dbpedia.org/resource/Jon_Hamm>,
+        <http://www.wikidata.org/entity/Q313107> .
+
+<https://example.org/person/65731> owl:sameAs <http://dbpedia.org/resource/Sam_Worthington>,
+        <http://www.wikidata.org/entity/Q82085> .
+
+<https://example.org/person/658> owl:sameAs <http://dbpedia.org/resource/Alfred_Molina>,
+        <http://www.wikidata.org/entity/Q296028> .
+
+<https://example.org/person/66> owl:sameAs <http://dbpedia.org/resource/Chris_Tucker>,
+        <http://www.wikidata.org/entity/Q219717> .
+
+<https://example.org/person/66193> owl:sameAs <http://dbpedia.org/resource/Chris_Sanders>,
+        <http://www.wikidata.org/entity/Q201641> .
+
+<https://example.org/person/66442> owl:sameAs <http://dbpedia.org/resource/Tamsin_Egerton>,
+        <http://www.wikidata.org/entity/Q256042> .
+
+<https://example.org/person/66580> owl:sameAs <http://dbpedia.org/resource/Scott_Adsit>,
+        <http://www.wikidata.org/entity/Q3952813> .
+
+<https://example.org/person/66717> owl:sameAs <http://dbpedia.org/resource/Anthony_Wong>,
+        <http://www.wikidata.org/entity/Q381561> .
+
+<https://example.org/person/6677> owl:sameAs <http://dbpedia.org/resource/Kyle_MacLachlan>,
+        <http://www.wikidata.org/entity/Q207506> .
+
+<https://example.org/person/670> owl:sameAs <http://dbpedia.org/resource/Ben_Burtt>,
+        <http://www.wikidata.org/entity/Q816456> .
+
+<https://example.org/person/67123> owl:sameAs <http://dbpedia.org/resource/William_Kircher>,
+        <http://www.wikidata.org/entity/Q691354> .
+
+<https://example.org/person/6730> owl:sameAs <http://dbpedia.org/resource/Sacha_Baron_Cohen>,
+        <http://www.wikidata.org/entity/Q29055> .
+
+<https://example.org/person/6807> owl:sameAs <http://dbpedia.org/resource/Sam_Rockwell>,
+        <http://www.wikidata.org/entity/Q316446> .
+
+<https://example.org/person/6860> owl:sameAs <http://dbpedia.org/resource/Jimmy_Bennett>,
+        <http://www.wikidata.org/entity/Q4349> .
+
+<https://example.org/person/68812> owl:sameAs <http://dbpedia.org/resource/Ed_Asner>,
+        <http://www.wikidata.org/entity/Q154421> .
+
+<https://example.org/person/68842> owl:sameAs <http://dbpedia.org/resource/John_Cho>,
+        <http://www.wikidata.org/entity/Q312705> .
+
+<https://example.org/person/6885> owl:sameAs <http://dbpedia.org/resource/Charlize_Theron>,
+        <http://www.wikidata.org/entity/Q80046> .
+
+<https://example.org/person/6941> owl:sameAs <http://dbpedia.org/resource/Cameron_Diaz>,
+        <http://www.wikidata.org/entity/Q44380> .
+
+<https://example.org/person/6949> owl:sameAs <http://dbpedia.org/resource/John_Malkovich>,
+        <http://www.wikidata.org/entity/Q172261> .
+
+<https://example.org/person/6968> owl:sameAs <http://dbpedia.org/resource/Hugh_Jackman>,
+        <http://www.wikidata.org/entity/Q129591> .
+
+<https://example.org/person/6972> owl:sameAs <http://dbpedia.org/resource/Ian_McShane>,
+        <http://www.wikidata.org/entity/Q234141> .
+
+<https://example.org/person/69797> owl:sameAs <http://dbpedia.org/resource/Dean_DeBlois>,
+        <http://www.wikidata.org/entity/Q1181049> .
+
+<https://example.org/person/69899> owl:sameAs <http://dbpedia.org/resource/Zachary_Levi>,
+        <http://www.wikidata.org/entity/Q139638> .
+
+<https://example.org/person/7> owl:sameAs <http://dbpedia.org/resource/Andrew_Stanton>,
+        <http://www.wikidata.org/entity/Q328723> .
+
+<https://example.org/person/70238> owl:sameAs <http://dbpedia.org/resource/Chris_Williams_(director)>,
+        <http://www.wikidata.org/entity/Q1077862> .
+
+<https://example.org/person/7026> owl:sameAs <http://dbpedia.org/resource/Rhys_Ifans>,
+        <http://www.wikidata.org/entity/Q215017> .
+
+<https://example.org/person/7056> owl:sameAs <http://dbpedia.org/resource/Emma_Thompson>,
+        <http://www.wikidata.org/entity/Q168724> .
+
+<https://example.org/person/7060> owl:sameAs <http://dbpedia.org/resource/Martin_Freeman>,
+        <http://www.wikidata.org/entity/Q309486> .
+
+<https://example.org/person/70851> owl:sameAs <http://dbpedia.org/resource/Jack_Black>,
+        <http://www.wikidata.org/entity/Q483907> .
+
+<https://example.org/person/7087> owl:sameAs <http://dbpedia.org/resource/Brad_Bird>,
+        <http://www.wikidata.org/entity/Q310960> .
+
+<https://example.org/person/7090> owl:sameAs <http://dbpedia.org/resource/Kelsey_Grammer>,
+        <http://www.wikidata.org/entity/Q196560> .
+
+<https://example.org/person/71189> owl:sameAs <http://dbpedia.org/resource/Cobie_Smulders>,
+        <http://www.wikidata.org/entity/Q200566> .
+
+<https://example.org/person/7132> owl:sameAs <http://dbpedia.org/resource/Vincent_D'Onofrio>,
+        <http://www.wikidata.org/entity/Q320052> .
+
+<https://example.org/person/71580> owl:sameAs <http://dbpedia.org/resource/Benedict_Cumberbatch>,
+        <http://www.wikidata.org/entity/Q244674> .
+
+<https://example.org/person/7167> owl:sameAs <http://dbpedia.org/resource/Don_Rickles>,
+        <http://www.wikidata.org/entity/Q269890> .
+
+<https://example.org/person/72040> owl:sameAs <http://dbpedia.org/resource/Isabella_Leong>,
+        <http://www.wikidata.org/entity/Q254180> .
+
+<https://example.org/person/72095> owl:sameAs <http://dbpedia.org/resource/Lee_Pace>,
+        <http://www.wikidata.org/entity/Q355168> .
+
+<https://example.org/person/72129> owl:sameAs <http://dbpedia.org/resource/Jennifer_Lawrence>,
+        <http://www.wikidata.org/entity/Q189490> .
+
+<https://example.org/person/7213> owl:sameAs <http://dbpedia.org/resource/Jonathan_Mostow>,
+        <http://www.wikidata.org/entity/Q707494> .
+
+<https://example.org/person/7218> owl:sameAs <http://dbpedia.org/resource/Kristanna_Loken>,
+        <http://www.wikidata.org/entity/Q208339> .
+
+<https://example.org/person/7219> owl:sameAs <http://dbpedia.org/resource/David_Andrews_(actor)>,
+        <http://www.wikidata.org/entity/Q330801> .
+
+<https://example.org/person/7220> owl:sameAs <http://dbpedia.org/resource/Mark_Famiglietti>,
+        <http://www.wikidata.org/entity/Q1900036> .
+
+<https://example.org/person/7223> owl:sameAs <http://dbpedia.org/resource/Christopher_Lawford>,
+        <http://www.wikidata.org/entity/Q1086823> .
+
+<https://example.org/person/72305> owl:sameAs <http://dbpedia.org/resource/Lesley_Manville>,
+        <http://www.wikidata.org/entity/Q444410> .
+
+<https://example.org/person/7242> owl:sameAs <http://dbpedia.org/resource/Temuera_Morrison>,
+        <http://www.wikidata.org/entity/Q529851> .
+
+<https://example.org/person/72754> owl:sameAs <http://dbpedia.org/resource/Elissa_Knight>,
+        <http://www.wikidata.org/entity/Q3723336> .
+
+<https://example.org/person/72873> owl:sameAs <http://dbpedia.org/resource/Michael_Stuhlbarg>,
+        <http://www.wikidata.org/entity/Q438445> .
+
+<https://example.org/person/72985> owl:sameAs <http://dbpedia.org/resource/Ramón_Rodríguez_(actor)>,
+        <http://www.wikidata.org/entity/Q967248> .
+
+<https://example.org/person/73357> owl:sameAs <http://dbpedia.org/resource/Eleanor_Tomlinson>,
+        <http://www.wikidata.org/entity/Q1582005> .
+
+<https://example.org/person/73457> owl:sameAs <http://dbpedia.org/resource/Chris_Pratt>,
+        <http://www.wikidata.org/entity/Q503706> .
+
+<https://example.org/person/73968> owl:sameAs <http://dbpedia.org/resource/Henry_Cavill>,
+        <http://www.wikidata.org/entity/Q295498> .
+
+<https://example.org/person/7404> owl:sameAs <http://dbpedia.org/resource/Sarah_Silverman>,
+        <http://www.wikidata.org/entity/Q229013> .
+
+<https://example.org/person/74227> owl:sameAs <http://dbpedia.org/resource/Morgan_Lily>,
+        <http://www.wikidata.org/entity/Q268076> .
+
+<https://example.org/person/74428> owl:sameAs <http://dbpedia.org/resource/Tim_McGraw>,
+        <http://www.wikidata.org/entity/Q356487> .
+
+<https://example.org/person/74568> owl:sameAs <http://dbpedia.org/resource/Chris_Hemsworth>,
+        <http://www.wikidata.org/entity/Q54314> .
+
+<https://example.org/person/7489> owl:sameAs <http://dbpedia.org/resource/Parker_Posey>,
+        <http://www.wikidata.org/entity/Q204586> .
+
+<https://example.org/person/7499> owl:sameAs <http://dbpedia.org/resource/Jared_Leto>,
+        <http://www.wikidata.org/entity/Q484523> .
+
+<https://example.org/person/7517> owl:sameAs <http://dbpedia.org/resource/Kate_Bosworth>,
+        <http://www.wikidata.org/entity/Q236822> .
+
+<https://example.org/person/76070> owl:sameAs <http://dbpedia.org/resource/Mia_Wasikowska>,
+        <http://www.wikidata.org/entity/Q228865> .
+
+<https://example.org/person/7623> owl:sameAs <http://dbpedia.org/resource/Sam_Raimi>,
+        <http://www.wikidata.org/entity/Q275402> .
+
+<https://example.org/person/76245> owl:sameAs <http://dbpedia.org/resource/Adam_Carolla>,
+        <http://www.wikidata.org/entity/Q4119> .
+
+<https://example.org/person/76512> owl:sameAs <http://dbpedia.org/resource/Jason_Clarke>,
+        <http://www.wikidata.org/entity/Q402764> .
+
+<https://example.org/person/76542> owl:sameAs <http://dbpedia.org/resource/Roland_Kickinger>,
+        <http://www.wikidata.org/entity/Q89536> .
+
+<https://example.org/person/76595> owl:sameAs <http://dbpedia.org/resource/Byron_Howard>,
+        <http://www.wikidata.org/entity/Q1018606> .
+
+<https://example.org/person/76793> owl:sameAs <http://dbpedia.org/resource/Irrfan_Khan>,
+        <http://www.wikidata.org/entity/Q360927> .
+
+<https://example.org/person/76850> owl:sameAs <http://dbpedia.org/resource/Simone_Kessell>,
+        <http://www.wikidata.org/entity/Q3484578> .
+
+<https://example.org/person/776> owl:sameAs <http://dbpedia.org/resource/Eddie_Murphy>,
+        <http://www.wikidata.org/entity/Q43874> .
+
+<https://example.org/person/7775> owl:sameAs <http://dbpedia.org/resource/Stephen_Sommers>,
+        <http://www.wikidata.org/entity/Q363402> .
+
+<https://example.org/person/77921> owl:sameAs <http://dbpedia.org/resource/Hideaki_Anno>,
+        <http://www.wikidata.org/entity/Q23261> .
+
+<https://example.org/person/77996> owl:sameAs <http://dbpedia.org/resource/Asa_Butterfield>,
+        <http://www.wikidata.org/entity/Q312524> .
+
+<https://example.org/person/78050> owl:sameAs <http://dbpedia.org/resource/Elyes_Gabel>,
+        <http://www.wikidata.org/entity/Q5368467> .
+
+<https://example.org/person/78303> owl:sameAs <http://dbpedia.org/resource/Jimmy_Kimmel>,
+        <http://www.wikidata.org/entity/Q4914> .
+
+<https://example.org/person/78311> owl:sameAs <http://dbpedia.org/resource/Steve_Valentine>,
+        <http://www.wikidata.org/entity/Q129160> .
+
+<https://example.org/person/78324> owl:sameAs <http://dbpedia.org/resource/Jamie_Chung>,
+        <http://www.wikidata.org/entity/Q232642> .
+
+<https://example.org/person/78423> owl:sameAs <http://dbpedia.org/resource/Omar_Sy>,
+        <http://www.wikidata.org/entity/Q357387> .
+
+<https://example.org/person/7879> owl:sameAs <http://dbpedia.org/resource/John_Lasseter>,
+        <http://www.wikidata.org/entity/Q269214> .
+
+<https://example.org/person/79003> owl:sameAs <http://dbpedia.org/resource/Abhay_Deol>,
+        <http://www.wikidata.org/entity/Q511589> .
+
+<https://example.org/person/7904> owl:sameAs <http://dbpedia.org/resource/Billy_Crystal>,
+        <http://www.wikidata.org/entity/Q186485> .
+
+<https://example.org/person/7907> owl:sameAs <http://dbpedia.org/resource/John_Ratzenberger>,
+        <http://www.wikidata.org/entity/Q374093> .
+
+<https://example.org/person/7960> owl:sameAs <http://www.wikidata.org/entity/Q29940924> .
+
+<https://example.org/person/8> owl:sameAs <http://dbpedia.org/resource/Lee_Unkrich>,
+        <http://www.wikidata.org/entity/Q380920> .
+
+<https://example.org/person/80112> owl:sameAs <http://dbpedia.org/resource/Sylvester_McCoy>,
+        <http://www.wikidata.org/entity/Q455551> .
+
+<https://example.org/person/80676> owl:sameAs <http://dbpedia.org/resource/Jordan_Nagai>,
+        <http://www.wikidata.org/entity/Q4259780> .
+
+<https://example.org/person/80752> owl:sameAs <http://dbpedia.org/resource/Shinji_Higuchi>,
+        <http://www.wikidata.org/entity/Q900501> .
+
+<https://example.org/person/8167> owl:sameAs <http://dbpedia.org/resource/Paul_Walker>,
+        <http://www.wikidata.org/entity/Q213864> .
+
+<https://example.org/person/81685> owl:sameAs <http://dbpedia.org/resource/Frank_Grillo>,
+        <http://www.wikidata.org/entity/Q918616> .
+
+<https://example.org/person/8169> owl:sameAs <http://dbpedia.org/resource/Tyrese_Gibson>,
+        <http://www.wikidata.org/entity/Q311232> .
+
+<https://example.org/person/8171> owl:sameAs <http://dbpedia.org/resource/Ludacris>,
+        <http://www.wikidata.org/entity/Q193676> .
+
+<https://example.org/person/8175> owl:sameAs <http://dbpedia.org/resource/Thom_Barry>,
+        <http://www.wikidata.org/entity/Q1125651> .
+
+<https://example.org/person/82093> owl:sameAs <http://dbpedia.org/resource/Daniel_Henney>,
+        <http://www.wikidata.org/entity/Q529413> .
+
+<https://example.org/person/82191> owl:sameAs <http://dbpedia.org/resource/Sharlto_Copley>,
+        <http://www.wikidata.org/entity/Q512353> .
+
+<https://example.org/person/8265> owl:sameAs <http://dbpedia.org/resource/John_Michael_Higgins>,
+        <http://www.wikidata.org/entity/Q967130> .
+
+<https://example.org/person/8293> owl:sameAs <http://dbpedia.org/resource/Marion_Cotillard>,
+        <http://www.wikidata.org/entity/Q8927> .
+
+<https://example.org/person/8300> owl:sameAs <http://dbpedia.org/resource/Kevin_Reynolds_(director)>,
+        <http://www.wikidata.org/entity/Q464903> .
+
+<https://example.org/person/83002> owl:sameAs <http://dbpedia.org/resource/Jessica_Chastain>,
+        <http://www.wikidata.org/entity/Q229313> .
+
+<https://example.org/person/8349> owl:sameAs <http://dbpedia.org/resource/Martin_Sheen>,
+        <http://www.wikidata.org/entity/Q184572> .
+
+<https://example.org/person/83586> owl:sameAs <http://dbpedia.org/resource/Ken_Jeong>,
+        <http://www.wikidata.org/entity/Q440910> .
+
+<https://example.org/person/83852> owl:sameAs <http://dbpedia.org/resource/Liam_James>,
+        <http://www.wikidata.org/entity/Q554506> .
+
+<https://example.org/person/84247> owl:sameAs <http://dbpedia.org/resource/Emily_VanCamp>,
+        <http://www.wikidata.org/entity/Q233216> .
+
+<https://example.org/person/8436> owl:sameAs <http://dbpedia.org/resource/Miranda_Richardson>,
+        <http://www.wikidata.org/entity/Q229241> .
+
+<https://example.org/person/84490> owl:sameAs <http://dbpedia.org/resource/David_Kaye_(voice_actor)>,
+        <http://www.wikidata.org/entity/Q3018199> .
+
+<https://example.org/person/85> owl:sameAs <http://dbpedia.org/resource/Johnny_Depp>,
+        <http://www.wikidata.org/entity/Q37175> .
+
+<https://example.org/person/85035> owl:sameAs <http://dbpedia.org/resource/Bipasha_Basu>,
+        <http://www.wikidata.org/entity/Q158214> .
+
+<https://example.org/person/851784> owl:sameAs <http://dbpedia.org/resource/Mackenzie_Foy>,
+        <http://www.wikidata.org/entity/Q94913> .
+
+<https://example.org/person/8534> owl:sameAs <http://dbpedia.org/resource/Kathy_Bates>,
+        <http://www.wikidata.org/entity/Q544465> .
+
+<https://example.org/person/8535> owl:sameAs <http://dbpedia.org/resource/Gloria_Stuart>,
+        <http://www.wikidata.org/entity/Q189407> .
+
+<https://example.org/person/8536> owl:sameAs <http://dbpedia.org/resource/Victor_Garber>,
+        <http://www.wikidata.org/entity/Q270664> .
+
+<https://example.org/person/86268> owl:sameAs <http://dbpedia.org/resource/Serinda_Swan>,
+        <http://www.wikidata.org/entity/Q1369516> .
+
+<https://example.org/person/86270> owl:sameAs <http://dbpedia.org/resource/Joseph_Kosinski>,
+        <http://www.wikidata.org/entity/Q2444076> .
+
+<https://example.org/person/865> owl:sameAs <http://dbpedia.org/resource/Michael_Bay>,
+        <http://www.wikidata.org/entity/Q59259> .
+
+<https://example.org/person/8691> owl:sameAs <http://dbpedia.org/resource/Zoe_Saldaña>,
+        <http://www.wikidata.org/entity/Q190162> .
+
+<https://example.org/person/87070> owl:sameAs <http://dbpedia.org/resource/Michael_Chernus>,
+        <http://www.wikidata.org/entity/Q20630818> .
+
+<https://example.org/person/87662> owl:sameAs <http://dbpedia.org/resource/Issey_Takahashi>,
+        <http://www.wikidata.org/entity/Q10856410> .
+
+<https://example.org/person/87742> owl:sameAs <http://dbpedia.org/resource/Marc_Webb>,
+        <http://www.wikidata.org/entity/Q357998> .
+
+<https://example.org/person/87822> owl:sameAs <http://dbpedia.org/resource/Damon_Wayans_Jr.>,
+        <http://www.wikidata.org/entity/Q1158726> .
+
+<https://example.org/person/8784> owl:sameAs <http://dbpedia.org/resource/Daniel_Craig>,
+        <http://www.wikidata.org/entity/Q4547> .
+
+<https://example.org/person/8785> owl:sameAs <http://dbpedia.org/resource/Ciarán_Hinds>,
+        <http://www.wikidata.org/entity/Q314892> .
+
+<https://example.org/person/8789> owl:sameAs <http://dbpedia.org/resource/Mathieu_Amalric>,
+        <http://www.wikidata.org/entity/Q355835> .
+
+<https://example.org/person/880> owl:sameAs <http://dbpedia.org/resource/Ben_Affleck>,
+        <http://www.wikidata.org/entity/Q483118> .
+
+<https://example.org/person/88124> owl:sameAs <http://dbpedia.org/resource/Jesse_Plemons>,
+        <http://www.wikidata.org/entity/Q1138674> .
+
+<https://example.org/person/884> owl:sameAs <http://dbpedia.org/resource/Steve_Buscemi>,
+        <http://www.wikidata.org/entity/Q104061> .
+
+<https://example.org/person/8854> owl:sameAs <http://dbpedia.org/resource/Bill_Cobbs>,
+        <http://www.wikidata.org/entity/Q862028> .
+
+<https://example.org/person/886> owl:sameAs <http://dbpedia.org/resource/William_Fichtner>,
+        <http://www.wikidata.org/entity/Q220335> .
+
+<https://example.org/person/887> owl:sameAs <http://dbpedia.org/resource/Owen_Wilson>,
+        <http://www.wikidata.org/entity/Q161916> .
+
+<https://example.org/person/8924> owl:sameAs <http://dbpedia.org/resource/Frank_Langella>,
+        <http://www.wikidata.org/entity/Q310944> .
+
+<https://example.org/person/8930> owl:sameAs <http://dbpedia.org/resource/John_Cleese>,
+        <http://www.wikidata.org/entity/Q25014> .
+
+<https://example.org/person/8945> owl:sameAs <http://dbpedia.org/resource/Kevin_Kline>,
+        <http://www.wikidata.org/entity/Q105817> .
+
+<https://example.org/person/8965> owl:sameAs <http://dbpedia.org/resource/Roland_Joffé>,
+        <http://www.wikidata.org/entity/Q309715> .
+
+<https://example.org/person/89822> owl:sameAs <http://dbpedia.org/resource/Tuppence_Middleton>,
+        <http://www.wikidata.org/entity/Q2460289> .
+
+<https://example.org/person/8984> owl:sameAs <http://dbpedia.org/resource/Bill_Pullman>,
+        <http://www.wikidata.org/entity/Q315763> .
+
+<https://example.org/person/9013> owl:sameAs <http://dbpedia.org/resource/Kevin_McKidd>,
+        <http://www.wikidata.org/entity/Q312133> .
+
+<https://example.org/person/9015> owl:sameAs <http://dbpedia.org/resource/Kelly_Macdonald>,
+        <http://www.wikidata.org/entity/Q230383> .
+
+<https://example.org/person/9030> owl:sameAs <http://dbpedia.org/resource/Thandiwe_Newton>,
+        <http://www.wikidata.org/entity/Q229029> .
+
+<https://example.org/person/9032> owl:sameAs <http://dbpedia.org/resource/Bryan_Singer>,
+        <http://www.wikidata.org/entity/Q220751> .
+
+<https://example.org/person/9048> owl:sameAs <http://dbpedia.org/resource/Clark_Gregg>,
+        <http://www.wikidata.org/entity/Q113206> .
+
+<https://example.org/person/90633> owl:sameAs <http://dbpedia.org/resource/Gal_Gadot>,
+        <http://www.wikidata.org/entity/Q185654> .
+
+<https://example.org/person/91606> owl:sameAs <http://dbpedia.org/resource/Tom_Hiddleston>,
+        <http://www.wikidata.org/entity/Q295803> .
+
+<https://example.org/person/9186> owl:sameAs <http://dbpedia.org/resource/Chad_Lindberg>,
+        <http://www.wikidata.org/entity/Q2314842> .
+
+<https://example.org/person/9188> owl:sameAs <http://dbpedia.org/resource/Billy_Connolly>,
+        <http://www.wikidata.org/entity/Q298838> .
+
+<https://example.org/person/9195> owl:sameAs <http://dbpedia.org/resource/Hiroyuki_Sanada>,
+        <http://www.wikidata.org/entity/Q705522> .
+
+<https://example.org/person/9207> owl:sameAs <http://dbpedia.org/resource/Theresa_Russell>,
+        <http://www.wikidata.org/entity/Q253467> .
+
+<https://example.org/person/92404> owl:sameAs <http://dbpedia.org/resource/Joel_Kinnaman>,
+        <http://www.wikidata.org/entity/Q28262> .
+
+<https://example.org/person/9273> owl:sameAs <http://dbpedia.org/resource/Amy_Adams>,
+        <http://www.wikidata.org/entity/Q481832> .
+
+<https://example.org/person/930707> owl:sameAs <http://dbpedia.org/resource/Colin_Trevorrow>,
+        <http://www.wikidata.org/entity/Q5145625> .
+
+<https://example.org/person/93111> owl:sameAs <http://dbpedia.org/resource/Kick_Gurry>,
+        <http://www.wikidata.org/entity/Q6404221> .
+
+<https://example.org/person/9339> owl:sameAs <http://dbpedia.org/resource/Lilly_Wachowski>,
+        <http://www.wikidata.org/entity/Q9544977> .
+
+<https://example.org/person/934> owl:sameAs <http://dbpedia.org/resource/Russell_Crowe>,
+        <http://www.wikidata.org/entity/Q129817> .
+
+<https://example.org/person/9340> owl:sameAs <http://dbpedia.org/resource/Lana_Wachowski>,
+        <http://www.wikidata.org/entity/Q9545711> .
+
+<https://example.org/person/938> owl:sameAs <http://dbpedia.org/resource/Djimon_Hounsou>,
+        <http://www.wikidata.org/entity/Q298682> .
+
+<https://example.org/person/94864> owl:sameAs <http://dbpedia.org/resource/Max_Martini>,
+        <http://www.wikidata.org/entity/Q1189740> .
+
+<https://example.org/person/95047> owl:sameAs <http://dbpedia.org/resource/Graham_McTavish>,
+        <http://www.wikidata.org/entity/Q609464> .
+
+<https://example.org/person/95101> owl:sameAs <http://dbpedia.org/resource/Charlie_Day>,
+        <http://www.wikidata.org/entity/Q365915> .
+
+<https://example.org/person/955> owl:sameAs <http://dbpedia.org/resource/Penélope_Cruz>,
+        <http://www.wikidata.org/entity/Q39666> .
+
+<https://example.org/person/9560> owl:sameAs <http://dbpedia.org/resource/Ellen_Burstyn>,
+        <http://www.wikidata.org/entity/Q211144> .
+
+<https://example.org/person/9562> owl:sameAs <http://dbpedia.org/resource/Marlon_Wayans>,
+        <http://www.wikidata.org/entity/Q310785> .
+
+<https://example.org/person/95697> owl:sameAs <http://dbpedia.org/resource/Dileep_Rao>,
+        <http://www.wikidata.org/entity/Q1225469> .
+
+<https://example.org/person/96066> owl:sameAs <http://dbpedia.org/resource/Liam_Hemsworth>,
+        <http://www.wikidata.org/entity/Q32045> .
+
+<https://example.org/person/963134> owl:sameAs <http://dbpedia.org/resource/Raymond_Ochoa>,
+        <http://www.wikidata.org/entity/Q2134235> .
+
+<https://example.org/person/965224> owl:sameAs <http://www.wikidata.org/entity/Q7793598> .
+
+<https://example.org/person/9827> owl:sameAs <http://dbpedia.org/resource/Rose_Byrne>,
+        <http://www.wikidata.org/entity/Q228717> .
+
+<https://example.org/person/9828> owl:sameAs <http://dbpedia.org/resource/Garrett_Hedlund>,
+        <http://www.wikidata.org/entity/Q298371> .
+
+<https://example.org/person/992427> owl:sameAs <http://dbpedia.org/resource/Pierce_Gagnon>,
+        <http://www.wikidata.org/entity/Q3382695> .
+
+<https://example.org/person/997887> owl:sameAs <http://dbpedia.org/resource/Ronda_Rousey>,
+        <http://www.wikidata.org/entity/Q242201> .
+

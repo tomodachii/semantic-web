@@ -1,0 +1,299 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://example.org/movie/100402> owl:sameAs <http://dbpedia.org/resource/Captain_America:_The_Winter_Soldier>,
+        <http://www.wikidata.org/entity/Q1765358> .
+
+<https://example.org/movie/10138> owl:sameAs <http://dbpedia.org/resource/Iron_Man_2>,
+        <http://www.wikidata.org/entity/Q205028> .
+
+<https://example.org/movie/10191> owl:sameAs <http://dbpedia.org/resource/How_to_Train_Your_Dragon_(2010_film)>,
+        <http://www.wikidata.org/entity/Q373096> .
+
+<https://example.org/movie/10192> owl:sameAs <http://dbpedia.org/resource/Shrek_Forever_After>,
+        <http://www.wikidata.org/entity/Q208131> .
+
+<https://example.org/movie/10193> owl:sameAs <http://dbpedia.org/resource/Toy_Story_3>,
+        <http://www.wikidata.org/entity/Q187278> .
+
+<https://example.org/movie/102382> owl:sameAs <http://dbpedia.org/resource/The_Amazing_Spider-Man_2>,
+        <http://www.wikidata.org/entity/Q4254026> .
+
+<https://example.org/movie/102651> owl:sameAs <http://dbpedia.org/resource/Maleficent_(film)>,
+        <http://www.wikidata.org/entity/Q172271> .
+
+<https://example.org/movie/105864> owl:sameAs <http://dbpedia.org/resource/The_Good_Dinosaur>,
+        <http://www.wikidata.org/entity/Q7737199> .
+
+<https://example.org/movie/10681> owl:sameAs <http://dbpedia.org/resource/WALL-E>,
+        <http://www.wikidata.org/entity/Q104905> .
+
+<https://example.org/movie/10764> owl:sameAs <http://dbpedia.org/resource/Quantum_of_Solace>,
+        <http://www.wikidata.org/entity/Q181540> .
+
+<https://example.org/movie/118340> owl:sameAs <http://dbpedia.org/resource/Guardians_of_the_Galaxy_(film)>,
+        <http://www.wikidata.org/entity/Q5887360> .
+
+<https://example.org/movie/119450> owl:sameAs <http://dbpedia.org/resource/Dawn_of_the_Planet_of_the_Apes>,
+        <http://www.wikidata.org/entity/Q11220194> .
+
+<https://example.org/movie/12155> owl:sameAs <http://dbpedia.org/resource/Alice_in_Wonderland_(2010_film)>,
+        <http://www.wikidata.org/entity/Q174385> .
+
+<https://example.org/movie/122917> owl:sameAs <http://dbpedia.org/resource/The_Hobbit:_The_Battle_of_the_Five_Armies>,
+        <http://www.wikidata.org/entity/Q919649> .
+
+<https://example.org/movie/127585> owl:sameAs <http://dbpedia.org/resource/X-Men:_Days_of_Future_Past>,
+        <http://www.wikidata.org/entity/Q4985891> .
+
+<https://example.org/movie/135397> owl:sameAs <http://dbpedia.org/resource/Jurassic_World>,
+        <http://www.wikidata.org/entity/Q3512046> .
+
+<https://example.org/movie/137113> owl:sameAs <http://dbpedia.org/resource/Edge_of_Tomorrow>,
+        <http://www.wikidata.org/entity/Q1187607> .
+
+<https://example.org/movie/14160> owl:sameAs <http://dbpedia.org/resource/Up_(2009_film)>,
+        <http://www.wikidata.org/entity/Q174811> .
+
+<https://example.org/movie/14161> owl:sameAs <http://dbpedia.org/resource/2012_(film)>,
+        <http://www.wikidata.org/entity/Q184605> .
+
+<https://example.org/movie/1452> owl:sameAs <http://dbpedia.org/resource/Superman_Returns>,
+        <http://www.wikidata.org/entity/Q328695> .
+
+<https://example.org/movie/14869> owl:sameAs <http://dbpedia.org/resource/G.I._Joe:_The_Rise_of_Cobra>,
+        <http://www.wikidata.org/entity/Q288645> .
+
+<https://example.org/movie/150540> owl:sameAs <http://dbpedia.org/resource/Inside_Out>,
+        <http://www.wikidata.org/entity/Q6144664> .
+
+<https://example.org/movie/155> owl:sameAs <http://dbpedia.org/resource/The_Dark_Knight>,
+        <http://www.wikidata.org/entity/Q163872> .
+
+<https://example.org/movie/15512> owl:sameAs <http://dbpedia.org/resource/Monsters_vs._Aliens>,
+        <http://www.wikidata.org/entity/Q681918> .
+
+<https://example.org/movie/157336> owl:sameAs <http://dbpedia.org/resource/Interstellar_(film)>,
+        <http://www.wikidata.org/entity/Q13417189> .
+
+<https://example.org/movie/158852> owl:sameAs <http://dbpedia.org/resource/Tomorrowland_(film)>,
+        <http://www.wikidata.org/entity/Q7820305> .
+
+<https://example.org/movie/168259> owl:sameAs <http://dbpedia.org/resource/Furious_7>,
+        <http://www.wikidata.org/entity/Q14650496> .
+
+<https://example.org/movie/1726> owl:sameAs <http://dbpedia.org/resource/Iron_Man_(2008_film)>,
+        <http://www.wikidata.org/entity/Q192724> .
+
+<https://example.org/movie/1735> owl:sameAs <http://dbpedia.org/resource/The_Mummy:_Tomb_of_the_Dragon_Emperor>,
+        <http://www.wikidata.org/entity/Q240713> .
+
+<https://example.org/movie/177572> owl:sameAs <http://dbpedia.org/resource/Big_Hero_6_(film)>,
+        <http://www.wikidata.org/entity/Q13091172> .
+
+<https://example.org/movie/17979> owl:sameAs <http://dbpedia.org/resource/A_Christmas_Carol_(2009_film)>,
+        <http://www.wikidata.org/entity/Q86791> .
+
+<https://example.org/movie/1865> owl:sameAs <http://dbpedia.org/resource/Pirates_of_the_Caribbean:_On_Stranger_Tides>,
+        <http://www.wikidata.org/entity/Q183555> .
+
+<https://example.org/movie/188927> owl:sameAs <http://dbpedia.org/resource/Star_Trek_Beyond>,
+        <http://www.wikidata.org/entity/Q15929448> .
+
+<https://example.org/movie/1930> owl:sameAs <http://dbpedia.org/resource/The_Amazing_Spider-Man_(film)>,
+        <http://www.wikidata.org/entity/Q229808> .
+
+<https://example.org/movie/19995> owl:sameAs <http://dbpedia.org/resource/Avatar_(2009_film)>,
+        <http://www.wikidata.org/entity/Q24871> .
+
+<https://example.org/movie/20526> owl:sameAs <http://dbpedia.org/resource/Tron:_Legacy>,
+        <http://www.wikidata.org/entity/Q18954> .
+
+<https://example.org/movie/20662> owl:sameAs <http://dbpedia.org/resource/Robin_Hood_(2010_film)>,
+        <http://www.wikidata.org/entity/Q223559> .
+
+<https://example.org/movie/206647> owl:sameAs <http://dbpedia.org/resource/Spectre_(2015_film)>,
+        <http://www.wikidata.org/entity/Q18602670> .
+
+<https://example.org/movie/209112> owl:sameAs <http://dbpedia.org/resource/Batman_v_Superman:_Dawn_of_Justice>,
+        <http://www.wikidata.org/entity/Q14772351> .
+
+<https://example.org/movie/217> owl:sameAs <http://dbpedia.org/resource/Indiana_Jones_and_the_Kingdom_of_the_Crystal_Skull>,
+        <http://www.wikidata.org/entity/Q182373> .
+
+<https://example.org/movie/2268> owl:sameAs <http://dbpedia.org/resource/The_Golden_Compass_(film)>,
+        <http://www.wikidata.org/entity/Q637021> .
+
+<https://example.org/movie/24428> owl:sameAs <http://dbpedia.org/resource/The_Avengers_(2012_film)>,
+        <http://www.wikidata.org/entity/Q182218> .
+
+<https://example.org/movie/2454> owl:sameAs <http://dbpedia.org/resource/The_Chronicles_of_Narnia:_Prince_Caspian>,
+        <http://www.wikidata.org/entity/Q222023> .
+
+<https://example.org/movie/246655> owl:sameAs <http://dbpedia.org/resource/X-Men:_Apocalypse>,
+        <http://www.wikidata.org/entity/Q17042878> .
+
+<https://example.org/movie/254> owl:sameAs <http://dbpedia.org/resource/King_Kong_(2005_film)>,
+        <http://www.wikidata.org/entity/Q160215> .
+
+<https://example.org/movie/258489> owl:sameAs <http://dbpedia.org/resource/The_Legend_of_Tarzan_(film)>,
+        <http://www.wikidata.org/entity/Q17361809> .
+
+<https://example.org/movie/2698> owl:sameAs <http://dbpedia.org/resource/Evan_Almighty>,
+        <http://www.wikidata.org/entity/Q195949> .
+
+<https://example.org/movie/271110> owl:sameAs <http://dbpedia.org/resource/Captain_America:_Civil_War>,
+        <http://www.wikidata.org/entity/Q18407657> .
+
+<https://example.org/movie/27205> owl:sameAs <http://dbpedia.org/resource/Inception>,
+        <http://www.wikidata.org/entity/Q25188> .
+
+<https://example.org/movie/278927> owl:sameAs <http://dbpedia.org/resource/The_Jungle_Book_(2016_film)>,
+        <http://www.wikidata.org/entity/Q16857406> .
+
+<https://example.org/movie/285> owl:sameAs <http://dbpedia.org/resource/Pirates_of_the_Caribbean:_At_World's_End>,
+        <http://www.wikidata.org/entity/Q54274> .
+
+<https://example.org/movie/296> owl:sameAs <http://dbpedia.org/resource/Terminator_3:_Rise_of_the_Machines>,
+        <http://www.wikidata.org/entity/Q29054009> .
+
+<https://example.org/movie/297761> owl:sameAs <http://dbpedia.org/resource/Suicide_Squad_(2016_film)>,
+        <http://www.wikidata.org/entity/Q18604504> .
+
+<https://example.org/movie/315011> owl:sameAs <http://dbpedia.org/resource/Shin_Godzilla>,
+        <http://www.wikidata.org/entity/Q20899737> .
+
+<https://example.org/movie/36668> owl:sameAs <http://dbpedia.org/resource/X-Men:_The_Last_Stand>,
+        <http://www.wikidata.org/entity/Q221168> .
+
+<https://example.org/movie/37724> owl:sameAs <http://dbpedia.org/resource/Skyfall>,
+        <http://www.wikidata.org/entity/Q4941> .
+
+<https://example.org/movie/38356> owl:sameAs <http://dbpedia.org/resource/Transformers:_Dark_of_the_Moon>,
+        <http://www.wikidata.org/entity/Q232774> .
+
+<https://example.org/movie/38757> owl:sameAs <http://dbpedia.org/resource/Tangled>,
+        <http://www.wikidata.org/entity/Q188439> .
+
+<https://example.org/movie/411> owl:sameAs <http://dbpedia.org/resource/The_Chronicles_of_Narnia:_The_Lion,_the_Witch_and_the_Wardrobe>,
+        <http://www.wikidata.org/entity/Q485803> .
+
+<https://example.org/movie/41154> owl:sameAs <http://dbpedia.org/resource/Men_in_Black_3>,
+        <http://www.wikidata.org/entity/Q327713> .
+
+<https://example.org/movie/44826> owl:sameAs <http://dbpedia.org/resource/Hugo_(film)>,
+        <http://www.wikidata.org/entity/Q206576> .
+
+<https://example.org/movie/44833> owl:sameAs <http://dbpedia.org/resource/Battleship_(film)>,
+        <http://www.wikidata.org/entity/Q474033> .
+
+<https://example.org/movie/44912> owl:sameAs <http://dbpedia.org/resource/Green_Lantern_(film)>,
+        <http://www.wikidata.org/entity/Q903885> .
+
+<https://example.org/movie/47933> owl:sameAs <http://dbpedia.org/resource/Independence_Day:_Resurgence>,
+        <http://www.wikidata.org/entity/Q19614711> .
+
+<https://example.org/movie/49013> owl:sameAs <http://dbpedia.org/resource/Cars_2>,
+        <http://www.wikidata.org/entity/Q192212> .
+
+<https://example.org/movie/49026> owl:sameAs <http://dbpedia.org/resource/The_Dark_Knight_Rises>,
+        <http://www.wikidata.org/entity/Q189330> .
+
+<https://example.org/movie/49051> owl:sameAs <http://dbpedia.org/resource/The_Hobbit:_An_Unexpected_Journey>,
+        <http://www.wikidata.org/entity/Q80379> .
+
+<https://example.org/movie/49521> owl:sameAs <http://dbpedia.org/resource/Man_of_Steel_(film)>,
+        <http://www.wikidata.org/entity/Q622769> .
+
+<https://example.org/movie/49529> owl:sameAs <http://dbpedia.org/resource/John_Carter_(film)>,
+        <http://www.wikidata.org/entity/Q235347> .
+
+<https://example.org/movie/5174> owl:sameAs <http://dbpedia.org/resource/Rush_Hour_3>,
+        <http://www.wikidata.org/entity/Q498109> .
+
+<https://example.org/movie/5255> owl:sameAs <http://dbpedia.org/resource/The_Polar_Express_(film)>,
+        <http://www.wikidata.org/entity/Q862197> .
+
+<https://example.org/movie/534> owl:sameAs <http://dbpedia.org/resource/Terminator_Salvation>,
+        <http://www.wikidata.org/entity/Q191543> .
+
+<https://example.org/movie/54138> owl:sameAs <http://dbpedia.org/resource/Star_Trek_Into_Darkness>,
+        <http://www.wikidata.org/entity/Q171711> .
+
+<https://example.org/movie/558> owl:sameAs <http://dbpedia.org/resource/Spider-Man_2>,
+        <http://www.wikidata.org/entity/Q190145> .
+
+<https://example.org/movie/559> owl:sameAs <http://dbpedia.org/resource/Spider-Man_3>,
+        <http://www.wikidata.org/entity/Q182212> .
+
+<https://example.org/movie/57158> owl:sameAs <http://dbpedia.org/resource/The_Hobbit:_The_Desolation_of_Smaug>,
+        <http://www.wikidata.org/entity/Q719915> .
+
+<https://example.org/movie/57201> owl:sameAs <http://dbpedia.org/resource/The_Lone_Ranger_(2013_film)>,
+        <http://www.wikidata.org/entity/Q548919> .
+
+<https://example.org/movie/58> owl:sameAs <http://dbpedia.org/resource/Pirates_of_the_Caribbean:_Dead_Man's_Chest>,
+        <http://www.wikidata.org/entity/Q161087> .
+
+<https://example.org/movie/58595> owl:sameAs <http://dbpedia.org/resource/Snow_White_and_the_Huntsman>,
+        <http://www.wikidata.org/entity/Q624603> .
+
+<https://example.org/movie/597> owl:sameAs <http://dbpedia.org/resource/Titanic_(1997_film)>,
+        <http://www.wikidata.org/entity/Q44578> .
+
+<https://example.org/movie/62177> owl:sameAs <http://dbpedia.org/resource/Brave_(2012_film)>,
+        <http://www.wikidata.org/entity/Q126796> .
+
+<https://example.org/movie/62211> owl:sameAs <http://dbpedia.org/resource/Monsters_University>,
+        <http://www.wikidata.org/entity/Q641362> .
+
+<https://example.org/movie/64682> owl:sameAs <http://dbpedia.org/resource/The_Great_Gatsby_(2013_film)>,
+        <http://www.wikidata.org/entity/Q892735> .
+
+<https://example.org/movie/64686> owl:sameAs <http://dbpedia.org/resource/47_Ronin_(2013_film)>,
+        <http://www.wikidata.org/entity/Q2816898> .
+
+<https://example.org/movie/68721> owl:sameAs <http://dbpedia.org/resource/Iron_Man_3>,
+        <http://www.wikidata.org/entity/Q209538> .
+
+<https://example.org/movie/68726> owl:sameAs <http://dbpedia.org/resource/Pacific_Rim_(film)>,
+        <http://www.wikidata.org/entity/Q1388653> .
+
+<https://example.org/movie/68728> owl:sameAs <http://dbpedia.org/resource/Oz_the_Great_and_Powerful>,
+        <http://www.wikidata.org/entity/Q590216> .
+
+<https://example.org/movie/72190> owl:sameAs <http://dbpedia.org/resource/World_War_Z_(film)>,
+        <http://www.wikidata.org/entity/Q28196> .
+
+<https://example.org/movie/767> owl:sameAs <http://dbpedia.org/resource/Harry_Potter_and_the_Half-Blood_Prince_(film)>,
+        <http://www.wikidata.org/entity/Q161687> .
+
+<https://example.org/movie/76757> owl:sameAs <http://dbpedia.org/resource/Jupiter_Ascending>,
+        <http://www.wikidata.org/entity/Q12125299> .
+
+<https://example.org/movie/81005> owl:sameAs <http://dbpedia.org/resource/Jack_the_Giant_Slayer>,
+        <http://www.wikidata.org/entity/Q27513> .
+
+<https://example.org/movie/82690> owl:sameAs <http://dbpedia.org/resource/Wreck-It_Ralph>,
+        <http://www.wikidata.org/entity/Q28891> .
+
+<https://example.org/movie/8373> owl:sameAs <http://dbpedia.org/resource/Transformers:_Revenge_of_the_Fallen>,
+        <http://www.wikidata.org/entity/Q191100> .
+
+<https://example.org/movie/8487> owl:sameAs <http://dbpedia.org/resource/Wild_Wild_West>,
+        <http://www.wikidata.org/entity/Q740528> .
+
+<https://example.org/movie/91314> owl:sameAs <http://dbpedia.org/resource/Transformers:_Age_of_Extinction>,
+        <http://www.wikidata.org/entity/Q6151665> .
+
+<https://example.org/movie/9543> owl:sameAs <http://dbpedia.org/resource/Prince_of_Persia:_The_Sands_of_Time_(film)>,
+        <http://www.wikidata.org/entity/Q245172> .
+
+<https://example.org/movie/9799> owl:sameAs <http://dbpedia.org/resource/The_Fast_and_the_Furious_(2001_film)>,
+        <http://www.wikidata.org/entity/Q155476> .
+
+<https://example.org/movie/9804> owl:sameAs <http://dbpedia.org/resource/Waterworld>,
+        <http://www.wikidata.org/entity/Q272595> .
+
+<https://example.org/movie/99861> owl:sameAs <http://dbpedia.org/resource/Avengers:_Age_of_Ultron>,
+        <http://www.wikidata.org/entity/Q14171368> .
+
