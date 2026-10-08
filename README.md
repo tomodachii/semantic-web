@@ -3,29 +3,9 @@
 A Semantic Web learning project following the architecture of the sibling
 `Movie-Knowledge-Graph` reference project.
 
-## Start here
+[video](report/semantic.webm)
 
-1. Read [the scope and competency questions](docs/PROJECT_SCOPE.md).
-2. Read the comments in [the numbered SPARQL queries](queries/README.md).
-3. Open [01_eda_ref.ipynb](notebooks/01_eda_ref.ipynb) to understand the reference's prepared tables.
-4. Open [02_eda_raw.ipynb](notebooks/02_eda_raw.ipynb) to explore our raw TMDB data and plan its model.
-
-Notebook 01 reads the reference's **11 CSV tables** from `data/ref/`.
-It explains every field, follows one movie
-through the tables, plots relevant distributions, introduces classes and
-instances, and shows how nested TMDB responses become the table layout.
-It ends with an observation-to-modeling-decision table.
-
-Notebook 02 reads at most 100 rows from each of `tmdb_5000_movies.csv` and
-`tmdb_5000_credits.csv` in `data/raw/`. It explains nested JSON, identity joins,
-classes and instances, credit roles, constraints, missing source fields, and
-optional extensions such as keywords. It demonstrates table splitting in memory.
-Its findings describe the bounded sample; it does not scan the full files.
-
-The query files are contracts for the planned RDF model; they will be run
-against the graph in a later stage. CSV preparation is now implemented below.
-
-## Setup
+# Setup
 
 Run from this directory (Python 3.10+):
 
@@ -42,145 +22,78 @@ root, project root, or notebooks directory and require no API key or network cal
 The older prepared files directly under `data/` are not used by these lessons.
 Notebook 01 uses `data/ref/`; notebook 02 uses the two raw TMDB files in `data/raw/`.
 
-## Prepare our CSV tables
 
-Run from this directory:
+# 1. Define an ontology for the selected domain
+![/home/tomodachii/Programming/semantic-web/semantic-web/ontology/ontology.png](file:///home/tomodachii/Programming/semantic-web/semantic-web/ontology/ontology.png)
+### Classes
+- `kg:Movie` - a movie.
+- `kg:Person` - an actor or director.
+- `kg:Role` - an acting participation with character and cast-order details.
+- `kg:Genre` - a movie genre.
+- `kg:Country` - a movie production country.
+- `kg:Language` - a language associated with a movie.
+- `kg:Keyword` - a movie keyword.
+### Object properties
+- `kg:actor` - links a movie to a person or role, and a role to a person.
+- `kg:countryOfOrigin` - links a movie to a production country.
+- `kg:director` - links a movie to its director.
+- `kg:genre` - links a movie to a genre.
+- `kg:keywords` - links a movie to a keyword.
+- `kg:inLanguage` - links a movie to its original or spoken languages.
+- `kg:directedMovie` - links a director to a movie; inverse of kg:director.
+- `kg:hasCastMember` - links a director to people or roles in movies they directed.
+- `kg:referencePage` - links a movie to a reference webpage identifying it.
+### Datatype properties
+- `kg:abstract` - movie synopsis (xsd:string).
+- `kg:characterName` - character name for an acting role (xsd:string).
+- `kg:datePublished` - movie release date (xsd:date).
+- `kg:duration` - movie runtime (xsd:duration).
+- `kg:name` - entity name or movie title (xsd:string).
+- `kg:position` - cast order (xsd:integer).
+- `kg:ratingValue` - average rating directly on a movie (xsd:decimal).
+# 2. Collect relevant data in this domain
+We use the TMDB 5000 movie dataset https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata from kaggle
+The raw data files are stored in `data/raw/tmdb_5000_movies.csv` and `data/raw/tmdb_5000_credits.csv`.
 
-```powershell
+We prepare the data and split them into csvs file in `data/prepared` 
+```
 python scripts/prepare.py
 ```
-
-This creates 11 tables (nine retained reference tables plus `keywords.csv` and
-`movie_keywords.csv`) in `data/prepared/`, using 100 movies, up to ten actors
-per movie, and directors only. The script uses the Python standard library.
-Use `--limit 0` to process every movie, or `--cast-limit 0` to keep all cast.
-Production companies are excluded; movie countries remain available.
-IMDb IDs are omitted because the raw files do not supply them.
-See [data preparation](docs/DATA_PREPARATION.md) for the
-table contract, cleaning decisions, and test command.
-
-## Later steps
-
-Establish external identity links and provide SPARQL access. The scope
-document and notebook explain the decisions these steps will implement.
-
-## Test the ontology
-
-Open [03_test_ontology.ipynb](notebooks/03_test_ontology.ipynb) and run all cells
-using an environment with the packages in requirements.txt. The notebook uses
-small invented examples to show inference, exact SPARQL answers, conflicts,
-and the limits of OWL restrictions. Outputs and a reasoning diagram are saved.
-
-The ontology uses our own `kg:` vocabulary (`https://example.org/ontology/`),
-including `kg:Keyword`. `kg:referencePage` is an ordinary webpage link;
-`owl:sameAs` is reserved for verified identity links. Earlier EDA notebooks and
-the hand-drawn ontology.png describe earlier designs; ontology.owl and
-CONCEPTS.md are the current vocabulary reference.
-
-## Transform prepared CSVs into RDF
-
-Run from semantic-web with the environment containing rdflib:
-
-```powershell
+# 3. Transform collected data into 4* standard
+We transform the CSV files in `data/prepared/` into RDF triples using our ontology. Each movie, person, genre, country, language and keyword has its own URI. Dates, ratings and runtimes are stored with their corresponding datatypes.
+```
 python scripts/transform.py
 ```
-
-Reads the 11 tables in data/prepared/ and writes output/movies.ttl.
-Optional arguments: --data-dir, --output, --base-uri. Defaults are relative
- to the project directory, so the script also runs from the workspace root.
-
-The script follows the reference transformer: shared ID-based entity URIs,
-typed date/duration/numeric literals, direct actor links, and acting-role blank
-nodes when character or order is available. Our differences are kg vocabulary,
-keywords, director-only crew, a decimal rating directly on each movie, and
-kg:referencePage links to TMDB. Empty values are omitted; numeric zeros remain.
-Original and spoken languages share kg:inLanguage. No companies or IMDb data
-are required. Ontology axioms remain in ontology/ontology.owl; inference and
-verified external identity links are separate later steps.
-
-Run checks with `python -m unittest discover -s tests -v`.
-
-## Link movies to Wikidata and DBpedia
-
-```powershell
+The RDF graph is saved in `output/movies.ttl` in Turtle format. Using RDF and URIs provides the data representation for the 4* standard.
+# 4. Find and establish links to other datasets to obtain 5* standard
+We link our entities to Wikidata and DBpedia so they can be connected to information in other datasets.
+```
 python scripts/link_movies.py
-```
-
-The script reads data/prepared/movies.csv, builds the same movie URIs as
-transform.py, and queries the public Wikidata SPARQL endpoint, so network
-access is required. Each movie is first matched by its TMDB movie ID (Wikidata
-P4947). Movies without an ID match are searched by exact title among Wikidata
-films released within one year of the local release date. For every candidate,
-the Wikidata release years, the IMDb ID, and the English Wikipedia article are
-recorded as evidence. The article title determines the DBpedia resource.
-
-Scoring is conservative. A candidate is approved automatically only when the
-TMDB ID matches and a Wikidata release year equals the local year. A one-year
-difference, a missing date, a title-only match, or several approved candidates
-for one movie result in the status `review`. A difference of more than one year
-results in `rejected`.
-
-Outputs:
-
-- output/movie_candidates.csv: every candidate with its evidence, score, and
-  status (`approved`, `review`, `rejected`, `not_found`).
-- output/movie_links.ttl: `owl:sameAs` triples to Wikidata and DBpedia for
-  approved candidates only.
-
-Optional arguments: --data-dir, --base-uri, --candidates, --links, --delay,
---limit (restricts the run to the first N movies).
-
-## Link people to Wikidata and DBpedia
-
-```powershell
 python scripts/link_people.py
-```
-
-The script links the 825 distinct people in data/prepared/cast.csv and
-crew.csv. It must run after link_movies.py because the fallback search uses
-output/movie_links.ttl. People are first matched in batches by TMDB person ID
-(Wikidata P4985). A candidate is approved automatically only when it is a human
-(P31 Q5) and its label or an alias equals the local name, ignoring case,
-accents, and punctuation. A person without an ID match is searched by exact
-name among the cast (P161) and directors (P57) of the movies linked in
-output/movie_links.ttl; such matches always have the status `review`.
-
-Outputs:
-
-- output/person_candidates.csv: every candidate with the person's roles, the
-  number of movies, the evidence, and the status. A person with several
-  approved candidates, or a Wikidata item claimed by several people, is set to
-  `review`.
-- output/person_links.ttl: `owl:sameAs` triples for approved candidates only.
-
-Optional arguments: --data-dir, --base-uri, --movie-links, --candidates,
---links, --delay, --limit.
-
-## Link countries, languages and genres
-
-```powershell
 python scripts/link_lookups.py
 ```
+Movies and people are matched using their TMDB IDs and supporting information. Countries and languages are matched using ISO codes. Approved identity matches use `owl:sameAs`. Genres use `skos:closeMatch` because their meanings may differ between datasets.
 
-The script links the lookup tables in data/prepared/: 19 countries, 23
-languages, and 14 genres. Countries are matched by ISO 3166-1 alpha-2 code
-(Wikidata P297) and languages by ISO 639-1 code (P218); both are linked with
-`owl:sameAs`. Wikidata has no TMDB genre identifier, so genres are matched by
-the label of a film genre (Q201658 and its subclasses), such as "action film"
-or "animated film". Because a TMDB genre is not defined identically to the
-Wikidata genre, genres are linked with the weaker `skos:closeMatch`. For every
-class, a single candidate is approved and several candidates are set to
-`review`.
+The links are saved in:
+- `output/movie_links.ttl`
+- `output/person_links.ttl`
+- `output/lookup_links.ttl`
 
-Outputs:
+The scripts also save candidate CSV files with matching evidence and review status. Only approved matches are included in the link files. These external links provide the connections for the 5* standard.
+# 5. Provide an interface via SPARQL endpoint/termnal to query data
+Using terminal interface to run SPARQL queries against our RDF graph.
+```
+python scripts/ask.py -q queries/4.sparql
+```
+Reasoning
+```
+python scripts/ask.py -q queries/11.sparql --reasoning
+python scripts/ask.py -q queries/12.sparql --reasoning
+```
+The script loads the movie data and ontology, applies reasoning when requested, and prints the query results in the terminal.
 
-- output/lookup_candidates.csv: every candidate with its status.
-- output/lookup_links.ttl: link triples for approved candidates only.
-
-Optional arguments: --data-dir, --base-uri, --candidates, --links.
-
-## Query the RDF
-
-Use `python scripts/ask.py -q queries/4.sparql`. Add `--reasoning` for
-queries 11 and 12. See [querying and checks](docs/QUERYING.md) for commands
-and explanations of what the checks establish.
+To show the external movie links, run:
+```
+python scripts/ask.py -q queries/show_links.sparql --links output/movie_links.ttl
+```
+Reasoning runs in memory and does not save an inferred graph file.
