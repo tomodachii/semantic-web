@@ -48,12 +48,13 @@ Here, \code{ex:} represents example resources. The output file, \path{output/mov
 \begin{tabularx}{\columnwidth}{@{}lX@{}}
 \toprule Source field & RDF representation\\\midrule
 Movie ID & Part of the movie URI, not its display title\\
-Title & \kg{name}, string literal\\
-Release date & \kg{datePublished}, \code{xsd:date}\\
-Runtime & \kg{duration}, e.g., \code{PT120M}\\
-Vote average & \kg{ratingValue}, \code{xsd:decimal}\\
-Keyword ID & Shared Keyword resource via \kg{keywords}\\
-Character and order & \kg{characterName} and \kg{position} on Role\\
+Title & \kg{name}\\
+Release date & \kg{datePublished}\\
+Runtime & \kg{duration}\\
+Vote average & \kg{ratingValue}\\
+Keyword ID & \kg{keywords}\\
+Character& \kg{characterName}\\
+Order & \kg{position}\\
 \bottomrule
 \end{tabularx}
 \end{table}
