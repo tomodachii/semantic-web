@@ -196,38 +196,45 @@ resolvable URIs in place of \texttt{example.org}.
 
 %------------------------------------------------
 
-\begin{frame}{Establish links: how entities are matched}
+\begin{frame}{Establish links: matching strategy}
 \small
+A script finds links automatically by querying Wikidata with SPARQL.
+\medskip
+
 \begin{itemize}
-\item \textbf{Movies:} TMDB movie ID and release year in Wikidata.
-\item \textbf{People:} TMDB person ID, human type, and matching name.
-\item \textbf{Countries and languages:} ISO codes.
-\item \textbf{Genres:} film-genre names, using \texttt{skos:closeMatch}.
-\item Uncertain matches remain in candidate CSVs for review.
+\item \textbf{Movie:} TMDB ID $\rightarrow$ title + year $\rightarrow$ manual check
+\item \textbf{Person:} TMDB ID $\rightarrow$ name in cast/director of a linked film $\rightarrow$ manual check
+\item \textbf{Country:} ISO 3166-1 code
+\item \textbf{Language:} ISO 639-1 code
+\item \textbf{Genre:} film-genre label + synonym $\rightarrow$ manual check
+\begin{itemize}
+\item e.g. ``Action'' $\rightarrow$ ``action film'', ``Animation'' $\rightarrow$ ``animated film''
+\end{itemize}
 \end{itemize}
 \medskip
-Approved identity matches use \texttt{owl:sameAs}. Genre matches use a weaker relation.
-DBpedia URLs are derived from Wikipedia titles and still need independent verification.
+IDs are exact, so they come first; names are ambiguous.\\
+Unmatched or ambiguous cases are verified by hand on Wikidata.
 \end{frame}
 
 %------------------------------------------------
 
-\begin{frame}[fragile]{Establish links: connect local and external resources}
+\begin{frame}[fragile]{Establish links: represent with \texttt{owl:sameAs}}
 \small
 Links connect our resources to other datasets~\cite{bernerslee2006linkeddata}.
 \begin{lstlisting}
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+<.../movie/10138>
+  owl:sameAs <http://www.wikidata.org/entity/Q205028> ,
+             <http://dbpedia.org/resource/Iron_Man_2> .
 
-<https://example.org/movie/10138>
-  owl:sameAs <http://www.wikidata.org/entity/Q205028> .
+<.../genre/28>
+  skos:closeMatch <http://www.wikidata.org/entity/Q188473> .
 \end{lstlisting}
 \begin{itemize}
+\item Genres use the weaker \texttt{skos:closeMatch}.
 \item 99 movies, 805 people, and 56 lookup resources approved.
-\item Link files contain 1,901 triples in total.
-\item Loading links does not download external facts.
+\item \textbf{1,901} link triples in total.
 \end{itemize}
-External links provide the cross-dataset connection for the fifth star;
-full open-data publication also requires Web access and suitable licensing.
+External links provide the cross-dataset connection for the fifth star.
 \end{frame}
 
 %------------------------------------------------
