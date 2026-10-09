@@ -1,6 +1,14 @@
 \section{Ontology construction and entity linking}\label{sec:onto}
 \subsection{Ontology construction}
-The ontology defines classes, property domains and ranges, disjoint classes, and cardinality restrictions. Unlike the reference, our domain terms use \code{kg:} instead of Schema.org. We do not include broad superclasses such as CreativeWork or Thing.
+Figure~\ref{fig:owl-design} shows our OWL ontology design, summarizing the main movie-domain classes and their relationships.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth,keepaspectratio]{images/ontology.png}
+\caption{OWL ontology design for the movie knowledge graph.}
+\label{fig:owl-design}
+\end{figure}
+
+The ontology defines classes, property domains and ranges, disjoint classes, and cardinality restrictions. Our domain terms use \code{kg:} instead of Schema.org. We do not include broad superclasses such as CreativeWork or Thing.
 
 A movie has at least one name and at most one rating value. An acting role has exactly one actor of type Person, at most one character name, and at most one cast position. These OWL restrictions describe the intended model; missing fields still need separate checks because OWL uses an open-world interpretation.
 

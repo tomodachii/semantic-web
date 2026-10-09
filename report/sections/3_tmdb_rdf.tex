@@ -26,7 +26,7 @@ movie\_keywords & 1,049\\
 The script checks dates and numeric values, removes exact duplicate rows, and preserves missing values as empty cells. The eleven tables include reusable entity records and movie-to-entity relationships.
 
 \subsection{Data transformation}
-The transformer follows the reference's RDFLib implementation. Each identified entity receives a URI based on its type and source ID, such as \url{https://example.org/movie/558}. A person keeps the same URI across acting and directing credits.
+Each identified entity receives a URI based on its type and source ID, such as \url{https://example.org/movie/558}. A person keeps the same URI across acting and directing credits.
 
 Titles and descriptions become literals. Release dates use \code{xsd:date}, runtime uses \code{xsd:duration}, and average rating uses \code{xsd:decimal}. Missing values are omitted. Original and spoken languages share \kg{inLanguage}. Movie production countries remain available even though companies are excluded.
 

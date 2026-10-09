@@ -8,3 +8,12 @@ python scripts/ask.py -q queries/11.sparql --reasoning
 python scripts/ask.py -q queries/show_links.sparql --links output/movie_links.ttl
 \end{lstlisting}
 The final two commands illustrate reasoning and loading a link file. Additional link files can be supplied by repeating \code{--links}. The original files are not changed by querying.
+
+\subsection{Querying with Apache Jena Fuseki}
+We imported the inferred version of the graph into Apache Jena Fuseki, including all triples produced by our reasoning step and the entity links. This allows SPARQL queries to use the reasoning results and linked resources directly through the Fuseki interface (Figure~\ref{fig:fuseki}).
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth,keepaspectratio]{images/fuseki.png}
+\caption{Querying the inferred graph with entity links in Fuseki.}
+\label{fig:fuseki}
+\end{figure}

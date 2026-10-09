@@ -1,5 +1,5 @@
 \section{Evaluation}\label{sec:eval}
-We evaluate the graph using the same types of questions as the reference project. The following results come from our current local dataset.
+The following results come from our current local dataset.
 
 \subsection{Basic retrieval}
 A simple query checks whether the sample contains Spider-Man movies:
@@ -14,7 +14,7 @@ ORDER BY ?title
 It returns four titles: Spider-Man 2, Spider-Man 3, The Amazing Spider-Man, and The Amazing Spider-Man 2.
 
 \subsection{Structured filtering and aggregation}
-The rating query selects Drama movies and orders them by average rating. Unlike the reference, it reads the rating directly from Movie:
+The rating query selects Drama movies and orders them by average rating. It reads the rating directly from Movie:
 \begin{lstlisting}
 PREFIX kg: <https://example.org/ontology/>
 SELECT ?title ?rating WHERE {
