@@ -19,12 +19,15 @@
  breaklines=true,breakatwhitespace=false,tabsize=2}
 \title{Movie Knowledge Graph}
 \subtitle{A Linked Open Data Application}
-\author[Do Tuan Hoang \and Nguyen Truong Huy]{%
+\author[Project team]{%
+  \footnotesize
   \begin{tabular}{c@{\hspace{1.5em}}c}
-    Do Tuan Hoang & Nguyen Truong Huy \\
-    {\small 20261219M} & {\small 20261260M} \\
-    {\scriptsize\href{mailto:Hoang.DT261219M@sis.hust.edu.vn}{Hoang.DT261219M@sis.hust.edu.vn}} &
-    {\scriptsize\href{mailto:Huy.NT261260M@sis.hust.edu.vn}{Huy.NT261260M@sis.hust.edu.vn}}
+    Do Tuan Hoang {\scriptsize (HUST)} & Nguyen Truong Huy {\scriptsize (HUST)} \\
+    {\tiny\href{mailto:Hoang.DT261219M@sis.hust.edu.vn}{Hoang.DT261219M@sis.hust.edu.vn}} &
+    {\tiny\href{mailto:Huy.NT261260M@sis.hust.edu.vn}{Huy.NT261260M@sis.hust.edu.vn}} \\[.2em]
+    Le Thi Nguyet Nga {\scriptsize (HUST)} & Nguyen Tien Khuong {\scriptsize (HUST)} \\
+    {\tiny\href{mailto:Nga.LTN261066M@sis.hust.edu.vn}{Nga.LTN261066M@sis.hust.edu.vn}} &
+    {\tiny\href{mailto:Khuong.NT261220M@sis.hust.edu.vn}{Khuong.NT261220M@sis.hust.edu.vn}}
   \end{tabular}%
 }
 % \institute{Institution}
@@ -245,6 +248,17 @@ The last example is one command, wrapped here for display.
 
 %------------------------------------------------
 
+\begin{frame}{Querying the inferred graph with Apache Jena Fuseki}
+\small
+We import the inferred graph, including reasoning results and entity links,
+into Fuseki to run SPARQL queries.
+\par\medskip
+{\centering
+\includegraphics[width=\linewidth,height=.70\textheight,keepaspectratio]{fuseki.png}\par}
+\end{frame}
+
+%------------------------------------------------
+
 \begin{frame}[fragile]{Interface via SPARQL endpoint/terminal to query data}
 \small
 Do we have any Spider-Man movies?
@@ -257,10 +271,9 @@ SELECT ?movie ?title WHERE {
 }
 ORDER BY ?title
 \end{lstlisting}
-\footnotesize No reasoning needed.
 \par\smallskip
 {\centering
-\includegraphics[width=\linewidth,height=.22\textheight,keepaspectratio]{spiderman.png}\par}
+\includegraphics[width=\linewidth,height=.4\textheight,keepaspectratio]{spiderman.png}\par}
 \end{frame}
 
 %------------------------------------------------
@@ -280,10 +293,9 @@ SELECT ?person ?name ?character ?position WHERE {
 ORDER BY ?position ?name
 LIMIT 10
 \end{lstlisting}
-\footnotesize Follows Movie -> Role -> Person.
 \par\smallskip
 {\centering
-\includegraphics[width=\linewidth,height=.22\textheight,keepaspectratio]{avatar.png}\par}
+\includegraphics[width=\linewidth,height=.32\textheight,keepaspectratio]{avatar.png}\par}
 \end{frame}
 
 %------------------------------------------------
@@ -303,10 +315,9 @@ SELECT ?movie ?title ?average WHERE {
 ORDER BY DESC(?average) ?title
 LIMIT 5
 \end{lstlisting}
-\footnotesize Ratings are decimal values directly on movies.
 \par\smallskip
 {\centering
-\includegraphics[width=\linewidth,height=.22\textheight,keepaspectratio]{dramafilm.png}\par}
+\includegraphics[width=\linewidth,height=.42\textheight,keepaspectratio]{dramafilm.png}\par}
 \end{frame}
 
 %------------------------------------------------
@@ -325,10 +336,9 @@ HAVING (COUNT(DISTINCT ?movie) >= 2)
 ORDER BY DESC(?films) ?name
 LIMIT 5
 \end{lstlisting}
-\footnotesize Uses grouping and counting.
 \par\smallskip
 {\centering
-\includegraphics[width=\linewidth,height=.22\textheight,keepaspectratio]{5-director-with-2-movies.png}\par}
+\includegraphics[width=\linewidth,height=.42\textheight,keepaspectratio]{5-director-with-2-movies.png}\par}
 \end{frame}
 
 %------------------------------------------------
@@ -346,10 +356,9 @@ SELECT ?keywordName WHERE {
 }
 ORDER BY ?keywordName
 \end{lstlisting}
-\footnotesize Demonstrates our keyword extension; no reasoning needed.
 \par\smallskip
 {\centering
-\includegraphics[width=\linewidth,height=.22\textheight,keepaspectratio]{ironman-2-keywords.png}\par}
+\includegraphics[width=\linewidth,height=.42\textheight,keepaspectratio]{ironman-2-keywords.png}\par}
 \end{frame}
 
 %------------------------------------------------
