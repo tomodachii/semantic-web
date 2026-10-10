@@ -261,6 +261,40 @@ into Fuseki to run SPARQL queries.
 
 \begin{frame}[fragile]{Interface via SPARQL endpoint/terminal to query data}
 \small
+When was Avatar released?
+\begin{lstlisting}[basicstyle=\footnotesize\ttfamily]
+PREFIX kg: <https://example.org/ontology/>
+SELECT ?title ?date WHERE {
+  <https://example.org/movie/19995>
+    kg:name ?title ;
+    kg:datePublished ?date .
+}
+\end{lstlisting}
+{\centering
+\includegraphics[width=\linewidth,height=.4\textheight,keepaspectratio]{avatar-release.png}\par}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}[fragile]{Interface via SPARQL endpoint/terminal to query data}
+\small
+Who directed Avatar?
+\begin{lstlisting}[basicstyle=\footnotesize\ttfamily]
+PREFIX kg: <https://example.org/ontology/>
+SELECT ?director ?name WHERE {
+  <https://example.org/movie/19995>
+    kg:director ?director .
+  ?director kg:name ?name .
+}
+\end{lstlisting}
+{\centering
+\includegraphics[width=\linewidth,height=.4\textheight,keepaspectratio]{directed-avatar.png}\par}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}[fragile]{Interface via SPARQL endpoint/terminal to query data}
+\small
 Do we have any Spider-Man movies?
 \begin{lstlisting}[basicstyle=\footnotesize\ttfamily]
 PREFIX kg: <https://example.org/ontology/>
@@ -274,28 +308,6 @@ ORDER BY ?title
 \par\smallskip
 {\centering
 \includegraphics[width=\linewidth,height=.4\textheight,keepaspectratio]{spiderman.png}\par}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}[fragile]{Interface via SPARQL endpoint/terminal to query data}
-\small
-Who acted in Avatar, and which characters did they play?
-\begin{lstlisting}[basicstyle=\footnotesize\ttfamily]
-PREFIX kg: <https://example.org/ontology/>
-SELECT ?person ?name ?character ?position WHERE {
-  VALUES ?movie { <https://example.org/movie/19995> }
-  ?movie kg:actor ?role .
-  ?role a kg:Role ; kg:actor ?person ; kg:position ?position .
-  ?person a kg:Person ; kg:name ?name .
-  OPTIONAL { ?role kg:characterName ?character }
-}
-ORDER BY ?position ?name
-LIMIT 10
-\end{lstlisting}
-\par\smallskip
-{\centering
-\includegraphics[width=\linewidth,height=.32\textheight,keepaspectratio]{avatar.png}\par}
 \end{frame}
 
 %------------------------------------------------
@@ -318,27 +330,6 @@ LIMIT 5
 \par\smallskip
 {\centering
 \includegraphics[width=\linewidth,height=.42\textheight,keepaspectratio]{dramafilm.png}\par}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}[fragile]{Interface via SPARQL endpoint/terminal to query data}
-\small
-5 directors have at least two movies in our sample?
-\begin{lstlisting}[basicstyle=\footnotesize\ttfamily]
-PREFIX kg: <https://example.org/ontology/>
-SELECT ?director ?name (COUNT(DISTINCT ?movie) AS ?films) WHERE {
-  ?movie a kg:Movie ; kg:director ?director .
-  ?director a kg:Person ; kg:name ?name .
-}
-GROUP BY ?director ?name
-HAVING (COUNT(DISTINCT ?movie) >= 2)
-ORDER BY DESC(?films) ?name
-LIMIT 5
-\end{lstlisting}
-\par\smallskip
-{\centering
-\includegraphics[width=\linewidth,height=.42\textheight,keepaspectratio]{5-director-with-2-movies.png}\par}
 \end{frame}
 
 %------------------------------------------------
